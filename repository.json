@@ -1,5 +1,5 @@
 {
-  "name": "Hass.IO add-on repository",
-  "url": "https://home-assistant.io/",
+  "name": "HassOS developing add-on repository",
+  "url": "https://github.com/lpt2007/hassos-addons-dev/",
   "maintainer": "mohyat <mohyat@gmail.com>"
 }
