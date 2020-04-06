@@ -1,0 +1,15 @@
+{
+  "name": "PIWIGO",
+  "version": "dev-0.1.0a",
+  "slug": "piwigo",
+  "description": "PIWIGO photo share add-on!",
+  "arch": ["amd64", "i386"],
+  "startup": "before",
+  "boot": "auto",
+  "ports": {
+    "80/tcp": 1994
+  },
+  "map": ["share:rw"],
+  "options": {},
+  "schema": {}
+}
