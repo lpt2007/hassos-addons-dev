@@ -41,10 +41,9 @@ sudo usermod -a -G dialout root && \
 sudo usermod -a -G plugdev root && \
 sudo usermod -a -G tty root
 ##
-### Copy data for add-on
+### Copy data for add-on and make right privilages
 COPY run.sh /
+RUN chmod a+x /run.sh
 ##
 ### run kodi startup script
-RUN chmod a+x /run.sh
-
 CMD [ "/run.sh" ]
