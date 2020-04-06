@@ -1,6 +1,6 @@
 {
   "name": "KODI 18.6",
-  "version": "dev-0.2.1a",
+  "version": "dev-0.2.2a",
   "slug": "kodi_18",
   "description": "KODI 18.6 media center add-on!",
   "arch": ["armhf", "armv7"],
