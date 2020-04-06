@@ -21,12 +21,23 @@ RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommend
 ### install latest kodi
 #RUN su - pi -c "sudo apt-get install -y kodi" \
 RUN apt-get install -y kodi \
-##
-### enabled for netflix addon
-         kodi-inputstream-adaptive
 #        kodi-peripheral-joystick \
 #        kodi-pvr-iptvsimple \
 #        kodi-inputstream-rtmp
+##
+### enabled for netflix addon
+         kodi-inputstream-adaptive \
+         python-pip \
+         python-crypto \ 
+         build-essential \
+         python-all-dev \
+         python-setuptools \
+         python-wheel \
+         python-crypto-dbg \
+         python-crypto-doc \
+         python-pip-whl
+RUN pip install pycryptodomex
+RUN ln -s /usr/lib/python2.7/dist-packages/Crypto /usr/lib/python2.7/dist-packages/Cryptodome
 ##
 ### enable tvservice
 RUN apt-get update && apt-get install git build-essential cmake -y
