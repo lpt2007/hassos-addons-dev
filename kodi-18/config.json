@@ -1,8 +1,8 @@
 {
-  "name": "KODI-GUI-NEW",
-  "version": "0.1.8a",
+  "name": "KODI 18.6",
+  "version": "dev-0.2a",
   "slug": "kodi_18",
-  "description": "KODI 18.5 media center add-on!",
+  "description": "KODI 18.6 media center add-on!",
   "arch": ["armhf", "armv7"],
   "startup": "before",
   "boot": "auto",
