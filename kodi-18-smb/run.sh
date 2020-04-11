@@ -8,6 +8,23 @@ mkdir -p /share/its
 mkdir -p /share/its/smb_data
 mkdir -p /share/its/cfg
 ##
+##
+#add samba user and password to /ssl/kodi_smb.txt
+smb_user=$(jq -r '.smb_user' $OPTIONS_PATH)
+smb_pass=$(jq -r '.smb_pass' $OPTIONS_PATH)
+if [ "$smb_user" == "" ]; then
+            echo "[INFO] Samba username not configured"
+        else
+         if [ "$smb_pass" == "" ]; then
+            echo "[INFO] Samba password not configured"
+        else
+            echo "[INFO] Fond Samba Server username $smb_user"
+            echo "[INFO] Fond Samba Server password
+            echo 'username=$smb_user' >> /ssl/kodi_smb.txt
+            echo 'password=$smb_pass' >> /ssl/kodi_smb.txt
+         fi
+fi
+##
 #add samba share
 smb_ip=$(jq -r '.smb_ip' $OPTIONS_PATH)
 smb_path=$(jq -r '.smb_path' $OPTIONS_PATH)
