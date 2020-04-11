@@ -26,7 +26,7 @@
   "options": {
     "kodi_data": "kodi",
     "smb_ip": "192.168.0.198",
-    "smb_path": "/smb$/data",
+    "smb_path": "smb$/data",
     "smb_user": "smbuser",
     "smb_pass": "smbpass"
   },
