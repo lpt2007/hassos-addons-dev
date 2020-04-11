@@ -31,7 +31,7 @@
     "smb_pass": "smbpass"
   },
   "schema": {
-    "kodi_data": "str"
+    "kodi_data": "str",
     "smb_ip": "str",
     "smb_path": "str",
     "smb_user": "str",
