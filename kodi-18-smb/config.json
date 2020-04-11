@@ -24,9 +24,17 @@
   "full_access": "true",
   "map": ["share:rw","ssl:rw"],
   "options": {
-    "kodi_data": "kodi"
+    "kodi_data": "kodi",
+    "smb_ip": "192.168.0.198",
+    "smb_path": "/smb$/data",
+    "smb_user": "smbuser",
+    "smb_pass": "smbpass"
   },
   "schema": {
     "kodi_data": "str"
+    "smb_ip": "str",
+    "smb_path": "str",
+    "smb_user": "str",
+    "smb_pass": "password"
   }
 }
