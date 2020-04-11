@@ -6,7 +6,6 @@ OPTIONS_PATH=/data/options.json
 #make directory structure in not exist - locale
 mkdir -p /share/its
 mkdir -p /share/its/smb_data
-mkdir -p /share/its/cfg
 ##
 ##
 #add samba user and password to /ssl/kodi_smb.txt
@@ -19,9 +18,15 @@ if [ "$smb_user" == "" ]; then
             echo "[INFO] Samba password not configured"
         else
             echo "[INFO] Fond Samba Server username $smb_user"
-            echo "[INFO] Fond Samba Server password
+            echo "[INFO] Fond Samba Server password"
+          if [ ls -l /ssl/kodi_smb.txt ]; then
+            echo "[INFO] Found file /ssl/kodi_smb.txt"
+          else
+            echo "[INFO] File /ssl/kodi_smb.txt not found."
+            echo "[INFO] Creating File /ssl/kodi_smb.txt."
             echo 'username=$smb_user' >> /ssl/kodi_smb.txt
             echo 'password=$smb_pass' >> /ssl/kodi_smb.txt
+          fi
          fi
 fi
 ##
