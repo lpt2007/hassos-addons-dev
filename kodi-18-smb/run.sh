@@ -23,7 +23,7 @@ if [ "$kodi_data" == "" ]; then
 ##
 #make simbolic link to smb folder
 ln -s /share/its/smb_data/$kodi_data /root/.kodi
-done
+#done
 ##
 #mkdir -p /share/its/smb_data/kodi_18_smb/data >/dev/null 2>&1 || true && rm -rf /root/.kodi && ln -s /share/its/smb_data/kodi_18_smb/data /root/.kodi \
 #&& mkdir -p /data >/dev/null 2>&1
