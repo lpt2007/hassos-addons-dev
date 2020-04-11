@@ -1,6 +1,6 @@
 {
   "name": "KODI 18.6 with SMB",
-  "version": "dev-0.1.6a",
+  "version": "dev-0.1.7a",
   "slug": "kodi_18_smb",
   "description": "KODI 18.6 media center with samba store add-on!",
   "arch": ["armhf", "armv7"],
@@ -23,6 +23,10 @@
   "privileged": ["SYS_ADMIN","DAC_READ_SEARCH"],
   "full_access": "true",
   "map": ["share:rw"],
-  "options": {},
-  "schema": {}
+  "options": {
+    "kodi_data": "kodi"
+  },
+  "schema": {
+    "kodi_data": "str"
+  }
 }
