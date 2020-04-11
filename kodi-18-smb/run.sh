@@ -9,10 +9,10 @@ echo '//192.168.0.198/smb$/data /share/its/smb_data cifs rw,credentials=/share/i
 mount -a
 ##
 #make directory structure in not exist - smb
-mkdir -p /share/its/smb_data/data
+#mkdir -p /share/its/smb_data/data
 ##
 #make simbolic link to smb folder
-ln -s /share/its/smb_data/data /root/.kodi
+ln -s /share/its/smb_data/ /root/.kodi
 ##
 #mkdir -p /share/its/smb_data/kodi_18_smb/data >/dev/null 2>&1 || true && rm -rf /root/.kodi && ln -s /share/its/smb_data/kodi_18_smb/data /root/.kodi \
 #&& mkdir -p /data >/dev/null 2>&1
