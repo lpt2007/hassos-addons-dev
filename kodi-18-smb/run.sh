@@ -13,7 +13,11 @@ echo '//192.168.0.198/smb$/data /share/its/smb_data cifs rw,credentials=/share/i
 mount -a
 ##
 #make directory structure in not exist - smb
-mkdir -p /share/its/smb_data/$kodi_data
+if [ "$kodi_data" == "" ]; then
+            echo "[INFO] No kodi folder configured"
+        else
+            echo "[INFO] Fond kodi folder $kodi_data"
+            mkdir -p /share/its/smb_data/$kodi_data
 ##
 #make simbolic link to smb folder
 ln -s /share/its/smb_data/$kodi_data /root/.kodi
