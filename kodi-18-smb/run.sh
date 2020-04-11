@@ -15,15 +15,17 @@ mount -a
 #make directory structure in not exist - smb
 jq -r '.kodi_data' $OPTIONS_PATH
 while read kodi_data; do
-if [ "$kodi_data" == "" ]; then
-            echo "[INFO] No kodi folder configured"
-        else
-            echo "[INFO] Fond kodi folder $kodi_data"
-            mkdir -p /share/its/smb_data/$kodi_data
-##
-#make simbolic link to smb folder
-ln -s /share/its/smb_data/$kodi_data /root/.kodi
-#done
+  if [ "$kodi_data" == "" ]; then
+              echo "[INFO] No kodi folder configured"
+          else
+              echo "[INFO] Fond kodi folder $kodi_data"
+              mkdir -p /share/its/smb_data/$kodi_data
+              ##
+              #make simbolic link to smb folder
+              echo "[INFO] Making symbolic link from /root/.kodi to $kodi_data"
+              ln -s /share/its/smb_data/$kodi_data /root/.kodi
+  fi
+done
 ##
 #mkdir -p /share/its/smb_data/kodi_18_smb/data >/dev/null 2>&1 || true && rm -rf /root/.kodi && ln -s /share/its/smb_data/kodi_18_smb/data /root/.kodi \
 #&& mkdir -p /data >/dev/null 2>&1
