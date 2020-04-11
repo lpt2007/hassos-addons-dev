@@ -12,7 +12,9 @@ RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommend
      xserver-xorg-legacy \
      dbus-x11 \
      sudo \
-     cifs-utils
+     cifs-utils \
+     jq \
+     nano
 ##
 ### added pi user to sudders
 #RUN adduser pi && \
