@@ -1,3 +1,7 @@
+#!/bin/bash
+set -e
+
+OPTIONS_PATH=/data/options.json
 ##
 #make directory structure in not exist - locale
 mkdir -p /share/its
@@ -9,10 +13,10 @@ echo '//192.168.0.198/smb$/data /share/its/smb_data cifs rw,credentials=/share/i
 mount -a
 ##
 #make directory structure in not exist - smb
-mkdir -p /share/its/smb_data/kodi
+mkdir -p /share/its/smb_data/$kodi_data
 ##
 #make simbolic link to smb folder
-ln -s /share/its/smb_data/kodi /root/.kodi
+ln -s /share/its/smb_data/$kodi_data /root/.kodi
 ##
 #mkdir -p /share/its/smb_data/kodi_18_smb/data >/dev/null 2>&1 || true && rm -rf /root/.kodi && ln -s /share/its/smb_data/kodi_18_smb/data /root/.kodi \
 #&& mkdir -p /data >/dev/null 2>&1
