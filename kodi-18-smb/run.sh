@@ -25,17 +25,17 @@ if [ "$smb_user" == "" ]; then
             echo "[INFO] Found file $ssl"
             echo 'username='$smb_user >> $ssl_cmp
             echo 'password='$smb_pass >> $ssl_cmp
-            if ! cmp $ssl $ssl_cmp >/dev/null 2>&1; then
-            echo "[INFO] File $ssl not changed"
-            rm $ssl_cmp
-          else
-            echo "[INFO] File $ssl changed."
-            echo "[INFO] Deleting file $ssl."
-            rm $ssl
-            echo "[INFO] Creating new file $ssl."
-            echo 'username='$smb_user >> $ssl
-            echo 'password='$smb_pass >> $ssl
-          fi         
+            if ! cmp $ssl $ssl_cmp > /dev/null 2>&1; then
+              echo "[INFO] File $ssl changed."
+              echo "[INFO] Deleting file $ssl."
+              rm $ssl
+              echo "[INFO] Creating new file $ssl."
+              echo 'username='$smb_user >> $ssl
+              echo 'password='$smb_pass >> $ssl
+            else
+              echo "[INFO] File $ssl not changed"
+              rm $ssl_cmp
+            fi         
           else
             echo "[INFO] File $ssl not found."
             echo "[INFO] Creating File $ssl."
