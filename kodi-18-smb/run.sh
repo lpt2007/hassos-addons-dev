@@ -24,8 +24,8 @@ if [ "$smb_user" == "" ]; then
           else
             echo "[INFO] File /ssl/kodi_smb.txt not found."
             echo "[INFO] Creating File /ssl/kodi_smb.txt."
-            echo 'username=$smb_user' >> /ssl/kodi_smb.txt
-            echo 'password=$smb_pass' >> /ssl/kodi_smb.txt
+            echo 'username='$smb_user >> /ssl/kodi_smb.txt
+            echo 'password='$smb_pass >> /ssl/kodi_smb.txt
           fi
          fi
 fi
