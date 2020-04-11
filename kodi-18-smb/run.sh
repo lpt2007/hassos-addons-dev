@@ -13,7 +13,7 @@ echo '//192.168.0.198/smb$/data /share/its/smb_data cifs rw,credentials=/share/i
 mount -a
 ##
 #make directory structure in not exist - smb
-jq -r '.kodi_data' $OPTIONS_PATH
+kodi_data=$(jq -r '.kodi_data' $OPTIONS_PATH)
 #while read kodi_data; do
   if [ "$kodi_data" == "" ]; then
               echo "[INFO] No kodi folder configured"
