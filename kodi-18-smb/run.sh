@@ -12,6 +12,7 @@ mkdir -p /share/its/smb_data
 smb_user=$(jq -r '.smb_user' $OPTIONS_PATH)
 smb_pass=$(jq -r '.smb_pass' $OPTIONS_PATH)
 ssl=/ssl/kodi_smb.txt
+ssl_cmp=/ssl/kodi_smb.cmp
 if [ "$smb_user" == "" ]; then
             echo "[INFO] Samba username not configured"
         else
@@ -22,6 +23,19 @@ if [ "$smb_user" == "" ]; then
             echo "[INFO] Fond Samba Server password"
           if test -f "$ssl"; then
             echo "[INFO] Found file $ssl"
+            echo 'username='$smb_user >> $ssl_cmp
+            echo 'password='$smb_pass >> $ssl_cmp
+            if ! cmp $ssl $ssl_cmp >/dev/null 2>&1; then
+            echo "[INFO] File $ssl not changed"
+            rm $ssl_cmp
+          else
+            echo "[INFO] File $ssl changed."
+            echo "[INFO] Deleting file $ssl."
+            rm $ssl
+            echo "[INFO] Creating new file $ssl."
+            echo 'username='$smb_user >> $ssl
+            echo 'password='$smb_pass >> $ssl
+          fi         
           else
             echo "[INFO] File $ssl not found."
             echo "[INFO] Creating File $ssl."
