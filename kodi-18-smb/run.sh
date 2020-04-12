@@ -76,7 +76,7 @@ if [ "$kodi_data" == "" ]; then
 fi
 ##
 #make sqllit database folder symbolic link
-if test -f "/share/its/smb_data/"$kodi_data"/userdata/Database"; then
+if test -f "/share/its/smb_data/$kodi_data/userdata/Database"; then
             echo "[INFO] No sqllite database found on samba share."
             echo "[INFO] Create /share/its/smb_data/$kodi_data/userdata/Database folder if not exist"
             mkdir -p /share/its/smb_data/$kodi_data/userdata
