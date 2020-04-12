@@ -1,6 +1,6 @@
 {
   "name": "KODI 18.6 with SMB",
-  "version": "dev-0.3.6a",
+  "version": "dev-0.3.7a",
   "slug": "kodi_18_smb",
   "description": "KODI 18.6 media center with samba store add-on!",
   "arch": ["armhf", "armv7"],
