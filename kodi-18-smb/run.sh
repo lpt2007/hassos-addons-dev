@@ -82,7 +82,7 @@ if [ -d "/share/its/smb_data/$kodi_data/userdata/Database" ]; then
             mkdir -p /share/its/loc_data/$kodi_data
 if [[ -L "/share/its/smb_data/$kodi_data/userdata/Database" && -d "/share/its/smb_data/$kodi_data/userdata/Database" ]]
 then
-    echo "Database is a symlink to a directory skip moveing files"
+    echo "[INFO] Database is a symlink to a directory skip moveing files"
 else
     echo "[INFO] Remove all files from local database directory."
     rm -r /share/its/loc_data/$kodi_data/
