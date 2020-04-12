@@ -76,14 +76,7 @@ if [ "$kodi_data" == "" ]; then
 fi
 ##
 #make sqllit database folder symbolic link
-if test -f "/share/its/smb_data/$kodi_data/userdata/Database"; then
-            echo "[INFO] No sqllite database found on samba share."
-            echo "[INFO] Create /share/its/smb_data/$kodi_data/userdata/Database folder if not exist"
-            mkdir -p /share/its/smb_data/$kodi_data/userdata
-            mkdir -p /share/its/smb_data/$kodi_data/userdata/Database
-            echo "[INFO] Making symbolic link from /root/.kodi to /share/its/smb_data/$kodi_data"
-            ln -s /share/its/loc_data /$kodi_data/share/its/smb_data/$kodi_data/userdata/Database
-        else
+if [ -d "/share/its/smb_data/$kodi_data/userdata/Database" ]; then
             echo "[INFO] Sqlite database found on samba share"
             echo "[INFO] Create /share/its/loc_data/$kodi_data folder if not exist"
             mkdir -p /share/its/loc_data/$kodi_data
@@ -91,6 +84,13 @@ if test -f "/share/its/smb_data/$kodi_data/userdata/Database"; then
             mv /share/its/smb_data/$kodi_data/userdata/Database/* /share/its/loc_data/$kodi_data
             echo "[INFO] Making symbolic link from /root/.kodi to /share/its/smb_data/$kodi_data"
             ln -s /share/its/loc_data/$kodi_data /share/its/smb_data/$kodi_data/userdata/Database
+        else            
+            echo "[INFO] No sqllite database found on samba share."
+            echo "[INFO] Create /share/its/smb_data/$kodi_data/userdata/Database folder if not exist"
+            mkdir -p /share/its/smb_data/$kodi_data/userdata
+            mkdir -p /share/its/smb_data/$kodi_data/userdata/Database
+            echo "[INFO] Making symbolic link from /root/.kodi to /share/its/smb_data/$kodi_data"
+            ln -s /share/its/loc_data /$kodi_data/share/its/smb_data/$kodi_data/userdata/Database
 fi
 ##
 #run kodi
