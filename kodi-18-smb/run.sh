@@ -56,7 +56,7 @@ if [ "$smb_ip" == "" ]; then
         else
             echo "[INFO] Fond Samba Server IP $smb_ip"
             echo "[INFO] Fond Samba path $smb_path"
-            echo '//'$smb_ip'/'$smb_path' /share/its/smb_data cifs rw,credentials=/ssl/kodi_smb.txt,uid=0,gid=0,file_mode=0660,dir_mode=0770,vers=2.0 0 0' >> /etc/fstab
+            echo '//'$smb_ip'/'$smb_path' /share/its/smb_data cifs rw,credentials=/ssl/kodi_smb.txt,uid=0,gid=0,file_mode=0660,dir_mode=0770,vers=3.0 0 0' >> /etc/fstab
             mount -a
          fi
 fi
