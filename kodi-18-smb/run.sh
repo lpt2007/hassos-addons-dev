@@ -80,10 +80,12 @@ if [ -d "/share/its/smb_data/$kodi_data/userdata/Database" ]; then
             echo "[INFO] Sqlite database found on samba share"
             echo "[INFO] Create /share/its/loc_data/$kodi_data folder if not exist"
             mkdir -p /share/its/loc_data/$kodi_data
-  if [[ -L "/share/its/smb_data/$kodi_data/userdata/Database" && -d "/share/its/smb_data/$kodi_data/userdata/Database" ]]
+if [[ -L "/share/its/smb_data/$kodi_data/userdata/Database" && -d "/share/its/smb_data/$kodi_data/userdata/Database" ]]
 then
     echo "Database is a symlink to a directory skip moveing files"
 else
+    echo "Remove all files from local database directory."
+    rm /share/its/loc_data/$kodi_data/*
     echo "[INFO] Move files from /share/its/smb_data/$kodi_data/userdata/Database"
     mv /share/its/smb_data/$kodi_data/userdata/Database/* /share/its/loc_data/$kodi_data
     echo "[INFO] Remove database folder on samba share"
