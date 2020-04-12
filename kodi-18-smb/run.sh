@@ -81,14 +81,15 @@ if [ -d "/share/its/smb_data/$kodi_data/userdata/Database" ]; then
             echo "[INFO] Create /share/its/loc_data/$kodi_data folder if not exist"
             mkdir -p /share/its/loc_data/$kodi_data
             echo "[INFO] Move files from /share/its/smb_data/$kodi_data/userdata/Database"
-            mv /share/its/smb_data/$kodi_data/userdata/Database/* /share/its/loc_data/$kodi_data
+            mv /share/its/smb_data/$kodi_data/userdata/Database/* /share/its/loc_data/$kodi_data  2>/dev/null; true
+            echo "[INFO] Remove database folder on samba share"
+            rm -r  /share/its/smb_data/$kodi_data/userdata/Database/
             echo "[INFO] Making symbolic link from /root/.kodi to /share/its/smb_data/$kodi_data"
             ln -s /share/its/loc_data/$kodi_data /share/its/smb_data/$kodi_data/userdata/Database
         else            
             echo "[INFO] No sqllite database found on samba share."
             echo "[INFO] Create /share/its/smb_data/$kodi_data/userdata/Database folder if not exist"
             mkdir -p /share/its/smb_data/$kodi_data/userdata
-#            mkdir -p /share/its/smb_data/$kodi_data/userdata/Database
             echo "[INFO] Create /share/its/loc_data/$kodi_data folder if not exist"
             mkdir -p /share/its/loc_data/$kodi_data
             echo "[INFO] Making symbolic link from /root/.kodi to /share/its/smb_data/$kodi_data"
@@ -96,4 +97,5 @@ if [ -d "/share/its/smb_data/$kodi_data/userdata/Database" ]; then
 fi
 ##
 #run kodi
+echo "[INFO] Started KODI media center"
 /usr/bin/kodi
