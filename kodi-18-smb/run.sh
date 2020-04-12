@@ -86,11 +86,11 @@ then
 else
     echo "[INFO] Move files from /share/its/smb_data/$kodi_data/userdata/Database"
     mv /share/its/smb_data/$kodi_data/userdata/Database/* /share/its/loc_data/$kodi_data
+    echo "[INFO] Remove database folder on samba share"
+    rm -r  /share/its/smb_data/$kodi_data/userdata/Database/
+    echo "[INFO] Making symbolic link to /share/its/smb_data/$kodi_data/userdata/Database"
+    ln -s /share/its/loc_data/$kodi_data /share/its/smb_data/$kodi_data/userdata/Database
 fi
-            echo "[INFO] Remove database folder on samba share"
-            rm -r  /share/its/smb_data/$kodi_data/userdata/Database/
-            echo "[INFO] Making symbolic link to /share/its/smb_data/$kodi_data/userdata/Database"
-            ln -s /share/its/loc_data/$kodi_data /share/its/smb_data/$kodi_data/userdata/Database
         else            
             echo "[INFO] No sqllite database found on samba share."
             echo "[INFO] Create /share/its/smb_data/$kodi_data/userdata/Database folder if not exist"
