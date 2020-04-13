@@ -15,10 +15,12 @@ smb_pass=$(jq -r '.smb_pass' $OPTIONS_PATH)
 ssl=/ssl/kodi_smb.txt
 ssl_cmp=/ssl/kodi_smb.cmp
 if [ "$smb_user" == "" ]; then
-            echo "[INFO] Samba username not configured"
+            echo "[ERROR] Samba username not configured"
+            echo "[ERROR] Check addon configuration!"
         else
          if [ "$smb_pass" == "" ]; then
-            echo "[INFO] Samba password not configured"
+            echo "[ERROR] Samba password not configured"
+            echo "[ERROR] Check addon configuration!"
         else
             echo "[INFO] Fond Samba Server username $smb_user"
             echo "[INFO] Fond Samba Server password"
@@ -50,10 +52,12 @@ fi
 smb_ip=$(jq -r '.smb_ip' $OPTIONS_PATH)
 smb_path=$(jq -r '.smb_path' $OPTIONS_PATH)
 if [ "$smb_ip" == "" ]; then
-            echo "[INFO] Samba IP not configured"
+            echo "[ERROR] Samba IP not configured"
+            echo "[ERROR] Check addon configuration!"
         else
          if [ "$smb_path" == "" ]; then
-            echo "[INFO] Samba path not configured"
+            echo "[ERROR] Samba path not configured"
+            echo "[ERROR] Check addon configuration!"
         else
             echo "[INFO] Fond Samba Server IP $smb_ip"
             echo "[INFO] Fond Samba path $smb_path"
@@ -65,13 +69,14 @@ fi
 #make directory structure in not exist - smb
 kodi_data=$(jq -r '.kodi_data' $OPTIONS_PATH)
 if [ "$kodi_data" == "" ]; then
-            echo "[INFO] No kodi folder configured"
+            echo "[ERROR] No kodi folder configured"
+            echo "[ERROR] Check addon configuration!"
         else
             echo "[INFO] Fond kodi folder $kodi_data"
             mkdir -p /share/its/smb_data/$kodi_data
-            ##
-            #make simbolic link to smb folder
-            echo "[INFO] Making symbolic link to /share/its/smb_data/$kodi_data"
+            echo "[INFO] remove .kodi before making symbolic link."
+            rm -r /root/.kodi
+            echo "[INFO] Making symbolic link to /share/its/smb_data/$kodi_data."
             ln -s /share/its/smb_data/$kodi_data /root/.kodi
 fi
 ##
