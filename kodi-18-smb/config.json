@@ -1,6 +1,6 @@
 {
   "name": "KODI 18.6 with SMB",
-  "version": "dev-0.5.5a",
+  "version": "dev-0.5.6a",
   "slug": "kodi_18_smb",
   "description": "KODI 18.6 media center with samba store add-on!",
   "arch": ["armhf", "armv7"],
@@ -18,7 +18,8 @@
     "/dev/bus:/dev/bus:rwm",
     "/dev/vcio:/dev/vcio:rwm",
     "/dev/vcsm:/dev/vcsm:rwm",
-    "/dev/vc-mem:/dev/vc-mem:rwm"    
+    "/dev/vc-mem:/dev/vc-mem:rwm",
+    "/var/run/dbus/system_bus_socket:/var/run/dbus/system_bus_socket:rwm"
   ],
   "privileged": ["SYS_ADMIN","DAC_READ_SEARCH"],
   "full_access": "true",
