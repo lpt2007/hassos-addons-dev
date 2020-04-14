@@ -114,7 +114,23 @@ then
       fi
     fi
 else            
-      echo "[INFO] No sqllite database found on samba share."
+      echo "[INFO] Remote Sqlite database not found."
+  if [ -d "$loc_database" ]
+  then
+         echo "[INFO] Local Sqlite database found."
+         echo "[INFO] Remove all files from $loc_database."
+         rm -Rf /share/its/loc_data/$kodi_data
+         echo "[INFO] Create $loc_database."
+         mkdir -p /share/its/loc_data/$kodi_data
+         mkdir -p /share/its/loc_data/$kodi_data/userdata
+         mkdir -p /share/its/loc_data/$kodi_data/userdata/Database
+  else
+         echo "[INFO] Local Sqlite database not found."
+         echo "[INFO] Create $loc_database"
+         mkdir -p /share/its/loc_data/$kodi_data
+         mkdir -p /share/its/loc_data/$kodi_data/userdata
+         mkdir -p /share/its/loc_data/$kodi_data/userdata/Database  
+  fi    
       echo "[INFO] Create $smb_database."
       mkdir -p /share/its/smb_data/$kodi_data/userdata
       echo "[INFO] Making symbolic link to $smb_database."
