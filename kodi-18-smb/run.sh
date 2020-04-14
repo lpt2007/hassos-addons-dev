@@ -94,11 +94,13 @@ then
           echo "[INFO] Create $loc_database"
           mkdir -p /share/its/loc_data/$kodi_data
           mkdir -p /share/its/loc_data/$kodi_data/userdata
-          mkdir -p /share/its/loc_data/$kodi_data/userdata/Database     
+          mkdir -p /share/its/loc_data/$kodi_data/userdata/Database    
+     fi
       if [[ -L "$smb_database" && -d "$smb_database" ]]
       then
             echo "[INFO] Remote Database is symlink skip moveing files."
       else
+            echo "[INFO] Remote Database is not symlink move files."
             echo "[INFO] Remove all files from $loc_database."
             rm -Rf /share/its/loc_data/$kodi_data
             echo "[INFO] Create $loc_database."
@@ -112,7 +114,6 @@ then
             echo "[INFO] Making symbolic link to $smb_database."
             ln -s $loc_database $smb_database
       fi
-    fi
 else            
       echo "[INFO] Remote Sqlite database not found."
   if [ -d "$loc_database" ]
