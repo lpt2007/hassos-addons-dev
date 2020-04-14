@@ -95,6 +95,7 @@ then
           mkdir -p /share/its/loc_data/$kodi_data
           mkdir -p /share/its/loc_data/$kodi_data/userdata
           mkdir -p /share/its/loc_data/$kodi_data/userdata/Database
+   fi     
       if [[ -L "$smb_database" && -d "$smb_database" ]]
       then
             echo "[INFO] Remote Database is a symlink skip moveing files"
