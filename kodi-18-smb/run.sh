@@ -74,7 +74,7 @@ if [ "$kodi_data" == "" ]; then
         else
             echo "[INFO] Fond kodi folder $kodi_data"
             mkdir -p /share/its/smb_data/$kodi_data
-            echo "[INFO] remove .kodi before making symbolic link."
+            echo "[INFO] Remove .kodi before making symbolic link."
             rm -r -f /root/.kodi
             echo "[INFO] Making symbolic link to /share/its/smb_data/$kodi_data."
             ln -s /share/its/smb_data/$kodi_data /root/.kodi
@@ -90,6 +90,7 @@ then
    then
           echo "[INFO] Local Sqlite database found."
    else
+          echo "[INFO] Local Sqlite database not found."
           echo "[INFO] Create $loc_database"
           mkdir -p /share/its/loc_data/$kodi_data
           mkdir -p /share/its/loc_data/$kodi_data/userdata
