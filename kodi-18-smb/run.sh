@@ -111,6 +111,7 @@ fi
             echo "[INFO] Create $smb_database."
             mkdir -p /share/its/smb_data/$kodi_data/userdata
             echo "[INFO] Create $loc_database."
+            rm -r -f /share/its/loc_data
             mkdir -p /share/its/loc_data/$kodi_data
             mkdir -p /share/its/loc_data/$kodi_data/userdata
             mkdir -p /share/its/loc_data/$kodi_data/userdata/Database
