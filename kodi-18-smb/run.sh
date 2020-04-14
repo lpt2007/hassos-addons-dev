@@ -86,6 +86,7 @@ loc_database=/share/its/loc_data/$kodi_data/userdata/Database
 if [ -d "$smb_database" ]; then
             echo "[INFO] Sqlite database found on samba share"
             echo "[INFO] Create $loc_database folder"
+            rm -r -f /share/its/loc_data
             mkdir -p /share/its/loc_data/$kodi_data
             mkdir -p /share/its/loc_data/$kodi_data/userdata
             mkdir -p /share/its/loc_data/$kodi_data/userdata/Database
