@@ -94,7 +94,7 @@ then
     echo "[INFO] Database is a symlink to a directory skip moveing files"
 else
     echo "[INFO] Remove all files from $loc_database."
-    rm -r -f /share/its/loc_data/$kodi_data/
+    rm -r -f /share/its/loc_data/$kodi_data
     echo "[INFO] Create $loc_database."
     mkdir -p /share/its/loc_data/$kodi_data
     mkdir -p /share/its/loc_data/$kodi_data/userdata
@@ -112,6 +112,8 @@ fi
             mkdir -p /share/its/smb_data/$kodi_data/userdata
             echo "[INFO] Create $loc_database."
             mkdir -p /share/its/loc_data/$kodi_data
+            mkdir -p /share/its/loc_data/$kodi_data/userdata
+            mkdir -p /share/its/loc_data/$kodi_data/userdata/Database
             echo "[INFO] Making symbolic link to $smb_database."
             ln -s  $loc_database $smb_database
 fi
