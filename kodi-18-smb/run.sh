@@ -106,7 +106,7 @@ then
             mkdir -p /share/its/loc_data/$kodi_data/userdata
             mkdir -p /share/its/loc_data/$kodi_data/userdata/Database
             echo "[INFO] Move files from $smb_database."
-            mv $smb_database* $loc_database
+            mv $smb_database/* $loc_database/
             echo "[INFO] Remove database folder on samba share"
             rm -Rf $smb_database
             echo "[INFO] Making symbolic link to $smb_database."
