@@ -75,7 +75,7 @@ if [ "$kodi_data" == "" ]; then
             echo "[INFO] Fond kodi folder $kodi_data"
             mkdir -p /share/its/smb_data/$kodi_data
             echo "[INFO] remove .kodi before making symbolic link."
-            rm -r /root/.kodi
+            rm -r -f /root/.kodi
             echo "[INFO] Making symbolic link to /share/its/smb_data/$kodi_data."
             ln -s /share/its/smb_data/$kodi_data /root/.kodi
 fi
@@ -94,7 +94,7 @@ then
     echo "[INFO] Database is a symlink to a directory skip moveing files"
 else
     echo "[INFO] Remove all files from $loc_database."
-    rm -r /share/its/loc_data/$kodi_data/
+    rm -r -f /share/its/loc_data/$kodi_data/
     echo "[INFO] Create $loc_database."
     mkdir -p /share/its/loc_data/$kodi_data
     mkdir -p /share/its/loc_data/$kodi_data/userdata
@@ -102,7 +102,7 @@ else
     echo "[INFO] Move files from $smb_database."
     mv $smb_database* $loc_database
     echo "[INFO] Remove database folder on samba share"
-    rm -r  $smb_database
+    rm -r -f $smb_database
     echo "[INFO] Making symbolic link to $smb_database."
     ln -s $loc_database $smb_database
 fi
