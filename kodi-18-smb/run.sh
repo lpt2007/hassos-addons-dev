@@ -83,41 +83,40 @@ fi
 #make sqllit database folder symbolic link
 smb_database=/share/its/smb_data/$kodi_data/userdata/Database
 loc_database=/share/its/loc_data/$kodi_data/userdata/Database
-if [ -d "$smb_database" ]; then
-            echo "[INFO] Sqlite database found on samba share"
-            echo "[INFO] Create $loc_database folder"
-            rm -r -f /share/its/loc_data
-            mkdir -p /share/its/loc_data/$kodi_data
-            mkdir -p /share/its/loc_data/$kodi_data/userdata
-            mkdir -p /share/its/loc_data/$kodi_data/userdata/Database
-if [[ -L "$smb_database" && -d "$smb_database" ]]
+if [ -d "$smb_database" ]
 then
-    echo "[INFO] Database is a symlink to a directory skip moveing files"
-else
-    echo "[INFO] Remove all files from $loc_database."
-    rm -r -f /share/its/loc_data/$kodi_data
-    echo "[INFO] Create $loc_database."
-    mkdir -p /share/its/loc_data/$kodi_data
-    mkdir -p /share/its/loc_data/$kodi_data/userdata
-    mkdir -p /share/its/loc_data/$kodi_data/userdata/Database
-    echo "[INFO] Move files from $smb_database."
-    mv $smb_database* $loc_database
-    echo "[INFO] Remove database folder on samba share"
-    rm -r -f $smb_database
-    echo "[INFO] Making symbolic link to $smb_database."
-    ln -s $loc_database $smb_database
-fi
-        else            
-            echo "[INFO] No sqllite database found on samba share."
-            echo "[INFO] Create $smb_database."
-            mkdir -p /share/its/smb_data/$kodi_data/userdata
+      echo "[INFO] Sqlite database found on samba share."      
+   if [ -d "$loc_database" ]
+   then
+          echo "[INFO] Local Sqlite database found."
+   else
+          echo "[INFO] Create $loc_database"
+          mkdir -p /share/its/loc_data/$kodi_data
+          mkdir -p /share/its/loc_data/$kodi_data/userdata
+          mkdir -p /share/its/loc_data/$kodi_data/userdata/Database
+      if [[ -L "$smb_database" && -d "$smb_database" ]]
+      then
+            echo "[INFO] Remote Database is a symlink skip moveing files"
+      else
+            echo "[INFO] Remove all files from $loc_database."
+            rm -r -f /share/its/loc_data/$kodi_data
             echo "[INFO] Create $loc_database."
-            rm -r -f /share/its/loc_data
             mkdir -p /share/its/loc_data/$kodi_data
             mkdir -p /share/its/loc_data/$kodi_data/userdata
             mkdir -p /share/its/loc_data/$kodi_data/userdata/Database
+            echo "[INFO] Move files from $smb_database."
+            mv $smb_database* $loc_database
+            echo "[INFO] Remove database folder on samba share"
+            rm -r -f $smb_database
             echo "[INFO] Making symbolic link to $smb_database."
-            ln -s  $loc_database $smb_database
+            ln -s $loc_database $smb_database
+      fi
+else            
+      echo "[INFO] No sqllite database found on samba share."
+      echo "[INFO] Create $smb_database."
+      mkdir -p /share/its/smb_data/$kodi_data/userdata
+      echo "[INFO] Making symbolic link to $smb_database."
+      ln -s  $loc_database $smb_database
 fi
 ##
 #run kodi
