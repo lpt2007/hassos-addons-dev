@@ -1,6 +1,6 @@
 {
   "name": "PIWIGO",
-  "version": "dev-0.1.1a",
+  "version": "dev-0.1.2a",
   "slug": "piwigo",
   "description": "PIWIGO photo share add-on!",
   "arch": ["amd64", "i386"],
@@ -10,7 +10,21 @@
     "80/tcp": 1994
   },
   "webui": "http://[HOST]:[PORT:1994]/",
-  "map": ["share:rw"],
-  "options": {},
-  "schema": {}
+  "map": ["share:rw",
+          "ssl:rw"
+         ],
+  "options": {
+    "smb_data": "piwigo",
+    "smb_ip": "192.168.0.198",
+    "smb_path": "smb$/its/piwigo",
+    "smb_user": "smbuser",
+    "smb_pass": "smbpass"
+  },
+  "schema": {
+    "smb_data": "str",
+    "smb_ip": "str",
+    "smb_path": "str",
+    "smb_user": "str",
+    "smb_pass": "password"
+  }
 }
