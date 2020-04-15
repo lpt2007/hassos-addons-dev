@@ -71,13 +71,13 @@ else
             echo "[INFO] Fond Samba Server IP $smb_ip"
             echo "[INFO] Fond Samba path $smb_path"
             echo '//'$smb_ip'/'$smb_path' /share/its/smb_data cifs rw,credentials=/ssl/kodi_smb.txt,uid=0,gid=0,file_mode=0660,dir_mode=0770,vers=1.0 0 0' >> /etc/fstab
-	    echo "[INFO] mount cifs share to /share/its/smb/share"
+	    echo "[INFO] mount cifs share to /share/its/smb_data"
             mount -a
       fi
 fi
 ##
 #make directory structure in not exist - smb
-echo "[INFO] Make directory structure on smb_data"
+echo "[INFO] Make directory structure on samba share"
 smb_data=$(jq -r '.smb_data' $OPTIONS_PATH)
 if [ "$smb_data" == "" ]; then
             echo "[ERROR] No samba folder configured"
