@@ -49,5 +49,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 80 443
-VOLUME /config /pictures
+#EXPOSE 80 443
+#VOLUME /config /pictures
