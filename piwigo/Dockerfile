@@ -34,6 +34,7 @@ RUN \
 	poppler-utils \
 	re2c \
 	unzip \
+	jq \
 	wget && \
  echo "**** download piwigo ****" && \
  if [ -z ${PIWIGO_RELEASE+x} ]; then \
