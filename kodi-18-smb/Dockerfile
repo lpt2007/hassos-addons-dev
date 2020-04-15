@@ -60,8 +60,9 @@ COPY run.sh /
 RUN chmod a+x /run.sh
 ##
 ### repair keyboard and mouse settings
-COPY its/etc/udev/rules.d/998-fix-input.rules /etc/udev/rules.d/998-fix-input.rules
-RUN chmod a+x /etc/udev/rules.d/998-fix-input.rules
+#!!!setting not repaired keyboard problem
+#COPY its/etc/udev/rules.d/998-fix-input.rules /etc/udev/rules.d/998-fix-input.rules
+#RUN chmod a+x /etc/udev/rules.d/998-fix-input.rules
 ##
 ### run kodi startup script
 CMD [ "/run.sh" ]
