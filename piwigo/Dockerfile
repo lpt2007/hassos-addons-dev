@@ -35,6 +35,7 @@ RUN \
 	re2c \
 	unzip \
 	jq \
+	cifs-utils \
 	wget && \
  echo "**** download piwigo ****" && \
  if [ -z ${PIWIGO_RELEASE+x} ]; then \
