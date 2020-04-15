@@ -28,7 +28,7 @@ else
        else
             echo "[INFO] Fond Samba Server username $smb_user"
             echo "[INFO] Fond Samba Server password"
-             if [ test -f "$ssl" ]
+             if [ -f "$ssl" ]
 	     then
                    echo "[INFO] Found file $ssl"
                    echo 'username='$smb_user >> $ssl_cmp
