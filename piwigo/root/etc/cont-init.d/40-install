@@ -1,9 +1,100 @@
 #!/usr/bin/with-contenv bash
-
+#
+echo "[INFO] start pre-configuration by ITS"
+OPTIONS_PATH=/data/options.json
+##
+#make directory structure in not exist - locale
+echo "[INFO] create directory structure on /share/."
+mkdir -p /share/its
+mkdir -p /share/its/smb_data
+mkdir -p /share/its/loc_data
+##
+##
+#add samba user and password to /ssl/piwigo_smb.txt
+echo "[INFO] make samba creddentials on /ssl/piwigo_smb.txt"
+smb_user=$(jq -r '.smb_user' $OPTIONS_PATH)
+smb_pass=$(jq -r '.smb_pass' $OPTIONS_PATH)
+ssl=/ssl/piwigo_smb.txt
+ssl_cmp=/ssl/piwigo_smb.cmp
+if [ "$smb_user" == "" ]
+then
+      echo "[ERROR] Samba username not configured"
+      echo "[ERROR] Check addon configuration!"
+else
+      if [ "$smb_pass" == "" ]
+      then
+            echo "[ERROR] Samba password not configured"
+            echo "[ERROR] Check addon configuration!"
+       else
+            echo "[INFO] Fond Samba Server username $smb_user"
+            echo "[INFO] Fond Samba Server password"
+             if [ test -f "$ssl" ]
+	     then
+                   echo "[INFO] Found file $ssl"
+                   echo 'username='$smb_user >> $ssl_cmp
+                   echo 'password='$smb_pass >> $ssl_cmp
+                   if [ ! cmp $ssl $ssl_cmp > /dev/null 2>&1 ]
+		   then
+                         echo "[INFO] File $ssl changed."
+                         echo "[INFO] Deleting file $ssl."
+                         rm $ssl
+                         echo "[INFO] Creating new file $ssl."
+                         echo 'username='$smb_user >> $ssl
+                         echo 'password='$smb_pass >> $ssl
+                   else
+                         echo "[INFO] File $ssl not changed"
+                         rm $ssl_cmp
+                   fi         
+             else
+                   echo "[INFO] File $ssl not found."
+                   echo "[INFO] Creating File $ssl."
+                   echo 'username='$smb_user >> $ssl
+                   echo 'password='$smb_pass >> $ssl
+       fi
+    fi
+fi
+##
+#add samba share
+echo "[INFO] Add samba share config to /etc/fstab"
+smb_ip=$(jq -r '.smb_ip' $OPTIONS_PATH)
+smb_path=$(jq -r '.smb_path' $OPTIONS_PATH)
+if [ "$smb_ip" == "" ]
+then
+       echo "[ERROR] Samba IP not configured"
+       echo "[ERROR] Check addon configuration!"
+else
+      if [ "$smb_path" == "" ]
+      then
+      echo "[ERROR] Samba path not configured"
+      echo "[ERROR] Check addon configuration!"
+      else
+            echo "[INFO] Fond Samba Server IP $smb_ip"
+            echo "[INFO] Fond Samba path $smb_path"
+            echo '//'$smb_ip'/'$smb_path' /share/its/smb_data cifs rw,credentials=/ssl/kodi_smb.txt,uid=0,gid=0,file_mode=0660,dir_mode=0770,vers=1.0 0 0' >> /etc/fstab
+	    echo "[INFO] mount cifs share to /share/its/smb/share"
+            mount -a
+      fi
+fi
+##
+#make directory structure in not exist - smb
+echo "[INFO] Make directory structure on smb_data"
+smb_data=$(jq -r '.smb_data' $OPTIONS_PATH)
+if [ "$smb_data" == "" ]; then
+            echo "[ERROR] No samba folder configured"
+            echo "[ERROR] Check addon configuration!"
+        else
+            echo "[INFO] Fond samba folder $smb_data"
+            mkdir -p /share/its/smb_data/$smb_data
+            echo "[INFO] Remove gallery folder before making symbolic link."
+            rm -Rf /config/www/gallery
+            echo "[INFO] Making symbolic link to /share/its/smb_data/$smb_data."
+            ln -s /share/its/smb_data/$smb_data /config/www/gallery/
+fi
+##
 # make our folders
-echo "[INFO] make our folders"
-mkdir -p \
-	/config/www/gallery
+#echo "[INFO] make our folders"
+#mkdir -p \
+#	/config/www/gallery
 
 # install piwigo
 echo "[INFO] install piwigo"
