@@ -21,6 +21,7 @@
     "/dev/vcsm:/dev/vcsm:rwm",
     "/dev/vc-mem:/dev/vc-mem:rwm"
   ],
+  "webui": "http://[HOST]:[PORT:8080]/",
   "privileged": ["SYS_ADMIN","DAC_READ_SEARCH"],
   "full_access": "true",
   "map": ["share:rw","ssl:rw"],
