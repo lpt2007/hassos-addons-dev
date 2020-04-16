@@ -1,6 +1,6 @@
 {
   "name": "PIWIGO",
-  "version": "dev-0.1.7a",
+  "version": "dev-0.1.8a",
   "slug": "piwigo",
   "description": "PIWIGO photo share add-on!",
   "arch": ["amd64", "i386"],
@@ -11,6 +11,7 @@
   },
   "webui": "http://[HOST]:[PORT:1994]/",
   "privileged": ["SYS_ADMIN","DAC_READ_SEARCH"],
+  "full_access": "true",
   "map": ["share:rw",
           "ssl:rw"
          ],
