@@ -88,7 +88,7 @@ if [ "$smb_data" == "" ]; then
             echo "[INFO] Remove gallery folder before making symbolic link."
             rm -Rf /config/www/gallery
             echo "[INFO] Making symbolic link to /share/its/smb_data/$smb_data."
-            ln -s /share/its/smb_data/ /config/www/gallery
+            ln -s /share/its/smb_data /config/www/gallery
 fi
 ##
 # make our folders
