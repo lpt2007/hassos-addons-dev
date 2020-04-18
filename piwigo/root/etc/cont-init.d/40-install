@@ -101,7 +101,7 @@ echo "[INFO] install piwigo"
 if [ ! -f "/config/www/gallery/index.php" ]; then
 	unzip -q /piwigo/piwigo.zip  -d /tmp
 #	mv /tmp/piwigo/ /config/www/gallery
-	rsync -a --no-owner --no-group --remove-source-files "/tmp/piwigo/*" "/config/www/gallery"
+	rsync -a --no-owner --no-group --remove-source-files "/tmp/piwigo/" "/config/www/gallery"
 #	rm -rf /tmp/piwigo
 fi
 
