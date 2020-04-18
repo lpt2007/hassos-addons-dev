@@ -99,20 +99,23 @@ fi
 # install piwigo
 echo "[INFO] install piwigo"
 if [ ! -f "/config/www/gallery/index.php" ]; then
+echo "[INFO] Piwigo gallery don't exist."
+echo "[INFO] Creating new gallery."
 	unzip -q /piwigo/piwigo.zip  -d /tmp
 #	mv /tmp/piwigo/ /config/www/gallery
 	rsync -a --no-owner --no-group --remove-source-files "/tmp/piwigo/" "/config/www/gallery"
 #	rm -rf /tmp/piwigo
 fi
-
+echo "[INFO] Piwigo gallery exist."
 # copy config
-echo "[INFO] copy config"
+echo "[INFO] Checking Piwago configuration"
 [[ ! -f "/config/www/gallery/local/config/config.inc.php" ]] && \
 	cp /config/www/gallery/include/config_default.inc.php \
 	/config/www/gallery/local/config/config.inc.php
-
+	
+echo "[INFO] Piwigo configuration exist."
 # permissions
-echo "[INFO] fix permissions"
+echo "[INFO] fixing permissions"
 chown -R abc:abc \
 	/config
 
