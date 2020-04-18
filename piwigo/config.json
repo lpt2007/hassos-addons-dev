@@ -1,6 +1,6 @@
 {
   "name": "PIWIGO",
-  "version": "dev-0.1.8a",
+  "version": "dev-0.1.9a",
   "slug": "piwigo",
   "description": "PIWIGO photo share add-on!",
   "arch": ["amd64", "i386"],
