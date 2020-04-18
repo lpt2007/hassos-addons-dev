@@ -5,7 +5,7 @@ ARG BUILD_DATE
 ARG VERSION
 ARG PIWIGO_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="sparklyballs"
+LABEL maintainer="its"
 
 RUN \
  echo "**** install packages ****" && \
@@ -36,6 +36,7 @@ RUN \
 	unzip \
 	jq \
 	cifs-utils \
+	rsync \
 	wget && \
  echo "**** download piwigo ****" && \
  if [ -z ${PIWIGO_RELEASE+x} ]; then \
