@@ -7,10 +7,9 @@
   "startup": "application",
   "boot": "manual",
   "ports": {
-    "80/tcp": 80,
-    "443/tcp": 443
+    "80/tcp": 1995
   },
-  "webui": "http://[HOST]:[PORT:9981]/",
+  "webui": "http://[HOST]:[PORT:1995]/",
   "map": ["share:rw"],
   "options": {},
   "schema": {}
