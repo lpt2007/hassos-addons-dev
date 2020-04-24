@@ -1,0 +1,9 @@
+{
+  "build_from": {
+    "aarch64": "none",
+    "amd64": "seafileltd/seatable:0.9.7",
+    "armhf": "none",
+    "armv7": "none"
+  },
+  "args": {}
+}
