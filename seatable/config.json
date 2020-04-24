@@ -1,0 +1,17 @@
+{
+  "name": "SEATABLE",
+  "version": "dev-0.0.1a",
+  "slug": "tvheadend",
+  "description": "When Spreadsheet meets database add-on!",
+  "arch": ["amd64"],
+  "startup": "application",
+  "boot": "manual",
+  "ports": {
+    "9981/tcp": 9981,
+    "9982/tcp": 9982
+  },
+  "webui": "http://[HOST]:[PORT:9981]/",
+  "map": ["share:rw"],
+  "options": {},
+  "schema": {}
+}
