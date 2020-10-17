@@ -8,6 +8,7 @@
     "panel_icon": "mdi: television",
     "url": "https://github.com/lpt2007/hassos-addons-dev/",
     "webui": "http://[HOST]:[PORT:9981]/",
+    "full_access": "true",
     "startup": "services",
     "arch": [
       "aarch64",
