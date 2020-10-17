@@ -2,7 +2,7 @@
     "name": "TVHeadend-new",
     "version": "0.1a",
     "stage": "experimental",
-    "slug": "tvheadend",
+    "slug": "tvheadend-new",
     "description": "TVHeadend Add-On",
     "panel_title": "TVH",
     "panel_icon": "mdi: television",
