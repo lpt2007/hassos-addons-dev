@@ -1,12 +1,12 @@
 {
-    "name": "TVHeadend",
-    "version": "0.1",
+    "name": "TVHeadend-new",
+    "version": "0.1a",
     "stage": "experimental",
     "slug": "tvheadend",
     "description": "TVHeadend Add-On",
     "panel_title": "TVH",
     "panel_icon": "mdi: television",
-    "url": "https://github.com/tringler/hassio-tvheadend",
+    "url": "https://github.com/lpt2007/hassos-addons-dev/",
     "webui": "http://[HOST]:[PORT:9981]/",
     "startup": "services",
     "arch": [
