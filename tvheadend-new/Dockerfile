@@ -6,7 +6,7 @@ RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/reposit
 RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/community' >> /etc/apk/repositories
 RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/main' >> /etc/apk/repositories
 RUN apk update
-RUN apk add tvheadend
+RUN apk add --update tvheadend
 #rm -rf /var/cache/apk/*
 
 RUN echo "[INFO] Starting TVHeadend"
