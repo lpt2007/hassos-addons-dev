@@ -17,8 +17,12 @@ RUN \
 #        "https://github.com/portainer/portainer/releases/download/1.23.2/portainer-1.23.2-linux-${ARCH}.tar.gz" \
 #        | tar zxvf - -C /opt/
 
-# Copy root filesystem
-#COPY rootfs /
+RUN apk add --update vlan && rm -rf /var/cache/apk/*
+
+RUN echo "[INFO] Starting TVHeadend"
+COPY run.sh /run.sh
+RUN chmod +x /run.sh
+ENTRYPOINT ["/bin/bash", "-c", "/run.sh"]
 
 # Build arguments
 ARG BUILD_DATE
