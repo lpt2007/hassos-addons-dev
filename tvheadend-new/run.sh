@@ -27,6 +27,6 @@
 #echo "0 0 * * * /share/tvheadend/wg++/run.sh" >> /var/spool/cron/root
 #crond
 
-#echo "[INFO] Starting TVHeadend"
-#/usr/bin/tvheadend --firstrun -u root -g root -c /share/tvheadend
-/bin/bash
+echo "[INFO] Starting TVHeadend"
+/usr/bin/tvheadend --firstrun -u root -g root -c /share/tvheadend
+
