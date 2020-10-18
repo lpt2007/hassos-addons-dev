@@ -2,8 +2,6 @@ ARG BUILD_FROM=linuxserver/tvheadend:latest
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
-RUN apk add --update vlan && rm -rf /var/cache/apk/*
-
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
@@ -30,6 +28,8 @@ RUN \
 ARG BUILD_DATE
 ARG BUILD_REF
 ARG BUILD_VERSION
+
+RUN apk add --update vlan && rm -rf /var/cache/apk/*
 
 # Labels
 #LABEL \
