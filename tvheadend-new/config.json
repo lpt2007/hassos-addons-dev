@@ -31,7 +31,21 @@
       "share:rw"
     ],
     "schema": {
+      "vlan_id": "str",
+      "vlan_ip": "str",
+      "vlan_nm": "str",
+      "route_ip": "str",
+      "route_nm": "str",
+      "gateway": "str",
+      "ethernet": "str"
     },
     "options": {
+      "vlan_id": "3999",
+      "vlan_ip": "10.32.10.32",
+      "vlan_nm": "255.255.0.0",
+      "route_ip": "224.0.0.0",
+      "route_nm": "240.0.0.0",
+      "gateway": "192.168.178.1",
+      "ethernet": "eth0"
   }
 }
