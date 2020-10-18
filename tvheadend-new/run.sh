@@ -1,36 +1,25 @@
 #!/bin/bash
-#set -e
-#
-#OPTIONS_PATH=/data/options.json
-#
-#echo "[INFO] setup vlan"
-#vlan_id=$(jq -r '.vlan_id' $OPTIONS_PATH)
-#vlan_ip=$(jq -r '.vlan_ip' $OPTIONS_PATH)
-#vlan_nm=$(jq -r '.vlan_nm' $OPTIONS_PATH)
-#route_ip=$(jq -r '.route_ip' $OPTIONS_PATH)
-#route_nm=$(jq -r '.route_nm' $OPTIONS_PATH)
-#gateway=$(jq -r '.gateway' $OPTIONS_PATH)
-#ethernet=$(jq -r '.ethernet' $OPTIONS_PATH)
-#
-#vconfig add eth0 3999
-#ifconfig $ethernet.$vlan_id $vlan_ip netmask $vlan_nm up
-#route add -net $route_ip netmask $route_nm dev $ethernet.$vlan_id
-#sysctl -w net.ipv4.conf.$ethernet.$vlan_id.rp_filter=0
-#sysctl -w net.ipv4.conf.all.rp_filter=0
-#(
-#usleep 65000000
-#route add default gw $gateway $ethernet
-#)&
+set -e
 
-usleep 1000000
-vconfig add eth0 3999
-ifconfig eth0.3999 10.32.10.32 netmask 255.255.0.0 up
-route add -net 224.0.0.0 netmask 240.0.0.0 dev eth0.3999
-sysctl -w net.ipv4.conf.eth0.3999.rp_filter=0
+OPTIONS_PATH=/data/options.json
+
+echo "[INFO] setup vlan"
+vlan_id=$(jq -r '.vlan_id' $OPTIONS_PATH)
+vlan_ip=$(jq -r '.vlan_ip' $OPTIONS_PATH)
+vlan_nm=$(jq -r '.vlan_nm' $OPTIONS_PATH)
+route_ip=$(jq -r '.route_ip' $OPTIONS_PATH)
+route_nm=$(jq -r '.route_nm' $OPTIONS_PATH)
+gateway=$(jq -r '.gateway' $OPTIONS_PATH)
+ethernet=$(jq -r '.ethernet' $OPTIONS_PATH)
+
+vconfig add $ethernet $vlan_id
+ifconfig $ethernet.$vlan_id $vlan_ip netmask $vlan_nm up
+route add -net $route_ip netmask $route_nm dev $ethernet.$vlan_id
+sysctl -w net.ipv4.conf.$ethernet.$vlan_id.rp_filter=0
 sysctl -w net.ipv4.conf.all.rp_filter=0
 (
 usleep 65000000
-route add default gw 192.168.178.1 eth0
+route add default gw $gateway $ethernet
 )&
 
 #mkdir -p /share/tvheadend/recordings
