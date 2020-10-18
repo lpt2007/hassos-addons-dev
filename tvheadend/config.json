@@ -1,6 +1,6 @@
 {
   "name": "TVHEADEND",
-  "version": "dev-0.13b",
+  "version": "dev-0.14b",
   "slug": "tvheadend",
   "description": "Server for IPTV add-on!",
   "arch": ["aarch64", "amd64", "armhf", "armv7"],
