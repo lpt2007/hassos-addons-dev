@@ -22,6 +22,8 @@ RUN apk add --update vlan && rm -rf /var/cache/apk/*
 RUN echo "[INFO] Starting TVHeadend"
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
+COPY setup_vlan.sh /setup_vlan.sh
+RUN chmod +x /setup_vlan.sh
 ENTRYPOINT ["/bin/bash", "-c", "/run.sh"]
 
 # Build arguments
