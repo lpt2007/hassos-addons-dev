@@ -2,6 +2,8 @@ ARG BUILD_FROM=linuxserver/tvheadend:latest
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
+RUN apk add --update vlan && rm -rf /var/cache/apk/*
+
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
@@ -17,14 +19,12 @@ RUN \
 #        "https://github.com/portainer/portainer/releases/download/1.23.2/portainer-1.23.2-linux-${ARCH}.tar.gz" \
 #        | tar zxvf - -C /opt/
 
-RUN apk add --update vlan && rm -rf /var/cache/apk/*
-
-RUN echo "[INFO] Starting TVHeadend"
-COPY run.sh /run.sh
-RUN chmod +x /run.sh
-COPY setup_vlan.sh /setup_vlan.sh
-RUN chmod +x /setup_vlan.sh
-ENTRYPOINT ["/bin/bash", "-c", "/run.sh"]
+#RUN echo "[INFO] Starting TVHeadend"
+#COPY run.sh /run.sh
+#RUN chmod +x /run.sh
+#COPY setup_vlan.sh /setup_vlan.sh
+#RUN chmod +x /setup_vlan.sh
+#ENTRYPOINT ["/bin/bash", "-c", "/run.sh"]
 
 # Build arguments
 ARG BUILD_DATE
