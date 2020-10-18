@@ -14,7 +14,7 @@ ENTRYPOINT ["/bin/bash", "-c", "/run.sh"]
 
 # Labels
 LABEL \
-    io.hass.name="TVHeadend" \
+    io.hass.name="TVHeadend-new" \
     io.hass.description="TVHeadend Add-On" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
@@ -22,8 +22,8 @@ LABEL \
     maintainer="https://github.com/lpt2007" \
     org.label-schema.description="TVHeadend Add-On" \
     org.label-schema.build-date=${BUILD_DATE} \
-    org.label-schema.name="TVHeadend" \
-    org.label-schema.schema-version="0.1" \
+    org.label-schema.name="TVHeadend-new" \
+    org.label-schema.schema-version="0.27a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/tvheadend-new" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/tvheadend-new" \
     org.label-schema.vcs-ref=${BUILD_REF} \
