@@ -12,6 +12,20 @@ route_nm=$(jq -r '.route_nm' $OPTIONS_PATH)
 gateway=$(jq -r '.gateway' $OPTIONS_PATH)
 ethernet=$(jq -r '.ethernet' $OPTIONS_PATH)
 
+echo "[INFO] Check if vlan exist"
+function ifup {
+    if [[ ! -d /sys/class/net/${1} ]]; then
+        printf 'No such interface: %s\n' "$1" >&2
+        return 1
+    else
+        [[ $(</sys/class/net/${1}/operstate) == up ]]
+    fi
+}
+
+if ifup $ethernet.$vlan_id; then
+    echo "Online"
+else
+    echo "Not online"
 vconfig add $ethernet $vlan_id
 ifconfig $ethernet.$vlan_id $vlan_ip netmask $vlan_nm up
 route add -net $route_ip netmask $route_nm dev $ethernet.$vlan_id
@@ -21,6 +35,7 @@ sysctl -w net.ipv4.conf.all.rp_filter=0
 usleep 65000000
 route add default gw $gateway $ethernet
 )&
+fi
 
 #mkdir -p /share/tvheadend/recordings
 #mkdir -p ~/.wg++
