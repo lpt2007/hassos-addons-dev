@@ -7,6 +7,9 @@ RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/community' >> /etc/apk/repos
 RUN echo 'http://dl-cdn.alpinelinux.org/alpine/edge/main' >> /etc/apk/repositories
 RUN apk update && apk upgrade && apk add --update tvheadend git && rm -rf /var/cache/apk/*
 
+RUN echo "[INFO] Installing vlan"
+RUN apk add vlan
+
 RUN echo "[INFO] Starting TVHeadend"
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
@@ -23,7 +26,7 @@ LABEL \
     org.label-schema.description="TVHeadend Add-On" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="TVHeadend-new" \
-    org.label-schema.schema-version="0.31a" \
+    org.label-schema.schema-version="0.32a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/tvheadend-new" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/tvheadend-new" \
     org.label-schema.vcs-ref=${BUILD_REF} \
