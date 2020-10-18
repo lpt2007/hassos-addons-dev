@@ -29,3 +29,4 @@
 
 #echo "[INFO] Starting TVHeadend"
 #/usr/bin/tvheadend --firstrun -u root -g root -c /share/tvheadend
+/usr/bin/tvheadend -f
