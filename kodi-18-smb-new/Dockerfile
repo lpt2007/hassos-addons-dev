@@ -10,7 +10,7 @@ RUN apk update && apk upgrade && apk add --update kodi && rm -rf /var/cache/apk/
 RUN echo "[INFO] Installing SAMBA"
 RUN apk add cifs-utils
 
-RUN apk add mesa-dri-vc4
+RUN apk add mesa-dri-vc4 mesa-egl xf86-video-fbdev xf86-video-vesa xf86-input-mouse xf86-input-keyboard dbus setxkbmap kbd xrandr xset xinit xterm xorg-server
 
 RUN echo "[INFO] Starting KODI"
 COPY run.sh /run.sh
