@@ -20,7 +20,7 @@
     "8080/tcp": 8080
   },
    "ports_description": {
-      "8080/tcp": "KODI control port",
+      "8080/tcp": "KODI control port"
   },
   "map": ["share:rw","ssl:rw"],
   "options": {
