@@ -140,4 +140,5 @@ fi
 ##
 #run kodi
 echo "[INFO] Started KODI media center"
-/usr/bin/kodi
+#/usr/bin/kodi
+xinit kodi
