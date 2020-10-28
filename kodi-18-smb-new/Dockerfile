@@ -12,6 +12,8 @@ RUN apk add cifs-utils
 
 RUN apk add mesa-dri-vc4 mesa-egl xf86-video-fbdev xf86-video-vesa xf86-input-mouse xf86-input-keyboard dbus setxkbmap kbd xrandr xset xinit xterm xorg-server
 
+RUN apk add libcec
+
 RUN echo "[INFO] Starting KODI"
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
@@ -28,7 +30,7 @@ LABEL \
     org.label-schema.description="TVHeadend Add-On" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi-18-smb-new" \
-    org.label-schema.schema-version="0.16a" \
+    org.label-schema.schema-version="0.17a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb-new" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb-new" \
     org.label-schema.vcs-ref=${BUILD_REF} \
