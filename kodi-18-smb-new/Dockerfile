@@ -28,7 +28,7 @@ LABEL \
     org.label-schema.description="TVHeadend Add-On" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi-18-smb-new" \
-    org.label-schema.schema-version="0.15a" \
+    org.label-schema.schema-version="0.16a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb-new" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb-new" \
     org.label-schema.vcs-ref=${BUILD_REF} \
