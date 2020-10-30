@@ -1,4 +1,4 @@
-ARG BUILD_FROM=homeassistant/base
+ARG BUILD_FROM=homeassistant/base-raspbian
 FROM ${BUILD_FROM}
 
 #RUN echo "[INFO] install minimal dependencies"
