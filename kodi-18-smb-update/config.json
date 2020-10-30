@@ -1,26 +1,26 @@
 {
   "name": "KODI 18.6 with SMB",
-  "version": "0.4.4a",
-  "slug": "kodi_18_smb",
+  "version": "0.4.41a",
+  "slug": "kodi-18-smb-update",
   "description": "KODI 18.6 media center with samba store add-on!",
-  "arch": ["armhf", "armv7"],
+  "arch": ["armhf"],
   "startup": "application",
   "boot": "manual",
   "ports": {
     "8080/tcp": 8080
   },
-  "devices": [
-    "/dev/fb0:/dev/fb0:rwm",
-    "/dev/vchiq:/dev/vchiq:rwm",
-    "/dev/input:/dev/input:rwm",
-    "/dev/tty:/dev/tty:rwm",
-    "/dev/snd:/dev/snd:rwm",
-    "/dev/bus:/dev/bus:rwm",
-    "/dev/vcio:/dev/vcio:rwm",
-    "/dev/vcsm:/dev/vcsm:rwm",
-    "/dev/vc-mem:/dev/vc-mem:rwm"    
-  ],
-  "privileged": ["SYS_ADMIN","DAC_READ_SEARCH"],
+#  "devices": [
+#    "/dev/fb0:/dev/fb0:rwm",
+#    "/dev/vchiq:/dev/vchiq:rwm",
+#    "/dev/input:/dev/input:rwm",
+#    "/dev/tty:/dev/tty:rwm",
+#    "/dev/snd:/dev/snd:rwm",
+#    "/dev/bus:/dev/bus:rwm",
+#    "/dev/vcio:/dev/vcio:rwm",
+#    "/dev/vcsm:/dev/vcsm:rwm",
+#    "/dev/vc-mem:/dev/vc-mem:rwm"    
+#  ],
+#  "privileged": ["SYS_ADMIN","DAC_READ_SEARCH"],
   "full_access": "true",
   "map": ["share:rw","ssl:rw"],
   "options": {
