@@ -4,7 +4,8 @@ FROM homeassistant/armhf-base-raspbian
 
 RUN echo "[INFO] install minimal dependencies"
 RUN apt-get clean && apt-get update
-#RUN apt-get install -y --no-install-recommends xserver-xorg xinit
+RUN apt-get install -y --no-install-recommends xserver-xorg xinit \
+                    cifs-utils
 #     fbset \
 #     libraspberrypi0 \
 #     alsa-base \
@@ -13,7 +14,6 @@ RUN apt-get clean && apt-get update
 #     xserver-xorg-legacy \
 #     dbus-x11 \
 #     sudo \
-#     cifs-utils \
 #     jq \
 #     nano
 
