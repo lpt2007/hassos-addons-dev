@@ -57,15 +57,15 @@ ENTRYPOINT ["/bin/bash", "-c", "/run.sh"]
 # Labels
 LABEL \
     io.hass.name="kodi-18-smb-update" \
-    io.hass.description="Media Player Add-On - updated from 0.4.4a" \
+    io.hass.description="KODI 18.8 with SMB - updated form 0.4.4a" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="https://github.com/lpt2007" \
-    org.label-schema.description="Media Player Add-On - updated from 0.4.4a" \
+    org.label-schema.description="KODI 18.8 with SMB - updated form 0.4.4a" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi-18-smb-update" \
-    org.label-schema.schema-version="0.4.41a" \
+    org.label-schema.schema-version="dev-0.4.41a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb-update" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb-update" \
     org.label-schema.vcs-ref=${BUILD_REF} \
