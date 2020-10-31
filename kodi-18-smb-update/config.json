@@ -1,6 +1,6 @@
 {
   "name": "KODI 18.8 with SMB - updated form 0.4.4a",
-  "version": "dev-0.4.415a",
+  "version": "dev-0.4.416a",
   "stage": "experimental",
   "slug": "kodi-18-smb-update",
   "description": "KODI 18.8 with SMB - updated form 0.4.4an",
@@ -26,6 +26,7 @@
   "host_dbus":"yes",
   "map": ["share:rw","ssl:rw"],
   "video": "true",
+  "audio": "true",
   "usb": "true",
   "options": {
     "kodi_data": "kodi",
