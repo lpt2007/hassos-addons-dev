@@ -7,7 +7,7 @@ RUN apt-get clean && apt-get update
 RUN apt-get install -y --no-install-recommends xserver-xorg xinit \
                     cifs-utils \
                     fbset
-#                   libraspberrypi0
+RUN apt-get install -y libraspberrypi0
 #                    alsa-base \
 #                    alsa-utils \
 #                    alsa-tools \
