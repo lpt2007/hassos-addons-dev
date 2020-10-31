@@ -7,7 +7,7 @@ RUN apt-get clean && apt-get update
 RUN apt-get install -y --no-install-recommends xserver-xorg xinit \
                     cifs-utils \
                     fbset
-RUN apt-get install -y xserver-xorg-legacy
+RUN apt-get install -y xserver-xorg-legacy xorg
 # ne dela libraspberrypi0
 #                    alsa-base \
 #                    alsa-utils \
@@ -60,7 +60,7 @@ LABEL \
     org.label-schema.description="KODI 18.8 with SMB - updated form 0.4.4a" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi-18-smb-update" \
-    org.label-schema.schema-version="dev-0.4.419a" \
+    org.label-schema.schema-version="dev-0.4.420a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb-update" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb-update" \
     org.label-schema.vcs-ref=${BUILD_REF} \
