@@ -1,15 +1,25 @@
 {
   "name": "KODI 18.7 with SMB",
-  "version": "0.5.09a",
+  "version": "0.5.10a",
+  "stage": "experimental",
   "slug": "kodi_18_smb",
   "description": "KODI 18.7 media center with samba store add-on!",
+  "url": "https://github.com/lpt2007/hassos-addons-dev/",
+  "webui": "http://[HOST]:[PORT:8080]/",
+  "full_access": "true",
   "arch": ["armhf", "armv7"],
   "startup": "application",
-  "boot": "manual",
   "ports": {
     "8080/tcp": 8080
   },
-  "full_access": "true",
+   "ports_description": {
+     "8080/tcp": "KODI control port"
+  },
+  "host_network": "true",
+  "host_dbus":"yes",
+  "video": "true",
+  "audio": "true",
+  "usb": "true",
   "map": ["share:rw","ssl:rw"],
   "options": {
     "kodi_data": "kodi",
