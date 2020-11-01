@@ -1,7 +1,7 @@
 #FROM b01t/raspbian
 #ARG BUILD_FROM=homeassistant/armhf-base-raspbian:latest
 #FROM ${BUILD_FROM}
-FROM homeassistant/armhf-base-raspbian
+FROM homeassistant/armhf-base-raspbian:buster
 RUN echo "[INFO] install minimal dependencies"
 #RUN apt-get clean && apt-get update
 RUN sudo apt-get install -y --no-install-recommends xserver-xorg xinit cifs-utils fbset
