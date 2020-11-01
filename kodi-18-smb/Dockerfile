@@ -4,13 +4,13 @@ FROM b01t/raspbian
 RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
      libraspberrypi0 \
+     cifs-utils
 #     alsa-base \
 #     alsa-utils \
 #     alsa-tools \
 #    xserver-xorg-legacy \
 #     dbus-x11 \
 #     sudo \
-     cifs-utils
 #     jq \
 #     nano
 
