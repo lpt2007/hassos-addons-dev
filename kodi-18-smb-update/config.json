@@ -1,9 +1,9 @@
 {
   "name": "KODI 18.8 with SMB - updated form 0.4.4a",
-  "version": "dev-0.4.423a",
+  "version": "dev-0.4.424a",
   "stage": "experimental",
   "slug": "kodi-18-smb-update",
-  "description": "KODI 18.8 with SMB - updated form 0.4.4an",
+  "description": "KODI 18.8 with SMB - updated form 0.4.4a",
   "url": "https://github.com/lpt2007/hassos-addons-dev/",
   "webui": "http://[HOST]:[PORT:8080]/",
   "full_access": "true",
