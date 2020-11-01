@@ -1,6 +1,7 @@
 {
   "build_from": {
-      "armhf": "homeassistant/armhf-base-raspbian"
+      "armhf": "homeassistant/armhf-base-raspbian",
+      "armv7": "homeassistant/armhf-base-raspbian"
   },
   "args": {}
 }
