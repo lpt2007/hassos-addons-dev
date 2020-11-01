@@ -11,7 +11,7 @@ RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommend
      nano
 
 ### install latest kodi
-RUN apt-get install -y kodi
+RUN apt-get install kodi
 
 ### Copy data for add-on and make right privilages
 COPY run.sh /
