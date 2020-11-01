@@ -1,7 +1,5 @@
 FROM b01t/raspbian
-##
-MAINTAINER lpt2007 <mohyat@gmail.com>
-##
+
 ### install minimal dependencies
 RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
@@ -15,12 +13,7 @@ RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommend
      cifs-utils \
      jq \
      nano
-##
-### added pi user to sudders
-#RUN adduser pi && \
-#    echo "pi ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/pi && \
-#    chmod 0440 /etc/sudoers.d/pi
-##
+
 ### install latest kodi
 #RUN su - pi -c "sudo apt-get install -y kodi" \
 RUN apt-get install -y kodi \
