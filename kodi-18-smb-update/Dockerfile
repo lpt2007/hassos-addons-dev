@@ -3,7 +3,7 @@ ARG BUILD_FROM=homeassistant/base-raspbian
 FROM ${BUILD_FROM}
 
 RUN echo "[INFO] install minimal dependencies"
-RUN apt-get clean && apt-get update
+#RUN apt-get clean && apt-get update
 RUN apt-get install -y --no-install-recommends xserver-xorg xinit \
                     cifs-utils \
                     fbset \
