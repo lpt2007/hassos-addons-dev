@@ -1,4 +1,4 @@
-ARG BUILD_FROM=homeassistant/armhf-base-raspbian
+ARG BUILD_FROM=raspbian-base
 FROM ${BUILD_FROM}
 
 # Set shell
