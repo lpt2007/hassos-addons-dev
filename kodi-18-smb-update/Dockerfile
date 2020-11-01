@@ -1,4 +1,4 @@
-FROM homeassistant/armhf-base-raspbian
+FROM b01t/raspbian
 #ARG BUILD_FROM=homeassistant/base-raspbian
 #FROM ${BUILD_FROM}
 
@@ -60,7 +60,7 @@ LABEL \
     org.label-schema.description="KODI 18.8 with SMB - updated form 0.4.4a" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi-18-smb-update" \
-    org.label-schema.schema-version="dev-0.4.420a" \
+    org.label-schema.schema-version="dev-0.4.421a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb-update" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb-update" \
     org.label-schema.vcs-ref=${BUILD_REF} \
