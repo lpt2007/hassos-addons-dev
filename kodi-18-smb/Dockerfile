@@ -3,7 +3,7 @@ FROM b01t/raspbian
 ### install minimal dependencies
 RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
-#     libraspberrypi0 \
+     libraspberrypi0 \
 #     alsa-base \
 #     alsa-utils \
 #     alsa-tools \
