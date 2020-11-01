@@ -3,8 +3,8 @@ FROM b01t/raspbian
 ### install minimal dependencies
 RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
-     libraspberrypi0
-     cifs-utils
+     libraspberrypi0 \
+     cifs-utils \
      xserver-xorg-legacy \
      dbus-x11 \
      jq \
