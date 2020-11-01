@@ -1,6 +1,9 @@
 ARG BUILD_FROM=base-debian
 FROM ${BUILD_FROM}
 
+# Set shell
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
 RUN echo "[INFO] install minimal dependencies"
 #RUN apt-get clean && apt-get update
 RUN apt-get install -y --no-install-recommends xserver-xorg xinit cifs-utils fbset
