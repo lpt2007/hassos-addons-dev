@@ -1,6 +1,6 @@
 {
   "build_from": {
-      "armhf": "hassioaddons/debian-base-armhf"
+      "armhf": "homeassistant/armhf-base-raspbian"
   },
   "args": {}
 }
