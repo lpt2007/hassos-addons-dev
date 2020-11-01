@@ -4,15 +4,11 @@ FROM b01t/raspbian
 RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
      libraspberrypi0
-#    cifs-utils
-#     alsa-base \
-#     alsa-utils \
-#     alsa-tools \
-#    xserver-xorg-legacy \
-#     dbus-x11 \
-#     sudo \
-#     jq \
-#     nano
+     cifs-utils
+     xserver-xorg-legacy \
+     dbus-x11 \
+     jq \
+     nano
 
 ### install latest kodi
 #RUN su - pi -c "sudo apt-get install -y kodi" \
