@@ -30,15 +30,15 @@ ENTRYPOINT ["/bin/bash", "-c", "/run.sh"]
 ### Labels
 LABEL \
     io.hass.name="kodi-18-smb" \
-    io.hass.description="KODI 18.9 with SMB rewrite" \
+    io.hass.description="KODI 18.7 with SMB rewrite" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
     maintainer="https://github.com/lpt2007" \
-    org.label-schema.description="KODI 18.9 with SMB rewrite" \
+    org.label-schema.description="KODI 18.7 with SMB rewrite" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi-18-smb-update" \
-    org.label-schema.schema-version="dev-0.5.09a" \
+    org.label-schema.schema-version="dev-0.5.10a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.vcs-ref=${BUILD_REF} \
