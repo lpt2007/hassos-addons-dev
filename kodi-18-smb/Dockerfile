@@ -8,10 +8,8 @@ RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommend
      xserver-xorg-legacy \
      dbus-x11 \
      jq \
-     nano
-
-### install latest kodi
-RUN apt-get install kodi
+     nano \
+     kodi
 
 ### Copy data for add-on and make right privilages
 COPY run.sh /
