@@ -7,6 +7,7 @@
   "url": "https://github.com/lpt2007/hassos-addons-dev/",
   "webui": "http://[HOST]:[PORT:8080]/",
   "full_access": "true",
+  "boot": "manual",
   "arch": ["armhf", "armv7"],
   "startup": "application",
   "ports": {
