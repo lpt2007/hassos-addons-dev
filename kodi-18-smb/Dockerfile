@@ -1,15 +1,7 @@
 FROM b01t/raspbian
 
 ### install minimal dependencies
-RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommends xserver-xorg xinit \
-     fbset \
-     libraspberrypi0 \
-     cifs-utils \
-     xserver-xorg-legacy \
-     dbus-x11 \
-     jq \
-     nano \
-     kodi
+RUN apt-get clean && apt-get update && apt-get install -y kodi
 
 ### Copy data for add-on and make right privilages
 COPY run.sh /
