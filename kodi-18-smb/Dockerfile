@@ -41,12 +41,12 @@ RUN cd /tmp && git clone http://github.com/raspberrypi/userland && sed -i 's/set
 RUN ln -s /opt/vc/bin/tvservice /usr/bin/tvservice
 ##
 #### configure Kodi group
-RUN sudo usermod -a -G audio root && \
-sudo usermod -a -G video root && \
-sudo usermod -a -G input root && \
-sudo usermod -a -G dialout root && \
-sudo usermod -a -G plugdev root && \
-sudo usermod -a -G tty root
+#RUN sudo usermod -a -G audio root && \
+#sudo usermod -a -G video root && \
+#sudo usermod -a -G input root && \
+#sudo usermod -a -G dialout root && \
+#sudo usermod -a -G plugdev root && \
+#sudo usermod -a -G tty root
 ##
 ### Copy data for add-on and make right privilages
 COPY run.sh /
@@ -66,7 +66,7 @@ LABEL \
     org.label-schema.description="KODI 18.9 with SMB rewrite" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi-18-smb-update" \
-    org.label-schema.schema-version="dev-0.5.01a" \
+    org.label-schema.schema-version="dev-0.5.02a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.vcs-ref=${BUILD_REF} \
