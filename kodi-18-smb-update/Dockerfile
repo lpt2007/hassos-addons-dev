@@ -1,5 +1,5 @@
 #FROM b01t/raspbian
-ARG BUILD_FROM=homeassistant/armhf-base-raspbian
+ARG BUILD_FROM=homeassistant/armhf-base-raspbian:latest
 FROM ${BUILD_FROM}
 
 RUN echo "[INFO] install minimal dependencies"
