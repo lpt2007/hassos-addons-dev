@@ -1,7 +1,7 @@
 #FROM b01t/raspbian
-ARG BUILD_FROM=homeassistant/armhf-base-raspbian:latest
-FROM ${BUILD_FROM}
-
+#ARG BUILD_FROM=homeassistant/armhf-base-raspbian:latest
+#FROM ${BUILD_FROM}
+FROM homeassistant/armhf-base-raspbian
 RUN echo "[INFO] install minimal dependencies"
 #RUN apt-get clean && apt-get update
 RUN apt-get install -y --no-install-recommends xserver-xorg xinit \
