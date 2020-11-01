@@ -2,7 +2,7 @@ ARG BUILD_FROM=debian-base
 FROM ${BUILD_FROM}
 
 # Set shell
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+#SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 RUN echo "[INFO] install minimal dependencies"
 #RUN apt-get clean && apt-get update
