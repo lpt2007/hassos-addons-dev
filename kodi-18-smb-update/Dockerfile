@@ -1,4 +1,4 @@
-ARG BUILD_FROM=base-debian
+ARG BUILD_FROM=debian-base
 FROM ${BUILD_FROM}
 
 # Set shell
