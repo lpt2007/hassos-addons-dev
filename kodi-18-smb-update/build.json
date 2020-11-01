@@ -1,10 +1,10 @@
 {
   "build_from": {
-      "aarch64": "homeassistant/debian-base-aarch64",
-      "amd64": "homeassistant/debian-base-amd64",
-      "armv7": "homeassistant/debian-base-armv7",
-      "armhf": "homeassistant/debian-base-armhf",
-      "i386": "homeassistant/debian-base-i386"
+      "aarch64": "hassioaddons/debian-base-aarch64",
+      "amd64": "hassioaddons/debian-base-amd64",
+      "armv7": "hassioaddons/debian-base-armv7",
+      "armhf": "hassioaddons/debian-base-armhf",
+      "i386": "hassioaddons/debian-base-i386"
   },
   "args": {}
 }
