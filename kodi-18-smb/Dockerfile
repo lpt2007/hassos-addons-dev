@@ -16,7 +16,7 @@ RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommend
 
 ### install latest kodi
 #RUN su - pi -c "sudo apt-get install -y kodi" \
-RUN apt-get install -y kodi \
+RUN apt-get install -y kodi
 #        kodi-peripheral-joystick \
 #        kodi-pvr-iptvsimple \
 #        kodi-inputstream-rtmp
