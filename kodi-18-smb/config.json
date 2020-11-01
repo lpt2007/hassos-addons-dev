@@ -9,17 +9,6 @@
   "ports": {
     "8080/tcp": 8080
   },
-  "devices": [
-    "/dev/fb0:/dev/fb0:rwm",
-    "/dev/vchiq:/dev/vchiq:rwm",
-    "/dev/input:/dev/input:rwm",
-    "/dev/tty:/dev/tty:rwm",
-    "/dev/snd:/dev/snd:rwm",
-    "/dev/bus:/dev/bus:rwm",
-    "/dev/vcio:/dev/vcio:rwm",
-    "/dev/vcsm:/dev/vcsm:rwm",
-    "/dev/vc-mem:/dev/vc-mem:rwm"    
-  ],
   "privileged": ["SYS_ADMIN","DAC_READ_SEARCH"],
   "full_access": "true",
   "map": ["share:rw","ssl:rw"],
