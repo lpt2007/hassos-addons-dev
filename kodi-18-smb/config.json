@@ -23,6 +23,7 @@
   "usb": "true",
   "map": ["share:rw","ssl:rw"],
   "options": {
+    "smb": false,
     "kodi_data": "kodi",
     "smb_ip": "192.168.0.198",
     "smb_path": "smb$/data",
@@ -30,6 +31,7 @@
     "smb_pass": "smbpass"
   },
   "schema": {
+    "smb": "bool",
     "kodi_data": "str",
     "smb_ip": "str",
     "smb_path": "str",
