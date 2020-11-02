@@ -46,7 +46,7 @@ if [ "$smb_user" == "" ]; then
          fi
 fi
 ##
-#add samba share
+#add samba share to fstab
 smb_ip=$(jq -r '.smb_ip' $OPTIONS_PATH)
 smb_path=$(jq -r '.smb_path' $OPTIONS_PATH)
 if [ "$smb_ip" == "" ]; then
