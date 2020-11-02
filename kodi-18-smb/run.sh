@@ -2,6 +2,15 @@
 set -e
 
 OPTIONS_PATH=/data/options.json
+#
+#read if samab use true or false
+smb=$(jq -r '.smb' $OPTIONS_PATH)
+##
+#check smb true/false
+#true - proceed to samba configuration
+if [ "$smb" == "true" ]; then
+##
+echo "[INFO] Start KODI with SMB prestart"
 ##
 #make directory structure in not exist - locale
 mkdir -p /share/its
@@ -103,6 +112,27 @@ fi
             mkdir -p /share/its/loc_data/$kodi_data
             echo "[INFO] Making symbolic link to /share/its/smb_data/$kodi_data/userdata/Database"
             ln -s  /share/its/loc_data/$kodi_data /share/its/smb_data/$kodi_data/userdata/Database
+fi
+##
+else
+echo "[INFO] Start KODI prestart"
+##
+#make directory structure in not exist - locale
+mkdir -p /share/its
+mkdir -p /share/its/data
+##
+#make directory structure in not exist - smb
+kodi_data=$(jq -r '.kodi_data' $OPTIONS_PATH)
+if [ "$kodi_data" == "" ]; then
+            echo "[INFO] No kodi folder configured"
+        else
+            echo "[INFO] Fond kodi folder $kodi_data"
+            mkdir -p /share/its/data/$kodi_data
+            ##
+            #make simbolic link to data folder
+            echo "[INFO] Making symbolic link from /root/.kodi to /share/its/data/$kodi_data"
+            ln -s /share/its/data/$kodi_data /root/.kodi
+fi
 fi
 ##
 #run kodi
