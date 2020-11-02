@@ -132,6 +132,7 @@ if [ "$kodi_data" == "" ]; then
             #make simbolic link to data folder
             echo "[INFO] Making symbolic link from /root/.kodi to /share/its/data/$kodi_data"
             ln -s /share/its/data/$kodi_data /root/.kodi
+            chown -R root /share/its/data/$kodi_data
 fi
 fi
 ##
