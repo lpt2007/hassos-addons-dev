@@ -1,0 +1,2239 @@
+#EXTM3U
+#EXTNAME:
+
+#EXTINF:0, 1 - TV SLO 1
+#EXTTV:Nacionalni;slv;Slo1.svn;SLO_1.png
+udp://@232.4.1.1:5002
+
+#EXTINF:0, 2 - TV SLO 2
+#EXTTV:Nacionalni;slv;Slo2.svn;SLO_2.png
+udp://@232.4.1.2:5002
+
+#EXTINF:0, 3 - Planet TV
+#EXTTV:Zabavni;slv;PlanetTV.svn;Planet_TV.png
+udp://@232.4.1.56:5002
+
+#EXTINF:0, 4 - POP TV
+#EXTTV:Zabavni;slv;PopTV.svn;POP_TV.png
+udp://@232.4.1.3:5002
+
+#EXTINF:0, 7 - TV3 medias
+#EXTTV:Zabavni;slv;TV3.svn;TV_3_Medias.png
+udp://@232.4.1.47:5002
+
+#EXTINF:0, 8 - Kanal A
+#EXTTV:Zabavni;slv;KanalA.svn;Kanal_A.png
+udp://@232.4.1.4:5002
+
+#EXTINF:0, 10 - Nova 24 TV SD
+#EXTTV:Informativni;slv;NovaTV24.svn;Nova_24_TV.png
+udp://@232.4.1.80:5002
+
+#EXTINF:0, 11 - TV Golica
+#EXTTV:Glasbeni;slv;GolicaTV.svn;TV_Golica.png
+udp://@232.4.1.19:5002
+
+#EXTINF:0, 12 - Top TV
+#EXTTV:Zabavni;slv;TopTV.svn;TOP_TV.png
+udp://@232.4.1.9:5002
+
+#EXTINF:0, 13 - Planet TV HD
+#EXTTV:Zabavni-HD;slv;PlanetTV.svn;Planet_TV.png
+udp://@232.4.1.55:5002
+
+#EXTINF:0, 14 - TV SLO 1 HD
+#EXTTV:Nacionalni-HD;slv;Slo1.svn;SLO_1.png
+udp://@232.4.1.53:5002
+
+#EXTINF:0, 15 - TV SLO 2 HD
+#EXTTV:Nacionalni-HD;slv;Slo2.svn;SLO_2.png
+udp://@232.4.1.54:5002
+
+#EXTINF:0, 16 - POP TV HD
+#EXTTV:Zabavni-HD;eng;PopTV.svn;POP_TV.png
+udp://@232.4.3.141:5002
+
+#EXTINF:0, 17 - KANAL A HD
+#EXTTV:Zabavni-HD;eng;KanalA.svn;Kanal_A.png
+udp://@232.4.3.142:5002
+
+#EXTINF:0, 101 - National Geographic
+#EXTTV:Dokumentarni;eng;NGC.svn;National_Geographic.png
+udp://@232.4.202.9:5003
+
+#EXTINF:0, 102 - National Geographic HD
+#EXTTV:Dokumentarni-HD;eng;NGCHD.svn;National_Geographic_HD.png
+udp://@232.4.6.3:5002
+
+#EXTINF:0, 103 - National Geographic Wild
+#EXTTV:Dokumentarni;eng;NGCwild.svn;National_Geographic_Wild.png
+udp://@232.4.203.16:5003
+
+#EXTINF:0, 104 - Nat Geo Wild HD
+#EXTTV:Dokumentarni-HD;eng;NGCWild.svn;National_Geographic_Wild.png
+udp://@232.4.3.134:5002
+
+#EXTINF:0, 105 - Discovery Channel
+#EXTTV:Dokumentarni;eng;Discovery.svn;Discovery_Channel.png
+udp://@232.4.202.8:5003
+
+#EXTINF:0, 106 - Discovery HD
+#EXTTV:Dokumentarni-HD;eng;DiscoveryHD.svn;Discovery_Channel_HD.png
+udp://@232.4.6.1:5002
+
+#EXTINF:0, 108 - History Channel
+#EXTTV:Dokumentarni;eng;HistoryChn.svn;History_Channel_HD.png
+udp://@232.4.3.18:5002
+
+#EXTINF:0, 109 - History Channel HD
+#EXTTV:Dokumentarni-HD;eng;HistoryChn.svn;History_Channel_HD.png
+udp://@232.4.6.2:5002
+
+#EXTINF:0, 110 - Discovery TLC
+#EXTTV:Dokumentarni;eng;TLC.svn;TLC.png
+udp://@232.4.3.15:5002
+
+#EXTINF:0, 111 - Investigation Discovery
+#EXTTV:Dokumentarni;eng;DiscoveryInvestigation.svn;Investigation_Discovery.png
+udp://@232.4.202.22:5003
+
+#EXTINF:0, 112 - Discovery C&I
+#EXTTV:Dokumentarni;eng;CI.svn;Crime_&_Investigation.png
+udp://@232.4.3.59:5002
+
+#EXTINF:0, 113 - Da Vinci Learning
+#EXTTV:Dokumentarni;eng;DaVinci.svn;Da_Vinci_Learning.png
+udp://@232.4.203.17:5003
+
+#EXTINF:0, 114 - Animal Planet
+#EXTTV:Dokumentarni;eng;AnimalPlanet.svn;Animal_Planet.png
+udp://@232.4.202.10:5003
+
+#EXTINF:0, 115 - Animal Planet HD
+#EXTTV:Dokumentarni-HD;eng;AnimalPlanet.svn;Animal_Planet.png
+udp://@232.4.6.14:5002
+
+#EXTINF:0, 116 - Travel Channel
+#EXTTV:Zabavni;eng;TravelChannel.svn;Travel_Channel.png
+udp://@232.4.202.20:5003
+
+#EXTINF:0, 117 - Travel Channel HD
+#EXTTV:Zabavni-HD;eng;TravelChannel.svn;Travel_Channel.png
+udp://@232.4.6.8:5002
+
+#EXTINF:0, 118 - DocuBOX HD
+#EXTTV:Dokumentarni-HD;eng;;DocuBOX_HD.png
+udp://@232.4.3.52:5002
+
+#EXTINF:0, 119 - Discovery Science
+#EXTTV:Dokumentarni;eng;DiscoveryScience.svn;Discovery_Science.png
+udp://@232.4.3.12:5002
+
+#EXTINF:0, 120 - Discovery Science HD
+#EXTTV:Dokumentarni-HD;eng;DiscoveryScience.svn;Discovery_Science.png
+udp://@232.4.3.129:5002
+
+#EXTINF:0, 121 - Discovery World
+#EXTTV:Dokumentarni;eng;DiscoveryWorld.svn;Discovery_World.png
+udp://@232.4.3.13:5002
+
+#EXTINF:0, 123 - CBS Reality
+#EXTTV:Dokumentarni;eng;CBSreality.svn;CBS_Reality.png
+udp://@232.4.202.21:5003
+
+#EXTINF:0, 124 - Outdoor
+#EXTTV:Dokumentarni;eng;Outdoor.svn;Outdoor_Channel.png
+udp://@232.4.3.61:5002
+
+#EXTINF:0, 125 - Outdoor HD
+#EXTTV:Dokumentarni-HD;eng;Outdoor.svn;Outdoor_Channel.png
+udp://@232.4.3.55:5002
+
+#EXTINF:0, 126 - Wild TV HD
+#EXTTV:Dokumentarni-HD;eng;WildTV.svn;Wild_TV_HD.png
+udp://@232.4.6.9:5002
+
+#EXTINF:0, 127 - ARD
+#EXTTV:Zabavni;ger;ARD.svn;Das_Erste_(ARD).png
+udp://@232.4.1.11:5002
+
+#EXTINF:0, 128 - Arte
+#EXTTV:Kulturni;deu;ARTE.svn;Arte.png
+udp://@232.4.1.43:5002
+
+#EXTINF:0, 130 - Viasat History
+#EXTTV:Dokumentarni;eng;ViasatHistory.svn;Viasat_History.png
+udp://@232.4.3.2:5002
+
+#EXTINF:0, 131 - Fine Living
+#EXTTV:Dokumentarni;eng;FLN.svn;Fine_Living_Net.png
+udp://@232.4.3.31:5002
+
+#EXTINF:0, 133 - BBC Earth HD
+#EXTTV:Dokumentarni-HD;eng;BBCEarth.svn;BBC_earth.png
+udp://@232.4.3.146:5002
+
+#EXTINF:0, 134 - Discovery TLC
+#EXTTV:Dokumentarni;eng;TLC.svn;TLC.png
+udp://@232.4.203.15:5003
+
+#EXTINF:0, 135 - Telecafe
+#EXTTV:Kulturni;;
+udp://@232.4.15.4:5002
+
+#EXTINF:0, 209 - Cinestar
+#EXTTV:Filmski;eng;CineStarTVv2.svn;CineStar_TV.png
+udp://@232.4.202.42:5003
+
+#EXTINF:0, 210 - Cinestar Action & Thriller
+#EXTTV:Filmski;eng;CineStarTVATv2.svn;CineStar_Action_Thriller.png
+udp://@232.4.203.46:5003
+
+#EXTINF:0, 211 - Cinestar Premiere 1
+#EXTTV:Filmski;eng;CinestarPremiere1.svn;CineStar_TV_Premiere_1_HD.png
+udp://@232.4.12.1:5002
+
+#EXTINF:0, 212 - Cinestar Premiere 1 HD
+#EXTTV:Filmski-HD;eng;CinestarPremiere1.svn;CineStar_TV_Premiere_1_HD.png
+udp://@232.4.212.128:5003
+
+#EXTINF:0, 213 - Cinestar Premiere 2
+#EXTTV:Filmski;eng;CinestarPremiere2.svn;CineStar_TV_Premiere_2.png
+udp://@232.4.12.2:5002
+
+#EXTINF:0, 214 - Cinestar Premiere 2 HD
+#EXTTV:Filmski-HD;eng;Cinestar Premiere 2;CineStar_TV_Premiere_2_HD.png
+udp://@232.4.212.129:5003
+
+#EXTINF:0, 215 - Fox
+#EXTTV:Serije;eng;FOX.svn;FOX.png
+udp://@232.4.2.46:5002
+
+#EXTINF:0, 216 - Fox HD
+#EXTTV:Filmski-HD;eng;FOX.svn;FOX.png
+udp://@232.4.3.138:5002
+
+#EXTINF:0, 217 - Fox Life
+#EXTTV:Serije;eng;FoxLife.svn;FOX_Life.png
+udp://@232.4.2.18:5002
+
+#EXTINF:0, 218 - Fox Life HD
+#EXTTV:Zabavni-HD;eng;FoxLife.svn;FOX_Life.png
+udp://@232.4.3.131:5002
+
+#EXTINF:0, 219 - Fox Crime
+#EXTTV:Serije;eng;FOXCrime.svn;FOX_Crime.png
+udp://@232.4.2.19:5002
+
+#EXTINF:0, 220 - Fox Crime HD
+#EXTTV:Zabavni-HD;eng;FOXCrime.svn;FOX_Crime.png
+udp://@232.4.3.130:5002
+
+#EXTINF:0, 221 - Fox Movies
+#EXTTV:Filmski;eng;FOXmovies.svn;FOX_Movies.png
+udp://@232.4.2.45:5002
+
+#EXTINF:0, 222 - Fox Movies HD
+#EXTTV:Filmski-HD;eng;FOXmovies.svn;FOX_Movies.png
+udp://@232.4.3.132:5002
+
+#EXTINF:0, 223 - POP Kino
+#EXTTV:Filmski;eng;PopKino.svn;POP_Kino.png
+udp://@232.4.9.2:5002
+
+#EXTINF:0, 224 - KINO HD
+#EXTTV:Filmski-HD;eng;PopKino.svn;POP_Kino.png
+udp://@232.4.3.144:5002
+
+#EXTINF:0, 225 - POP BRIO
+#EXTTV:Zabavni;eng;POPBrio.svn;POP_Brio.png
+udp://@232.4.9.1:5002
+
+#EXTINF:0, 226 - BRIO HD
+#EXTTV:Zabavni-HD;eng;POPBrio.svn;POP_Brio.png
+udp://@232.4.3.143:5002
+
+#EXTINF:0, 227 - Klasik TV
+#EXTTV:Filmski;srb;KlasikTV.svn;Klasik_TV.png
+udp://@232.2.2.15:5002
+
+#EXTINF:0, 228 - Gold TV
+#EXTTV:Zabavni;eng;GoldTV.svn;Gold_TV.png
+udp://@232.4.1.78:5002
+
+#EXTINF:0, 230 - Planet Plus
+#EXTTV:Filmski;;PlanetPLUS.svn;Planet_Plus.png
+udp://@232.4.1.86:5002
+
+#EXTINF:0, 231 - Planet Plus HD
+#EXTTV:Filmski-HD;;PlanetPLUS.svn;Planet_Plus.png
+udp://@232.4.1.135:5002
+
+#EXTINF:0, 232 - Dom Kino
+#EXTTV:Filmski;;
+udp://@232.4.15.5:5002
+
+#EXTINF:0, 250 - TV 1000
+#EXTTV:Filmski;eng;TV1000.svn;TV1000.png
+udp://@232.4.2.1:5002
+
+#EXTINF:0, 251 - AMC
+#EXTTV:Filmski;eng;;AMC.png
+udp://@232.4.2.17:5002
+
+#EXTINF:0, 252 - Universal Channel
+#EXTTV:Filmski;eng;Universal.svn;Universal_Channel.png
+udp://@232.4.3.1:5002
+
+#EXTINF:0, 253 - AXN
+#EXTTV:Serije;eng;AXN.svn;AXN.png
+udp://@232.4.2.13:5002
+
+#EXTINF:0, 260 - CBS Drama
+#EXTTV:Serije;eng;CBSdrama.svn;CBS_Drama.png
+udp://@232.4.2.29:5002
+
+#EXTINF:0, 261 - Pink Film
+#EXTTV:Zabavni;srp;PinkFilm.svn;Pink_Film.png
+udp://@232.4.8.3:5002
+
+#EXTINF:0, 262 - Pink Movies
+#EXTTV:Filmski;srp;PinkMovies.svn;Pink_Movies.png
+udp://@232.4.8.8:5002
+
+#EXTINF:0, 263 - Pink Family
+#EXTTV:Balkanski;srp;PinkFamily.svn;Pink_Family.png
+udp://@232.4.8.7:5002
+
+#EXTINF:0, 264 - Pink 2
+#EXTTV:Zabavni;srp;Pink2.svn;Pink_2.png
+udp://@232.4.8.5:5002
+
+#EXTINF:0, 266 - Planet 2
+#EXTTV:Serije-HD;;Planet2.svn;Planet_2.png
+udp://@232.4.1.134:5002
+
+#EXTINF:0, 267 - Planet 2
+#EXTTV:Serije;;Planet2.svn;Planet_2.png
+udp://@232.4.1.85:5002
+
+#EXTINF:0, 268 - Epic Drama SD
+#EXTTV:Serije;eng;EPICDramaHD.svn;Epic_Drama.png
+udp://@232.4.2.57:5002
+
+#EXTINF:0, 269 - Epic Drama
+#EXTTV:Serije-HD;eng;EPICDramaHD.svn;Epic_Drama.png
+udp://@232.4.2.132:5002
+
+#EXTINF:0, 270 - TNT Comedy
+#EXTTV:Serije;eng;;TNT_Comedy.png
+udp://@232.4.15.2:5002
+
+#EXTINF:0, 301 - 24Kitchen
+#EXTTV:Zabavni;eng;24Kitchen.svn;24Kitchen_Adria.png
+udp://@232.4.3.19:5002
+
+#EXTINF:0, 302 - 24Kitchen HD
+#EXTTV:Zabavni-HD;eng;24Kitchen.svn;24Kitchen_Adria.png
+udp://@232.4.3.133:5002
+
+#EXTINF:0, 303 - Food HD TV
+#EXTTV:Zabavni-HD;eng;FoodNetworkHD.svn;Food_HD_TV.png
+udp://@232.4.6.13:5002
+
+#EXTINF:0, 304 - GINX
+#EXTTV:Zabavni;eng;Ginx.svn;Ginx_TV.png
+udp://@232.4.3.45:5002
+
+#EXTINF:0, 305 - GINX HD
+#EXTTV:Zabavni-HD;eng;Ginx.svn;Ginx_TV.png
+udp://@232.4.3.56:5002
+
+#EXTINF:0, 306 - Fashion TV
+#EXTTV:Zabavni;eng;FashionTV.svn;Fashion_TV.png
+udp://@232.4.3.30:5002
+
+#EXTINF:0, 307 - Fashion HD
+#EXTTV:Zabavni-HD;eng;FashionHD.svn;Fashion_TV_HD.png
+udp://@232.4.3.49:5002
+
+#EXTINF:0, 308 - FashionBOX HD
+#EXTTV:Zabavni-HD;eng;;FashionBOX_HD.png
+udp://@232.4.3.54:5002
+
+#EXTINF:0, 310 - E!
+#EXTTV:Zabavni;eng;E.svn;E!_Entertaintment.png
+udp://@232.4.2.23:5002
+
+#EXTINF:0, 313 - RTL
+#EXTTV:Zabavni;ger;RTLNEMCIJA.svn;RTL.png
+udp://@232.4.2.34:5002
+
+#EXTINF:0, 314 - RTL II
+#EXTTV:Otroški;ger;RTL2NEMCIJA.svn;RTL2.png
+udp://@232.4.2.35:5002
+
+#EXTINF:0, 315 - Super RTL
+#EXTTV:Otroški;ger;SuperRTL.svn;Super_RTL.png
+udp://@232.4.2.36:5002
+
+#EXTINF:0, 316 - Kabel 1
+#EXTTV:Zabavni;ger;Kabel1.svn;Kabel_1.png
+udp://@232.4.2.37:5002
+
+#EXTINF:0, 317 - VOX
+#EXTTV:Zabavni;ger;VOX.svn;VOX.png
+udp://@232.4.3.32:5002
+
+#EXTINF:0, 318 - SAT 1
+#EXTTV:Zabavni;ger;SAT1.svn;SAT1.png
+udp://@232.4.3.34:5002
+
+#EXTINF:0, 319 - Pro7
+#EXTTV:Zabavni;ger;Pro7.svn;Pro_7.png
+udp://@232.4.3.35:5002
+
+#EXTINF:0, 320 - 3sat
+#EXTTV:Zabavni;ger;3SAT.svn;3SAT.png
+udp://@232.4.1.45:5002
+
+#EXTINF:0, 321 - TVE
+#EXTTV:Nacionalni;esp;TVEi.nws;TVE.png
+udp://@232.4.1.32:5002
+
+#EXTINF:0, 322 - TV5MONDE
+#EXTTV:Informativni;eng;TV5MondeEurope.fr;TV_5_Europe.png
+udp://@232.4.1.33:5002
+
+#EXTINF:0, 323 - Mediaset Italia
+#EXTTV:Zabavni;ita;;Mediaset_Italia.png
+udp://@232.4.3.44:5002
+
+#EXTINF:0, 324 - Sky News
+#EXTTV:Informativni;eng;SkyNews.uk;Sky_News.png
+udp://@232.4.2.32:5002
+
+#EXTINF:0, 326 - EWTN
+#EXTTV:Zabavni;eng;Ewtn.svn;EWTN_Europe.png
+udp://@232.4.2.31:5002
+
+#EXTINF:0, 327 - Pink Plus
+#EXTTV:Zabavni;srp;PinkPlus.svn;Pink_Plus.png
+udp://@232.4.8.1:5002
+
+#EXTINF:0, 328 - Pink Zabava
+#EXTTV:Zabavni;srp;PinkZabava.svn;Pink_Zabava.png
+udp://@232.4.8.9:5002
+
+#EXTINF:0, 329 - Pink World
+#EXTTV:Informativni;srp;PinkWorld.svn;Pink_World.png
+udp://@232.4.8.10:5002
+
+#EXTINF:0, 330 - CNN
+#EXTTV:Informativni;eng;CNNInternational.svn;CNN_International.png
+udp://@232.4.2.5:5002
+
+#EXTINF:0, 331 - BBC World
+#EXTTV:Informativni;eng;BBCWorld.svn;BBC_World.png
+udp://@232.4.2.7:5002
+
+#EXTINF:0, 333 - Bloomberg EU TV
+#EXTTV:Informativni;eng;Bloomberg.svn;Bloomberg_EU.png
+udp://@232.4.3.40:5002
+
+#EXTINF:0, 334 - France 24
+#EXTTV:Informativni;eng;France24.svn;France_24_English.png
+udp://@232.4.2.6:5002
+
+#EXTINF:0, 335 - Al Jazeera Balkans SD
+#EXTTV:Informativni;eng;AlJazeeraBalkans.svn;Al_Jazeera_Balk.png
+udp://@232.4.1.60:5002
+
+#EXTINF:0, 336 - Dr. Fit
+#EXTTV:Zabavni;eng;DrFit.svn;Dr_Fit.png
+udp://@232.4.2.49:5002
+
+#EXTINF:0, 337 - Woman
+#EXTTV:Zabavni;eng;;Woman.png
+udp://@232.4.2.48:5002
+
+#EXTINF:0, 339 - Canale 5
+#EXTTV:Zabavni;;;Canale_5.png
+udp://@232.4.14.3:5002
+
+#EXTINF:0, 340 - BBC Earth
+#EXTTV:Dokumentarni;eng;BBCEarth.svn;BBC_earth.png
+udp://@232.4.3.28:5002
+
+#EXTINF:0, 341 - History Channel HD
+#EXTTV:Dokumentarni-HD;eng;HistoryChn.svn;History_Channel_HD.png
+udp://@232.4.206.2:5003
+
+#EXTINF:0, 342 - *BBC Earth HD
+#EXTTV:Ι Optika;eng;BBCEarth.svn;BBC_earth.png
+udp://@232.2.3.146:5002
+
+#EXTINF:0, 343 - Dr. Fit HD
+#EXTTV:Zabavni-HD;eng;DrFit.svn;Dr_Fit.png
+udp://@232.4.3.148:5002
+
+#EXTINF:0, 344 - Woman HD
+#EXTTV:Zabavni-HD;eng;;Woman.png
+udp://@232.4.3.147:5002
+
+#EXTINF:0, 346 - PLANET TV P1
+#EXTTV:Zabavni;slv;
+udp://@232.4.1.74:5002
+
+#EXTINF:0, 347 - PLANET TV P1 HD
+#EXTTV:Zabavni-HD;slv;
+udp://@232.4.1.129:5002
+
+#EXTINF:0, 348 - TV Ljubljana HD
+#EXTTV:Zabavni;eng;;TV_Ljubljana.png
+udp://@232.4.1.136:5002
+
+#EXTINF:0, 349 - Comedy Central Extra
+#EXTTV:Zabavni;eng;ComedyCentral.svn
+udp://@232.4.3.42:5002
+
+#EXTINF:0, 350 - Nova TV
+#EXTTV:Zabavni;hrv;
+udp://@232.4.11.23:5002
+
+#EXTINF:0, 351 - Viasat Nature
+#EXTTV:Dokumentarni;eng;ViasatNature.svn
+udp://@232.4.2.58:5002
+
+#EXTINF:0, 352 - ID Xtra Europe HD
+#EXTTV:Dokumentarni-HD;eng;DiscoveryIDXtra.svn;ID_Xtra_HD.png
+udp://@232.4.2.130:5002
+
+#EXTINF:0, 353 - Viasat Explorer
+#EXTTV:Dokumentarni;eng;ViasatExplorer.svn
+udp://@232.4.3.14:5002
+
+#EXTINF:0, 354 - DTX SD
+#EXTTV:Dokumentarni;eng;DTXHD.svn
+udp://@232.4.3.43:5002
+
+#EXTINF:0, 355 - DTX HD
+#EXTTV:Dokumentarni-HD;eng;DTXHD.svn
+udp://@232.4.3.149:5002
+
+#EXTINF:0, 356 - Sundance TV
+#EXTTV:Dokumentarni;eng;SundanceTV.svn;Sundance_TV.png
+udp://@232.4.3.150:5002
+
+#EXTINF:0, 359 - Nova 24 TV HD
+#EXTTV:Informativni-HD;slv;NovaTV24.svn;Nova_24_TV.png
+udp://@232.4.1.132:5002
+
+#EXTINF:0, 360 - N1 Hrvaska
+#EXTTV:Informativni;eng;
+udp://@232.4.2.55:5002
+
+#EXTINF:0, 361 - Vremya
+#EXTTV:Informativni;;
+udp://@232.4.15.6:5002
+
+#EXTINF:0, 383 - Rete 4
+#EXTTV:Zabavni;;;Rete_4.png
+udp://@232.4.14.2:5002
+
+#EXTINF:0, 401 - Minimax
+#EXTTV:Otroški;slv;MINIMAX.svn;Minimax.png
+udp://@232.4.2.41:5002
+
+#EXTINF:0, 403 - Orlando Kids
+#EXTTV:Otroški;hrv;OrlandoKids.svn;Orlando_Kids.png
+udp://@232.4.3.47:5002
+
+#EXTINF:0, 404 - POP Oto
+#EXTTV:Otroški;slv;PopOto.svn;POP_Oto.png
+udp://@232.4.9.4:5002
+
+#EXTINF:0, 405 - OTO HD
+#EXTTV:Otroški-HD;eng;PopOto.svn;POP_Oto.png
+udp://@232.4.3.145:5002
+
+#EXTINF:0, 406 - Nickelodeon
+#EXTTV:Otroški;eng;Nickelodeon.svn;Nickelodeon.png
+udp://@232.4.3.11:5002
+
+#EXTINF:0, 407 - Boomerang
+#EXTTV:Otroški;eng;Boomerang.svn;Boomerang.png
+udp://@232.4.3.6:5002
+
+#EXTINF:0, 408 - Cartoon / TCM
+#EXTTV:Otroški;eng;CartoonNetwork.svn;Cartoon_Network.png
+udp://@232.4.2.33:5002
+
+#EXTINF:0, 409 - JimJam
+#EXTTV:Otroški;eng;JimJam.svn;JimJam.png
+udp://@232.4.3.3:5002
+
+#EXTINF:0, 410 - Disney Channel
+#EXTTV:Otroški;eng;DisneyChannel.svn;Disney_Channel.png
+udp://@232.4.2.2:5002
+
+#EXTINF:0, 411 - Disney XD
+#EXTTV:Otroški;eng;DisneyXD.svn;Disney_XD.png
+udp://@232.4.3.4:5002
+
+#EXTINF:0, 412 - Baby TV
+#EXTTV:Otroški;eng;;Baby_TV.png
+udp://@232.4.2.12:5002
+
+#EXTINF:0, 413 - Pink Kids
+#EXTTV:Otroški;eng;PinkKids.svn;Pink_Kids.png
+udp://@232.4.8.6:5002
+
+#EXTINF:0, 415 - Karusel
+#EXTTV:Otroški;;
+udp://@232.4.15.3:5002
+
+#EXTINF:0, 416 - Pikaboo
+#EXTTV:Otroški;eng;
+udp://@232.4.2.56:5002
+
+#EXTINF:0, 501 - Šport TV 1
+#EXTTV:Športni;slv;SportTV1.svn;Sport_TV.png
+udp://@232.4.2.4:5002
+
+#EXTINF:0, 502 - Šport TV 1 HD
+#EXTTV:Športni-HD;slv;SportTV1.svn;Sport_TV.png
+udp://@232.4.2.128:5002
+
+#EXTINF:0, 503 - Šport TV 2
+#EXTTV:Športni;slv;SportTV2.svn;Sport_TV_2.png
+udp://@232.4.3.24:5002
+
+#EXTINF:0, 504 - Šport TV 2 HD
+#EXTTV:Športni-HD;slv;SportTV2.svn;Sport_TV_2.png
+udp://@232.4.3.128:5002
+
+#EXTINF:0, 506 - Sport Klub 1
+#EXTTV:Športni;slv;Sportklub1.svn;Sportklub_1.png
+udp://@232.4.2.24:5002
+
+#EXTINF:0, 507 - Sport Klub 1 HD
+#EXTTV:Športni-HD;slv;Sportklub1.svn;Sportklub_1.png
+udp://@232.4.3.135:5002
+
+#EXTINF:0, 508 - Sport Klub 2
+#EXTTV:Športni;eng;Sportklub2.svn;Sportklub_2.png
+udp://@232.4.3.21:5002
+
+#EXTINF:0, 509 - Sport Klub 2 HD
+#EXTTV:Športni-HD;slv;Sportklub2.svn;Sportklub_2.png
+udp://@232.4.3.136:5002
+
+#EXTINF:0, 510 - Sport Klub 3
+#EXTTV:Športni;eng;Sportklub3.svn;Sport_Klub_3.png
+udp://@232.4.2.44:5002
+
+#EXTINF:0, 511 - Sport Klub 3 HD
+#EXTTV:Športni-HD;slv;Sportklub3.svn;Sport_Klub_3.png
+udp://@232.4.3.137:5002
+
+#EXTINF:0, 512 - Sport Klub 4
+#EXTTV:Športni;slv;SportKlub4.svn;Sport_Klub_4.png
+udp://@232.4.3.63:5002
+
+#EXTINF:0, 513 - Sport Klub 5
+#EXTTV:Športni;slv;SportKlub5.svn;Sport_Klub_5.png
+udp://@232.4.3.64:5002
+
+#EXTINF:0, 514 - Sport Klub 6
+#EXTTV:Športni;slv;SportKlub6.svn;Sport_Klub_6.png
+udp://@232.4.3.65:5002
+
+#EXTINF:0, 515 - Motorvision TV HD
+#EXTTV:Športni-HD;eng;MotorvisionHD.svn;Motorvision_TV_HD.png
+udp://@232.4.3.57:5002
+
+#EXTINF:0, 516 - FightBOX HD
+#EXTTV:Športni-HD;eng;FightBOXHD.svn;Fight_Channel_HD.png
+udp://@232.4.3.53:5002
+
+#EXTINF:0, 517 - Eurosport
+#EXTTV:Športni;eng;Eurosport1.svn;Eurosport.png
+udp://@232.4.2.25:5002
+
+#EXTINF:0, 518 - Eurosport HD
+#EXTTV:Športni-HD;eng;Eurosport1.svn;Eurosport.png
+udp://@232.4.6.4:5002
+
+#EXTINF:0, 519 - Eurosport 2
+#EXTTV:Informativni;eng;Eurosport2.svn;Eurosport_2_NE.png
+udp://@232.4.2.26:5002
+
+#EXTINF:0, 520 - Eurosport 2 HD
+#EXTTV:Športni-HD;eng;Eurosport2.svn;Eurosport_2_NE.png
+udp://@232.4.6.12:5002
+
+#EXTINF:0, 521 - Extreme TV
+#EXTTV:Športni;eng;;Extreme_Sports.png
+udp://@232.4.3.22:5002
+
+#EXTINF:0, 522 - Sport1
+#EXTTV:Športni;ger;Sport1.svn;SPORT1.png
+udp://@232.4.2.3:5002
+
+#EXTINF:0, 523 - Motors TV
+#EXTTV:Športni;eng;MotorsTV.svn;Motors_TV.png
+udp://@232.4.4.1:5002
+
+#EXTINF:0, 524 - Nautical Channel
+#EXTTV:Športni;eng;Nautical.svn;Nautical_Channel.png
+udp://@232.4.4.2:5002
+
+#EXTINF:0, 525 - Šport TV3 SD
+#EXTTV:Športni;eng;SportTV3.svn;Sport_TV_3.png
+udp://@232.4.3.66:5002
+
+#EXTINF:0, 526 - Fight Sports SD
+#EXTTV:Športni;eng;;Fight_Sports.png
+udp://@232.4.3.67:5002
+
+#EXTINF:0, 527 - Šport TV 3 HD
+#EXTTV:Športni-HD;eng;SportTV3.svn;Sport_TV_3.png
+udp://@232.4.3.139:5002
+
+#EXTINF:0, 528 - Fight Channel
+#EXTTV:Športni;hrv;fightchannel.svn;Fight_Channel.png
+udp://@232.4.4.20:5002
+
+#EXTINF:0, 529 - Fight Sports HD
+#EXTTV:Športni-HD;eng;;Fight_Sports.png
+udp://@232.4.3.140:5002
+
+#EXTINF:0, 530 - Lov i Ribolov
+#EXTTV:Športni;eng;
+udp://@232.4.3.39:5002
+
+#EXTINF:0, 531 - SK Golf HD
+#EXTTV:Športni-HD;slv;
+udp://@232.4.3.151:5002
+
+#EXTINF:0, 532 - Fight Channel World HD
+#EXTTV:Športni-HD;eng;
+udp://@232.4.4.128:5002
+
+#EXTINF:0, 533 - M4 Sport HD
+#EXTTV:Športni-HD;hun;
+udp://@232.4.14.18:5002
+
+#EXTINF:0, 534 - SK GOLF
+#EXTTV:Športni;eng;
+udp://@232.4.2.52:5002
+
+#EXTINF:0, 601 - MTV Adria
+#EXTTV:Glasbeni;eng;MTV.svn;MTV_Adria.png
+udp://@232.4.2.11:5002
+
+#EXTINF:0, 602 - MTV HD
+#EXTTV:Glasbeni-HD;eng;MTVHD.svn;MTV.png
+udp://@232.4.3.51:5002
+
+#EXTINF:0, 603 - VH1
+#EXTTV:Glasbeni;eng;VH1.svn;VH1.png
+udp://@232.4.2.14:5002
+
+#EXTINF:0, 604 - I-Concert TV HD
+#EXTTV:Glasbeni-HD;eng;Iconcerts.svn;I-Concerts_HD.png
+udp://@232.4.6.11:5002
+
+#EXTINF:0, 605 - CMC
+#EXTTV:Glasbeni;hrv;CMC.svn;CMC.png
+udp://@232.4.2.16:5002
+
+#EXTINF:0, 606 - Jugoton
+#EXTTV:Glasbeni;srp;Jugoton.svn;Jugoton.png
+udp://@232.4.3.60:5002
+
+#EXTINF:0, 607 - MTV Dance
+#EXTTV:Glasbeni;eng;MTVDance.svn;MTV_Dance.png
+udp://@232.4.3.7:5002
+
+#EXTINF:0, 608 - MTV Hits
+#EXTTV:Glasbeni;eng;MTVHits.svn;MTV_Hits.png
+udp://@232.4.3.9:5002
+
+#EXTINF:0, 609 - MTV Rocks
+#EXTTV:Glasbeni;eng;MTVRocks.svn;MTV_Rocks.png
+udp://@232.4.3.8:5002
+
+#EXTINF:0, 610 - VH1 Classic
+#EXTTV:Glasbeni;eng;;VH1_Classic.png
+udp://@232.4.3.10:5002
+
+#EXTINF:0, 611 - Mezzo
+#EXTTV:Glasbeni;fre;Mezzo.svn;Mezzo.png
+udp://@232.4.3.41:5002
+
+#EXTINF:0, 612 - Mezzo Live HD
+#EXTTV:Glasbeni-HD;fre;MezzoLiveHD.svn;Mezzo_Live_HD.png
+udp://@232.4.3.50:5002
+
+#EXTINF:0, 613 - Pink Music
+#EXTTV:Glasbeni;srp;PinkMusic.svn;Pink_Music.png
+udp://@232.4.2.40:5002
+
+#EXTINF:0, 614 - DM SAT
+#EXTTV:Glasbeni;srp;DMSat.svn;DM_SAT_TV.png
+udp://@232.4.3.25:5002
+
+#EXTINF:0, 615 - Pink Extra
+#EXTTV:Balkanski;srp;PinkExtra.svn;Pink_Extra.png
+udp://@232.4.8.2:5002
+
+#EXTINF:0, 616 - Pink Folk
+#EXTTV:Zabavni;srp;PinkFolk.svn;Pink_Folk.png
+udp://@232.2.8.4:5002
+
+#EXTINF:0, 617 - Trace Sport
+#EXTTV:Glasbeni;fre;TraceSport.svn;Trace_Sports.png
+udp://@232.4.4.17:5002
+
+#EXTINF:0, 618 - Trace Urban
+#EXTTV:Glasbeni;fre;TraceUrban.svn;Trace_Urban.png
+udp://@232.4.4.18:5002
+
+#EXTINF:0, 619 - MPT 1
+#EXTTV:Balkanski;eng;MTV1.svn;MRT_1.png
+udp://@232.4.11.33:5002
+
+#EXTINF:0, 620 - MPT 2
+#EXTTV:Balkanski;eng;MTV2.svn;MRT_2.png
+udp://@232.4.11.34:5002
+
+#EXTINF:0, 621 - MPT 3
+#EXTTV:Balkanski;eng;MTV3.svn;MRT_3.png
+udp://@232.4.11.35:5002
+
+#EXTINF:0, 623 - Grand 1
+#EXTTV:Glasbeni;eng;Grand.svn
+udp://@232.4.2.53:5002
+
+#EXTINF:0, 624 - Grand 2
+#EXTTV:Glasbeni;eng;Grand2.svn
+udp://@232.4.2.54:5002
+
+#EXTINF:0, 650 - TeleM
+#EXTTV:Lokalni;slv;TeleM.svn;TeleM.png
+udp://@232.4.1.37:5002
+
+#EXTINF:0, 651 - Vitel
+#EXTTV:Lokalni;slv;Vitel.svn;ViTel.png
+udp://@232.4.1.35:5002
+
+#EXTINF:0, 652 - TV Petelin
+#EXTTV:Lokalni;slv;;TV_Petelin.png
+udp://@232.4.1.36:5002
+
+#EXTINF:0, 653 - TV As
+#EXTTV:Lokalni;slv;TVAs.svn;TV_AS.png
+udp://@232.4.1.39:5002
+
+#EXTINF:0, 655 - Kanal 10 / Idea TV
+#EXTTV:Lokalni;slv;IdeaTV.svn;Kanal_10.png
+udp://@232.4.1.40:5002
+
+#EXTINF:0, 656 - SIP TV
+#EXTTV:Lokalni;slv;SIP.svn;SIP_TV.png
+udp://@232.4.1.38:5002
+
+#EXTINF:0, 657 - TV Veseljak
+#EXTTV:Lokalni;slv;TVVeseljak.svn;TV_Veseljak.png
+udp://@232.4.1.13:5002
+
+#EXTINF:0, 658 - Čarli TV
+#EXTTV:Lokalni;slv;carlitv.svn;Carli_TV.png
+udp://@232.4.1.10:5002
+
+#EXTINF:0, 659 - BK TV
+#EXTTV:Lokalni;slv;BK.svn;BK_TV.png
+udp://@232.4.1.58:5002
+
+#EXTINF:0, 660 - NET TV
+#EXTTV:Lokalni;slv;NETtv.svn;Net_TV.png
+udp://@232.4.1.14:5002
+
+#EXTINF:0, 661 - Vaš kanal
+#EXTTV:Lokalni;slv;;Vas_kanal.png
+udp://@232.4.1.20:5002
+
+#EXTINF:0, 662 - Ptujska TV
+#EXTTV:Lokalni;slv;;Ptujska_TV.png
+udp://@232.4.1.50:5002
+
+#EXTINF:0, 663 - Arena TV
+#EXTTV:Lokalni;slv;ArenaTV.svn;Arena_TV.png
+udp://@232.4.1.42:5002
+
+#EXTINF:0, 664 - RTS Maribor
+#EXTTV:Lokalni;slv;RTSMaribor.svn;RTS_Maribor.png
+udp://@232.4.1.15:5002
+
+#EXTINF:0, 665 - VTV
+#EXTTV:Lokalni;slv;VTV.svn;VTV_Velenje.png
+udp://@232.4.1.17:5002
+
+#EXTINF:0, 666 - TV Celje
+#EXTTV:Lokalni;slv;;TV_Celje.png
+udp://@232.4.1.46:5002
+
+#EXTINF:0, 667 - TV Koper Capodistria
+#EXTTV:Lokalni;slv;TVKoper.svn;TV_Koper.png
+udp://@232.4.1.18:5002
+
+#EXTINF:0, 668 - Oron TV
+#EXTTV:Lokalni;slv;;Oron_TV.png
+udp://@232.4.1.62:5002
+
+#EXTINF:0, 669 - TIPK TV
+#EXTTV:Lokalni;slv;;TIPK_TV.png
+udp://@232.4.1.63:5002
+
+#EXTINF:0, 670 - ATM TV
+#EXTTV:Lokalni;slv;ATMTV.svn;ATM_TV.png
+udp://@232.4.1.64:5002
+
+#EXTINF:0, 671 - RKANAL
+#EXTTV:Lokalni;slv;;R_Kanal+.png
+udp://@232.4.1.65:5002
+
+#EXTINF:0, 672 - Studio12 TV
+#EXTTV:Lokalni;slv;;Studio_12.png
+udp://@232.4.1.66:5002
+
+#EXTINF:0, 673 - Skledar TV
+#EXTTV:Lokalni;slv;;S-TV_Skledar.png
+udp://@232.4.1.67:5002
+
+#EXTINF:0, 674 - TV H2O
+#EXTTV:Lokalni;slv;;H2O.png
+udp://@232.4.1.68:5002
+
+#EXTINF:0, 675 - TVM
+#EXTTV:Lokalni;slv;;TVM.png
+udp://@232.4.1.69:5002
+
+#EXTINF:0, 676 - TV SG
+#EXTTV:Lokalni;slv;;TV_SG.png
+udp://@232.4.1.70:5002
+
+#EXTINF:0, 677 - Tur TV
+#EXTTV:Lokalni;slv;;Tur_TV.png
+udp://@232.4.1.71:5002
+
+#EXTINF:0, 678 - Ansat TV
+#EXTTV:Lokalni;slv;;Ansat_TV.png
+udp://@232.4.1.128:5002
+
+#EXTINF:0, 679 - Koroška Tv
+#EXTTV:Lokalni;slv;;Koroska_TV.png
+udp://@232.4.1.73:5002
+
+#EXTINF:0, 680 - Savinjska Tv
+#EXTTV:Lokalni;slv;;Savinjska_TV.png
+udp://@232.4.1.75:5002
+
+#EXTINF:0, 681 - Go TV
+#EXTTV:Lokalni;slv;;GO_TV.png
+udp://@232.4.1.76:5002
+
+#EXTINF:0, 683 - TV Ormož
+#EXTTV:Lokalni;slv;;KTV_Ormoz.png
+udp://@232.4.1.72:5002
+
+#EXTINF:0, 684 - Sponka TV
+#EXTTV:Lokalni;slv;
+udp://@232.4.1.16:5002
+
+#EXTINF:0, 686 - Muzika Pervogo
+#EXTTV:Glasbeni;;
+udp://@232.4.15.7:5002
+
+#EXTINF:0, 687 - GALEJA TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.82:5002
+
+#EXTINF:0, 688 - TV 8
+#EXTTV:Lokalni;;
+udp://@232.4.1.83:5002
+
+#EXTINF:0, 698 - Exodus TV
+#EXTTV:Duhovni;slv;Exodus.svn;TV_Exodus.png
+udp://@232.4.1.59:5002
+
+#EXTINF:0, 699 - TV SLO 3
+#EXTTV:Nacionalni;slv;Slo3.svn;SLO_3.png
+udp://@232.4.1.41:5002
+
+#EXTINF:0, 701 - HRT 1
+#EXTTV:Nacionalni;hrv;HRT1.svn;HRT_1.png
+udp://@232.4.1.6:5002
+
+#EXTINF:0, 702 - HRT 2
+#EXTTV:Nacionalni;hrv;HRT2.svn;HRT_2.png
+udp://@232.4.1.7:5002
+
+#EXTINF:0, 703 - RTL Hrvaška
+#EXTTV:Zabavni;hrv;RTLTelevizija.hr;RTL.png
+udp://@232.4.11.11:5002
+
+#EXTINF:0, 704 - RTL 2 Hrvaška
+#EXTTV:Zabavni;hrv;;RTL_2_HR.png
+udp://@232.4.11.18:5002
+
+#EXTINF:0, 705 - RTL Living Hrvaška
+#EXTTV:Zabavni;hrv;RTLLiving.svn;RTL_Living.png
+udp://@232.4.11.21:5002
+
+#EXTINF:0, 706 - Pink SI
+#EXTTV:Zabavni;eng;;Pink_SI.png
+udp://@232.4.1.61:5002
+
+#EXTINF:0, 707 - Pink Reality
+#EXTTV:Zabavni;scc;PinkReality.svn;Pink_Reality.png
+udp://@232.4.8.11:5002
+
+#EXTINF:0, 708 - ORF 1
+#EXTTV:Nacionalni;ger;ORF1.svn;ORF1.png
+udp://@232.4.1.26:5002
+
+#EXTINF:0, 709 - ORF 2
+#EXTTV:Nacionalni;ger;ORF2.svn;ORF2.png
+udp://@232.4.1.27:5002
+
+#EXTINF:0, 711 - ZDF
+#EXTTV:Nacionalni;ger;ZDF.svn;ZDF.png
+udp://@232.4.1.34:5002
+
+#EXTINF:0, 713 - RAI 1
+#EXTTV:Nacionalni;ita;RAI1.svn;RAI_1.png
+udp://@232.4.1.28:5002
+
+#EXTINF:0, 714 - RAI 2
+#EXTTV:Nacionalni;ita;RAI2.svn;RAI_2.png
+udp://@232.4.1.29:5002
+
+#EXTINF:0, 715 - RAI 3
+#EXTTV:Nacionalni;ita;RAI3.svn;RAI_3.png
+udp://@232.4.1.30:5002
+
+#EXTINF:0, 716 - M1 HD
+#EXTTV:Nacionalni-HD;hun;
+udp://@232.4.14.17:5002
+
+#EXTINF:0, 717 - Duna World
+#EXTTV:Nacionalni;eng;
+udp://@232.4.14.19:5002
+
+#EXTINF:0, 719 - Duna HD
+#EXTTV:Nacionalni-HD;hun;Duna.svn
+udp://@232.4.14.20:5002
+
+#EXTINF:0, 721 - Russia Today
+#EXTTV:Informativni;rus;RussiaToday.svn;Russia_24.png
+udp://@232.4.2.43:5002
+
+#EXTINF:0, 722 - Channel One Russia
+#EXTTV:Nacionalni;rus;;Channel_One.png
+udp://@232.4.2.39:5002
+
+#EXTINF:0, 723 - N-TV
+#EXTTV:Informativni;ger;;N-TV.png
+udp://@232.4.3.33:5002
+
+#EXTINF:0, 724 - Duna TV
+#EXTTV:Nacionalni;hun;Duna.svn;Duna_1.png
+udp://@232.4.1.44:5002
+
+#EXTINF:0, 725 - RT Srbija
+#EXTTV:Nacionalni;srp;RTSrbija.svn;RT_Srbija.png
+udp://@232.4.1.22:5002
+
+#EXTINF:0, 726 - RT Crna gora
+#EXTTV:Nacionalni;mne;RTCG.svn;RTCG.png
+udp://@232.4.1.23:5002
+
+#EXTINF:0, 727 - RTK
+#EXTTV:Nacionalni;alb;;RTK_Kosova.png
+udp://@232.4.1.24:5002
+
+#EXTINF:0, 728 - MKTV
+#EXTTV:Nacionalni;mac;MKTV.svn;MKTV.png
+udp://@232.4.1.25:5002
+
+#EXTINF:0, 732 - Hayat
+#EXTTV:Nacionalni;bos;HayatTV.svn;Hayat_TV_BiH.png
+udp://@232.4.1.21:5002
+
+#EXTINF:0, 738 - PrvaTV Srbija
+#EXTTV:Nacionalni;srp;PrvaTVsr.svn;PRVA_Srbska_TV.png
+udp://@232.4.11.46:5002
+
+#EXTINF:0, 739 - Italia 1
+#EXTTV:Nacionalni;;;Italia_1.png
+udp://@232.4.14.1:5002
+
+#EXTINF:0, 740 - ELTA TV
+#EXTTV:Balkanski;bos;;Elta_TV.png
+udp://@232.4.1.52:5002
+
+#EXTINF:0, 742 - OBN
+#EXTTV:Balkanski;hrv;OBN.svn;OBN.png
+udp://@232.4.3.48:5002
+
+#EXTINF:0, 743 - Shutel TV
+#EXTTV:Balkanski;mac;;Shutel_TV.png
+udp://@232.4.3.62:5002
+
+#EXTINF:0, 744 - Folk Plus
+#EXTTV:Balkanski;shq;;Folk_Plus.png
+udp://@232.4.11.3:5002
+
+#EXTINF:0, 745 - RTV 21 PLUS
+#EXTTV:Balkanski;shq;;RTV_21_PLUS.png
+udp://@232.4.11.4:5002
+
+#EXTINF:0, 746 - Tring 7
+#EXTTV:Informativni;shq;Tring7.svn;Tring_7.png
+udp://@232.4.11.5:5002
+
+#EXTINF:0, 748 - Tring Max
+#EXTTV:Filmski;shq;TringMax.svn;Tring_Max.png
+udp://@232.4.11.6:5002
+
+#EXTINF:0, 749 - Tring Shiqip
+#EXTTV:Zabavni;shq;TringShiqip.svn;Tring_Shqip.png
+udp://@232.4.11.7:5002
+
+#EXTINF:0, 750 - Tring Tring
+#EXTTV:Otroški;shq;TringTring.svn;Tring_Tring.png
+udp://@232.4.11.8:5002
+
+#EXTINF:0, 751 - Tring Vizion+
+#EXTTV:Zabavni;shq;;Tring_Vizion+.png
+udp://@232.4.11.9:5002
+
+#EXTINF:0, 752 - TV 21
+#EXTTV:Zabavni;shq;TV21.svn;TV_21.png
+udp://@232.4.11.10:5002
+
+#EXTINF:0, 753 - BHT 1
+#EXTTV:Balkanski;bos;BHT1.svn;BHT_1.png
+udp://@232.4.11.13:5002
+
+#EXTINF:0, 754 - FTV
+#EXTTV:Balkanski;bos;FTV.hr;FTV.png
+udp://@232.4.11.14:5002
+
+#EXTINF:0, 755 - NTV IC Kakanj
+#EXTTV:Balkanski;;;NTV_IC_Kakanj.png
+udp://@232.4.11.15:5002
+
+#EXTINF:0, 756 - OTV Valentino
+#EXTTV:Balkanski;bos;OTVValentino.svn;OTV_Valentino.png
+udp://@232.4.11.16:5002
+
+#EXTINF:0, 757 - RTRS
+#EXTTV:Balkanski;srp;RTRS.ba;RTRS.png
+udp://@232.4.11.17:5002
+
+#EXTINF:0, 758 - TV 1
+#EXTTV:Balkanski;bos;TV1.ba;TV_1.png
+udp://@232.4.11.19:5002
+
+#EXTINF:0, 759 - TV Sarajevo
+#EXTTV:Balkanski;bos;;TV_Sarajevo.png
+udp://@232.4.11.20:5002
+
+#EXTINF:0, 760 - Zdrava TV
+#EXTTV:Balkanski;;;Zdrava_Televizija.png
+udp://@232.4.11.28:5002
+
+#EXTINF:0, 761 - TV Atlas
+#EXTTV:Balkanski;;TVAtlas.svn;RTV_Atlas.png
+udp://@232.4.11.52:5002
+
+#EXTINF:0, 762 - Jabuka (OTV)
+#EXTTV:Balkanski;;;Jabuka_(OTV).png
+udp://@232.4.11.22:5002
+
+#EXTINF:0, 763 - Narodna TV
+#EXTTV:Balkanski;;;Narodna_TV.png
+udp://@232.4.11.24:5002
+
+#EXTINF:0, 764 - NET TV Kutina
+#EXTTV:Balkanski;;;NET_TV_Kutina.png
+udp://@232.4.11.25:5002
+
+#EXTINF:0, 765 - TV Istra
+#EXTTV:Balkanski;hrv;;TV_Istra.png
+udp://@232.4.11.27:5002
+
+#EXTINF:0, 766 - TV Jadran
+#EXTTV:Balkanski;hrv;;TV_Jadran.png
+udp://@232.4.11.26:5002
+
+#EXTINF:0, 767 - Z1 Televizija
+#EXTTV:Balkanski;hrv;;Z1_televizija.png
+udp://@232.4.11.29:5002
+
+#EXTINF:0, 768 - Alfa TV
+#EXTTV:Balkanski;;alfatv.ba;Alfa_TVb.png
+udp://@232.4.11.30:5002
+
+#EXTINF:0, 769 - Alsat Macedonia
+#EXTTV:Balkanski;mac;;Alsat_Macedonia.png
+udp://@232.4.11.2:5002
+
+#EXTINF:0, 773 - Kanal 5
+#EXTTV:Balkanski;;;Kanal_5.png
+udp://@232.4.11.31:5002
+
+#EXTINF:0, 774 - Kanal 5 Plus
+#EXTTV:Balkanski;;;Kanal_5_Plus.png
+udp://@232.4.11.32:5002
+
+#EXTINF:0, 775 - NAŠA TV
+#EXTTV:Balkanski;;;Nasa_TV.png
+udp://@232.4.11.36:5002
+
+#EXTINF:0, 776 - Sitel 3
+#EXTTV:Balkanski;;;Sitel_3.png
+udp://@232.4.11.37:5002
+
+#EXTINF:0, 777 - Telma TV
+#EXTTV:Balkanski;;;Telma_TV.png
+udp://@232.4.11.38:5002
+
+#EXTINF:0, 778 - TV Sitel
+#EXTTV:Balkanski;;;TV_Sitel.png
+udp://@232.4.11.39:5002
+
+#EXTINF:0, 779 - B 92
+#EXTTV:Balkanski;srp;B92.svn;B_92.png
+udp://@232.4.11.40:5002
+
+#EXTINF:0, 780 - TV Svet Plus Beograd
+#EXTTV:Balkanski;srp;;TV_Svet_Plus_Beograd.png
+udp://@232.4.11.53:5002
+
+#EXTINF:0, 781 - B 92 Info
+#EXTTV:Balkanski;srp;B92Info.svn;B_92_Info.png
+udp://@232.4.11.41:5002
+
+#EXTINF:0, 782 - Happy TV
+#EXTTV:Balkanski;;HappyTV.svn;Happy_TV.png
+udp://@232.4.11.42:5002
+
+#EXTINF:0, 783 - Vikom
+#EXTTV:Balkanski;;Vikom.svn;Vikom_TV.png
+udp://@232.4.11.43:5002
+
+#EXTINF:0, 784 - KCN
+#EXTTV:Glasbeni;;TVKCN.hr;KCN1.png
+udp://@232.4.11.44:5002
+
+#EXTINF:0, 785 - KCN Music
+#EXTTV:Glasbeni;shq;;KCN2.png
+udp://@232.4.11.45:5002
+
+#EXTINF:0, 786 - RTS 1
+#EXTTV:Balkanski;srp;RTS1Srbija.svn;RTS_1.png
+udp://@232.4.11.47:5002
+
+#EXTINF:0, 787 - RTS 2
+#EXTTV:Balkanski;srp;RTS2Srbija.svn;RTS_2.png
+udp://@232.4.11.48:5002
+
+#EXTINF:0, 788 - TV Duga Novi sad
+#EXTTV:Balkanski;srp;Duga.ba;TV_Duga_NS.png
+udp://@232.4.11.49:5002
+
+#EXTINF:0, 801 - Radio Aktual
+#EXTTV:Radio;slv;;Radio_Aktual.png
+udp://@232.3.1.7:5002
+
+#EXTINF:0, 802 - Radio Center
+#EXTTV:Radio;slv;;Radio_Center_-_LJ.png
+udp://@232.3.1.6:5002
+
+#EXTINF:0, 803 - Radio Ognjišče
+#EXTTV:Radio;slv;;Radio_Ognjisce.png
+udp://@232.3.1.11:5002
+
+#EXTINF:0, 804 - Radio Ekspres
+#EXTTV:Radio;slv;;Radio_Ekspres.png
+udp://@232.3.1.4:5002
+
+#EXTINF:0, 805 - Radio Veseljak
+#EXTTV:Radio;slv;;Radio_Veseljak.png
+udp://@232.3.1.37:5002
+
+#EXTINF:0, 806 - Radio 1
+#EXTTV:Radio;slv;;Radio_Ena.png
+udp://@232.3.1.8:5002
+
+#EXTINF:0, 807 - Radio Student
+#EXTTV:Radio;slv;;Radio_Student.png
+udp://@232.3.1.33:5002
+
+#EXTINF:0, 808 - Radio City
+#EXTTV:Radio;slv;;Radio_City.png
+udp://@232.3.1.12:5002
+
+#EXTINF:0, 809 - Val 202
+#EXTTV:Radio;slv;;Val_202.png
+udp://@232.3.1.14:5002
+
+#EXTINF:0, 810 - Radio Koper
+#EXTTV:Radio;slv;;Radio_Koper.png
+udp://@232.3.1.40:5002
+
+#EXTINF:0, 811 - Radio Pacient
+#EXTTV:Radio;slv;;Radio_Pacient.png
+udp://@232.3.1.32:5002
+
+#EXTINF:0, 812 - Radio Antena
+#EXTTV:Radio;slv;;Radio_Antena.png
+udp://@232.3.1.5:5002
+
+#EXTINF:0, 813 - Radio Salomon
+#EXTTV:Radio;slv;;Radio_Salomon.png
+udp://@232.3.1.36:5002
+
+#EXTINF:0, 814 - Radio Kranj
+#EXTTV:Radio;slv;;Radio_Kranj.png
+udp://@232.3.1.10:5002
+
+#EXTINF:0, 815 - ARS
+#EXTTV:Radio;slv;;ARS.png
+udp://@232.3.1.15:5002
+
+#EXTINF:0, 816 - Radio Triglav
+#EXTTV:Radio;slv;;Radio_Triglav.png
+udp://@232.3.1.41:5002
+
+#EXTINF:0, 817 - Radio Hit
+#EXTTV:Radio;slv;;Radio_Hit.png
+udp://@232.3.1.3:5002
+
+#EXTINF:0, 818 - Radio Maribor
+#EXTTV:Radio;slv;;Radio_Maribor.png
+udp://@232.3.1.35:5002
+
+#EXTINF:0, 819 - Radio Zeleni Val
+#EXTTV:Radio;slv;;Radio_Zeleni_Val.png
+udp://@232.3.1.9:5002
+
+#EXTINF:0, 820 - Radio Capris
+#EXTTV:Radio;slv;;Radio_Capris.png
+udp://@232.3.1.39:5002
+
+#EXTINF:0, 821 - Radio Capodistria
+#EXTTV:Radio;slv;;Radio_Capodistria.png
+udp://@232.3.1.17:5002
+
+#EXTINF:0, 822 - Radio Krka
+#EXTTV:Radio;slv;;Radio_Krka.png
+udp://@232.3.1.34:5002
+
+#EXTINF:0, 823 - Radio Rogla
+#EXTTV:Radio;slv;;Radio_Rogla.png
+udp://@232.3.1.38:5002
+
+#EXTINF:0, 824 - Radio Slovenia International
+#EXTTV:Radio;slv;;Radio_Slovenia_International.png
+udp://@232.3.1.16:5002
+
+#EXTINF:0, 825 - Radio A1
+#EXTTV:Radio;slv;;Radio_A1.png
+udp://@232.3.1.13:5002
+
+#EXTINF:0, 901 - Playboy TV
+#EXTTV:Za odrasle;eng;PlayboyTV.svn;Playboy_TV.png
+udp://@232.4.3.38:5002
+
+#EXTINF:0, 902 - Dorcel HD
+#EXTTV:Za odrasle-HD;eng;DorcelTVHD.svn;Dorcel_HD.png
+udp://@232.4.4.15:5002
+
+#EXTINF:0, 903 - Hustler TV HD
+#EXTTV:Za odrasle-HD;eng;HustlerHD.svn;Hustler_TV_HD.png
+udp://@232.2.6.10:5002
+
+#EXTINF:0, 904 - SCT
+#EXTTV:Za odrasle;ita;;SCT.png
+udp://@232.4.4.3:5002
+
+#EXTINF:0, 905 - Sext6senso
+#EXTTV:Za odrasle;eng;;Sexto6senso.png
+udp://@232.4.3.36:5002
+
+#EXTINF:0, 906 - Erox HD
+#EXTTV:Za odrasle-HD;eng;EroxHD.svn;Erox_HD.png
+udp://@232.4.4.16:5002
+
+#EXTINF:0, 907 - Eroxxx HD
+#EXTTV:Za odrasle-HD;eng;EroxxxHD.svn;Eroxxx_HD.png
+udp://@232.4.4.14:5002
+
+#EXTINF:0, 908 - Sexation
+#EXTTV:Za odrasle;;Sexation_TV
+udp://@232.4.2.50:5002
+
+#EXTINF:0, 909 - Milf TV
+#EXTTV:Za odrasle;slv;
+udp://@232.4.13.6:5002
+
+#EXTINF:0, 950 - !BALKAN EROTIC
+#EXTTV:Za odrasle-enc;;BalkanErotic.svn;Balkan_Erotic.png
+udp://@232.4.113.1:5002
+
+#EXTINF:0, 951 - !PLAYHOUSE
+#EXTTV:Za odrasle-enc;eng;Playhouse.svn;Play_House.png
+udp://@232.4.113.3:5002
+
+#EXTINF:0, 952 - !HOT PLEASURE
+#EXTTV:Za odrasle-enc;eng;HotPleasure.svn;Hot_Pleasure.png
+udp://@232.4.113.4:5002
+
+#EXTINF:0, 953 - !EXTREM
+#EXTTV:Za odrasle-enc;eng;
+udp://@232.4.113.5:5002
+
+#EXTINF:0, 954 - !RED XXX
+#EXTTV:Za odrasle-enc;eng;Redxxx.svn;Red_XXX.png
+udp://@232.4.113.2:5002
+
+#EXTINF:0, 955 - Reality Kings
+#EXTTV:Za odrasle;eng;;Reality_Kings.png
+udp://@232.4.4.22:5002
+
+#EXTINF:0, 999 - !Resničnostni šov
+#EXTTV:;slv;
+udp://@232.4.109.7:5002
+
+#EXTINF:0, 1001 - *TV SLO 1
+#EXTTV:Ι Optika;slv;Slo1.svn;SLO_1.png
+udp://@232.2.201.1:5003
+
+#EXTINF:0, 1002 - *TV SLO 2
+#EXTTV:Ι Optika;slv;Slo2.svn;SLO_2.png
+udp://@232.2.201.2:5003
+
+#EXTINF:0, 1003 - *Planet TV
+#EXTTV:Ι Optika;slv;PlanetTV.svn;Planet_TV.png
+udp://@232.2.201.56:5003
+
+#EXTINF:0, 1004 - *POP TV
+#EXTTV:Ι Optika;slv;PopTV.svn;POP_TV.png
+udp://@232.2.201.3:5003
+
+#EXTINF:0, 1005 - !*HBO
+#EXTTV:Ι Optika-enc;eng;HBOAdria.svn;HBO_HD.png
+udp://@232.2.205.1:5003
+
+#EXTINF:0, 1006 - TV3 medias
+#EXTTV:Zabavni;slv;PinkSI.hr;TV_3_Medias.png
+udp://@232.4.201.47:5003
+
+#EXTINF:0, 1007 - *Kanal A
+#EXTTV:Ι Optika;slv;KanalA.svn;Kanal_A.png
+udp://@232.2.201.4:5003
+
+#EXTINF:0, 1008 - *TV SLO 1 HD
+#EXTTV:Ι Optika;slv;Slo1.svn;SLO_1.png
+udp://@232.2.1.53:5002
+
+#EXTINF:0, 1009 - *TV SLO2 HD
+#EXTTV:Ι Optika;slv;Slo2.svn;SLO_2.png
+udp://@232.2.1.54:5002
+
+#EXTINF:0, 1010 - *Planet TV HD
+#EXTTV:Ι Optika;slv;PlanetTV.svn;Planet_TV.png
+udp://@232.2.1.55:5002
+
+#EXTINF:0, 1011 - *POP TV HD
+#EXTTV:Ι Optika;slv;PopTV.svn;POP_TV.png
+udp://@232.2.3.141:5002
+
+#EXTINF:0, 1012 - *Kanal A HD
+#EXTTV:Ι Optika;slv;KanalA.svn;Kanal_A.png
+udp://@232.2.3.142:5002
+
+#EXTINF:0, 1013 - TV Golica
+#EXTTV:Glasbeni;slv;GolicaTV.svn;TV_Golica.png
+udp://@232.4.201.19:5003
+
+#EXTINF:0, 1014 - *National Geographic
+#EXTTV:Ι Optika;eng;NGC.svn;National_Geographic.png
+udp://@232.2.202.9:5003
+
+#EXTINF:0, 1015 - *National Geographic HD
+#EXTTV:Ι Optika;eng;NGCHD.svn;National_Geographic_HD.png
+udp://@232.2.6.3:5002
+
+#EXTINF:0, 1016 - *National Geographic Wild
+#EXTTV:Ι Optika;eng;NGCWild.svn;National_Geographic_Wild.png
+udp://@232.2.203.16:5003
+
+#EXTINF:0, 1017 - *Nat Geo Wild HD
+#EXTTV:Ι Optika;eng;NGCWild.svn;National_Geographic_Wild.png
+udp://@232.2.3.134:5002
+
+#EXTINF:0, 1019 - *Discovery HD
+#EXTTV:Ι Optika;eng;DiscoveryHD.svn;Discovery_Channel_HD.png
+udp://@232.2.6.1:5002
+
+#EXTINF:0, 1021 - *History Channel
+#EXTTV:Ι Optika;eng;HistoryHD.svn;History_Channel_HD.png
+udp://@232.2.203.18:5003
+
+#EXTINF:0, 1022 - *History Channel HD
+#EXTTV:Ι Optika;eng;HistoryHD.svn;History_Channel_HD.png
+udp://@232.2.6.2:5002
+
+#EXTINF:0, 1023 - *Investigation Discovery
+#EXTTV:Ι Optika;eng;DiscoveryInvestigation.svn;Investigation_Discovery.png
+udp://@232.2.202.22:5003
+
+#EXTINF:0, 1024 - *Discovery C&I
+#EXTTV:Ι Optika;eng;CI.svn;Crime_&_Investigation.png
+udp://@232.2.3.59:5002
+
+#EXTINF:0, 1027 - *Animal Planet HD
+#EXTTV:Ι Optika;eng;AnimalPlanet.svn;Animal_Planet.png
+udp://@232.2.6.14:5002
+
+#EXTINF:0, 1029 - *Travel Channel HD
+#EXTTV:Ι Optika;eng;TravelChannel.svn;Travel_Channel.png
+udp://@232.2.6.8:5002
+
+#EXTINF:0, 1030 - *Discovery Science
+#EXTTV:Ι Optika;eng;DiscoveryScience.svn;Discovery_Science.png
+udp://@232.2.3.12:5002
+
+#EXTINF:0, 1031 - *Discovery Science HD
+#EXTTV:Ι Optika;eng;DiscoveryScience.svn;Discovery_Science.png
+udp://@232.2.3.129:5002
+
+#EXTINF:0, 1032 - *Discovery World
+#EXTTV:Ι Optika;eng;DiscoveryWorld.svn;Discovery_World.png
+udp://@232.2.3.13:5002
+
+#EXTINF:0, 1034 - *Outdoor HD
+#EXTTV:Ι Optika;eng;Outdoor.svn;Outdoor_Channel.png
+udp://@232.2.3.55:5002
+
+#EXTINF:0, 1035 - *Wild TV HD
+#EXTTV:Ι Optika;eng;WildTV.svn;Wild_TV_HD.png
+udp://@232.2.6.9:5002
+
+#EXTINF:0, 1036 - *HBO HD
+#EXTTV:Ι Optika;eng;HBOAdriaHD.svn;HBO_HD.png
+udp://@232.2.105.5:5002
+
+#EXTINF:0, 1037 - !*HBO Comedy
+#EXTTV:Ι Optika-enc;eng;HBOComedy.svn;HBO_Comedy.png
+udp://@232.2.205.2:5003
+
+#EXTINF:0, 1038 - *HBO Comedy HD
+#EXTTV:Ι Optika;eng;HBOComedy.svn;HBO_Comedy.png
+udp://@232.2.105.6:5002
+
+#EXTINF:0, 1039 - *Cinemax
+#EXTTV:Ι Optika;eng;Cinemax1.svn;Cinemax.png
+udp://@232.2.205.3:5003
+
+#EXTINF:0, 1040 - *Cinemax HD
+#EXTTV:Ι Optika;eng;Cinemax1.svn;Cinemax.png
+udp://@232.2.105.7:5002
+
+#EXTINF:0, 1041 - *Cinemax 2
+#EXTTV:Ι Optika;eng;Cinemax2.svn;Cinemax_2.png
+udp://@232.2.205.4:5003
+
+#EXTINF:0, 1042 - *Cinemax 2 HD
+#EXTTV:Ι Optika;eng;Cinemax2.svn;Cinemax_2.png
+udp://@232.2.105.8:5002
+
+#EXTINF:0, 1043 - *Fox HD
+#EXTTV:Ι Optika;eng;FOX.svn;FOX.png
+udp://@232.2.3.138:5002
+
+#EXTINF:0, 1044 - *Fox Life
+#EXTTV:Ι Optika;eng;FoxLife.svn;FOX_Life.png
+udp://@232.2.202.18:5003
+
+#EXTINF:0, 1045 - *Fox Life HD
+#EXTTV:Ι Optika;eng;FoxLife.svn;FOX_Life.png
+udp://@232.2.3.131:5002
+
+#EXTINF:0, 1046 - *Fox Crime
+#EXTTV:Ι Optika;eng;FoxCrime.svn;FOX_Crime.png
+udp://@232.2.202.19:5003
+
+#EXTINF:0, 1047 - *Fox Crime HD
+#EXTTV:Ι Optika;eng;FoxCrime.svn;FOX_Crime.png
+udp://@232.2.3.130:5002
+
+#EXTINF:0, 1048 - *Fox Movies
+#EXTTV:Ι Optika;eng;FOXmovies.svn;FOX_Movies.png
+udp://@232.2.202.45:5003
+
+#EXTINF:0, 1049 - *Fox Movies HD
+#EXTTV:Ι Optika;eng;FOXmovies.svn;FOX_Movies.png
+udp://@232.2.3.132:5002
+
+#EXTINF:0, 1050 - *POP Kino HD
+#EXTTV:Ι Optika;;PopKino.svn;POP_Kino.png
+udp://@232.2.3.144:5002
+
+#EXTINF:0, 1051 - *POP BRIO HD
+#EXTTV:Ι Optika;;POPBrio.svn;POP_Brio.png
+udp://@232.2.3.143:5002
+
+#EXTINF:0, 1052 - *Cinestar
+#EXTTV:Ι Optika;eng;CineStarTVv2.svn;CineStar_TV.png
+udp://@232.2.202.42:5003
+
+#EXTINF:0, 1053 - *CineStar TV Action & Thriller
+#EXTTV:Ι Optika;eng;CineStarTVATv2.svn;CineStar_Action_Thriller.png
+udp://@232.2.203.46:5003
+
+#EXTINF:0, 1054 - !AXN Spin
+#EXTTV:Serije-enc;eng;AXNSpin.svn;AXN_Spin.png
+udp://@232.4.103.27:5002
+
+#EXTINF:0, 1055 - AMC
+#EXTTV:Filmski;eng;;AMC.png
+udp://@232.4.202.17:5003
+
+#EXTINF:0, 1056 - Universal Channel
+#EXTTV:Filmski;eng;Universal.svn;Universal_Channel.png
+udp://@232.4.203.1:5003
+
+#EXTINF:0, 1057 - 24Kitchen
+#EXTTV:Dokumentarni;eng;24Kitchen.svn;24Kitchen_Adria.png
+udp://@232.4.203.19:5003
+
+#EXTINF:0, 1058 - *24Kitchen HD
+#EXTTV:Ι Optika;eng;24Kitchen.svn;24Kitchen_Adria.png
+udp://@232.2.3.133:5002
+
+#EXTINF:0, 1059 - *Food HD TV
+#EXTTV:Ι Optika;eng;FoodNetworkHD.svn;Food_HD_TV.png
+udp://@232.2.6.13:5002
+
+#EXTINF:0, 1060 - E!
+#EXTTV:Zabavni;eng;E.svn;E!_Entertaintment.png
+udp://@232.4.202.23:5003
+
+#EXTINF:0, 1061 - *Arte
+#EXTTV:Ι Optika;;ARTE.svn;Arte.png
+udp://@232.2.1.43:5002
+
+#EXTINF:0, 1062 - Minimax
+#EXTTV:Otroški;;MINIMAX.svn;Minimax.png
+udp://@232.4.202.41:5003
+
+#EXTINF:0, 1063 - Boomerang
+#EXTTV:Otroški;;Boomerang.svn;Boomerang.png
+udp://@232.4.203.6:5003
+
+#EXTINF:0, 1064 - *Disney Channel
+#EXTTV:Ι Optika;eng;DisneyChannel.svn;Disney_Channel.png
+udp://@232.2.202.2:5003
+
+#EXTINF:0, 1065 - *Šport TV 1
+#EXTTV:Ι Optika;;SportTV1.svn;Sport_TV.png
+udp://@232.2.202.4:5003
+
+#EXTINF:0, 1066 - *Šport TV 1 HD
+#EXTTV:Ι Optika;;SportTV1.svn;Sport_TV.png
+udp://@232.2.2.128:5002
+
+#EXTINF:0, 1067 - *Šport TV 2
+#EXTTV:Ι Optika;;SportTV2.svn;Sport_TV_2.png
+udp://@232.2.203.24:5003
+
+#EXTINF:0, 1068 - *Šport TV 2 HD
+#EXTTV:Ι Optika;;SportTV2.svn;Sport_TV_2.png
+udp://@232.2.3.128:5002
+
+#EXTINF:0, 1069 - *Šport TV 3 HD
+#EXTTV:Ι Optika;;SportTV3.svn;Sport_TV_3.png
+udp://@232.2.3.139:5002
+
+#EXTINF:0, 1070 - Sport Klub 1
+#EXTTV:Športni;;Sportklub1.svn;Sportklub_1.png
+udp://@232.4.202.24:5003
+
+#EXTINF:0, 1071 - *Sport Klub 1 HD
+#EXTTV:Ι Optika;;Sportklub1.svn;Sportklub_1.png
+udp://@232.2.3.135:5002
+
+#EXTINF:0, 1072 - Sport Klub 2
+#EXTTV:Športni;;Sportklub2.svn;Sportklub_2.png
+udp://@232.4.203.21:5003
+
+#EXTINF:0, 1073 - *Sport Klub 2 HD
+#EXTTV:Ι Optika;;Sportklub2.svn;Sportklub_2.png
+udp://@232.2.3.136:5002
+
+#EXTINF:0, 1074 - *Sport Klub 3 HD
+#EXTTV:Ι Optika;;Sportklub3.svn;Sport_Klub_3.png
+udp://@232.2.3.137:5002
+
+#EXTINF:0, 1076 - *Eurosport
+#EXTTV:Ι Optika;eng;Eurosport1.svn;Eurosport.png
+udp://@232.2.202.25:5003
+
+#EXTINF:0, 1077 - *Eurosport HD
+#EXTTV:Ι Optika;eng;Eurosport1.svn;Eurosport.png
+udp://@232.2.6.4:5002
+
+#EXTINF:0, 1078 - *Eurosport 2
+#EXTTV:Ι Optika;eng;Eurosport2.svn;Eurosport_2_NE.png
+udp://@232.2.202.26:5003
+
+#EXTINF:0, 1079 - *Eurosport 2 HD
+#EXTTV:Ι Optika;eng;Eurosport2.svn;Eurosport_2_NE.png
+udp://@232.2.6.12:5002
+
+#EXTINF:0, 1080 - *Extreme TV
+#EXTTV:Ι Optika;eng;;Extreme_Sports.png
+udp://@232.2.3.22:5002
+
+#EXTINF:0, 1081 - *Sport1
+#EXTTV:Ι Optika;eng;Sport1.svn;SPORT1.png
+udp://@232.2.2.3:5002
+
+#EXTINF:0, 1082 - MTV
+#EXTTV:Glasbeni;;MTV.svn;MTV_Adria.png
+udp://@232.4.202.11:5003
+
+#EXTINF:0, 1083 - *TV SLO 3
+#EXTTV:Ι Optika;slv;Slo3.svn;SLO_3.png
+udp://@232.2.1.41:5002
+
+#EXTINF:0, 1084 - HRT 1
+#EXTTV:Nacionalni;hrv;HRT1.svn;HRT_1.png
+udp://@232.4.201.6:5003
+
+#EXTINF:0, 1085 - *HRT 2
+#EXTTV:Ι Optika;hrv;HRT2.svn;HRT_2.png
+udp://@232.2.201.7:5003
+
+#EXTINF:0, 1086 - BN TV
+#EXTTV:Balkanski;;BNBIH.ba;BNTV.png
+udp://@232.4.3.26:5002
+
+#EXTINF:0, 1088 - Elta 2
+#EXTTV:Balkanski;;;Elta_TV.png
+udp://@232.4.11.12:5002
+
+#EXTINF:0, 1089 - !Brazzers TV Europe
+#EXTTV:Za odrasle-enc;;BrazzersTVEurope.svn;Brazzers_TV_Europe.png
+udp://@232.4.104.4:5002
+
+#EXTINF:0, 1090 - !Dorcel TV
+#EXTTV:Za odrasle-enc;;DorcelTV.svn;Dorcel_HD.png
+udp://@232.4.104.7:5002
+
+#EXTINF:0, 1091 - *Dorcel HD
+#EXTTV:Ι Optika;;DorcelTVHD.svn;Dorcel_HD.png
+udp://@232.2.4.15:5002
+
+#EXTINF:0, 1092 - !Hustler TV
+#EXTTV:Za odrasle-enc;;HustlerHD.svn;Hustler_TV_HD.png
+udp://@232.4.104.9:5002
+
+#EXTINF:0, 1093 - !Private TV
+#EXTTV:Za odrasle-enc;;;Private_TV.png
+udp://@232.4.104.10:5002
+
+#EXTINF:0, 1094 - !Super One HD
+#EXTTV:Za odrasle-HD-enc;;;Super_One.png
+udp://@232.4.104.19:5002
+
+#EXTINF:0, 1095 - !Satisfaction Italy
+#EXTTV:Za odrasle-enc;;;Satisfaction_italy.png
+udp://@232.4.104.3:5002
+
+#EXTINF:0, 1096 - !SCT Prive
+#EXTTV:Za odrasle-enc;;;SCT.png
+udp://@232.4.104.5:5002
+
+#EXTINF:0, 1097 - !French Lover TV
+#EXTTV:Za odrasle-enc;;;French_Lover.png
+udp://@232.4.104.6:5002
+
+#EXTINF:0, 1098 - !BOYONBOY
+#EXTTV:Za odrasle-enc;;
+udp://@232.4.104.8:5002
+
+#EXTINF:0, 1101 - TV SLO 1
+#EXTTV:Nacionalni;slv;Slo1.svn;SLO_1.png
+udp://@232.4.201.1:5003
+
+#EXTINF:0, 1102 - TV SLO 2
+#EXTTV:Nacionalni;slv;Slo2.svn;SLO_2.png
+udp://@232.4.201.2:5003
+
+#EXTINF:0, 1103 - Planet TV
+#EXTTV:Zabavni-HD;slv;PlanetTV.svn;Planet_TV.png
+udp://@232.4.201.56:5003
+
+#EXTINF:0, 1104 - POP TV
+#EXTTV:Zabavni;slv;PopTV.svn;POP_TV.png
+udp://@232.4.201.3:5003
+
+#EXTINF:0, 1105 - Kanal A
+#EXTTV:Zabavni;slv;KanalA.svn;Kanal_A.png
+udp://@232.4.201.4:5003
+
+#EXTINF:0, 1106 - TV SLO 1 HD
+#EXTTV:Nacionalni-HD;slv;Slo1.svn;SLO_1.png
+udp://@232.4.201.53:5003
+
+#EXTINF:0, 1107 - TV SLO2 HD
+#EXTTV:Nacionalni-HD;slv;Slo2.svn;SLO_2.png
+udp://@232.4.201.54:5003
+
+#EXTINF:0, 1108 - Planet TV HD
+#EXTTV:Zabavni-HD;slv;PlanetTV.svn;Planet_TV.png
+udp://@232.4.201.55:5003
+
+#EXTINF:0, 1111 - History Channel
+#EXTTV:Dokumentarni;eng;HistoryChn.svn;History_Channel_HD.png
+udp://@232.4.203.18:5003
+
+#EXTINF:0, 1113 - Fox Life
+#EXTTV:Serije;eng;FoxLife.svn;FOX_Life.png
+udp://@232.4.202.18:5003
+
+#EXTINF:0, 1114 - Fox Crime
+#EXTTV:Serije;eng;FOXCrime.svn;FOX_Crime.png
+udp://@232.4.202.19:5003
+
+#EXTINF:0, 1115 - Fox Movies
+#EXTTV:Filmski;eng;FOXmovies.svn;FOX_Movies.png
+udp://@232.4.202.45:5003
+
+#EXTINF:0, 1118 - Disney Channel
+#EXTTV:Otroški;eng;DisneyChannel.svn;Disney_Channel.png
+udp://@232.4.202.2:5003
+
+#EXTINF:0, 1119 - Šport TV 1
+#EXTTV:Športni;;SportTV1.svn;Sport_TV.png
+udp://@232.4.202.4:5003
+
+#EXTINF:0, 1120 - Šport TV 2
+#EXTTV:Športni;;SportTV2.svn;Sport_TV_2.png
+udp://@232.4.203.24:5003
+
+#EXTINF:0, 1121 - Eurosport
+#EXTTV:Športni;eng;Eurosport1.svn;Eurosport.png
+udp://@232.4.202.25:5003
+
+#EXTINF:0, 1122 - Eurosport 2
+#EXTTV:Športni;eng;Eurosport2.svn;Eurosport_2_NE.png
+udp://@232.4.202.26:5003
+
+#EXTINF:0, 1123 - HRT 2
+#EXTTV:Nacionalni;hrv;HRT2.svn;HRT_2.png
+udp://@232.4.201.7:5003
+
+#EXTINF:0, 1124 - !HBO
+#EXTTV:Filmski-enc;eng;HBOAdria.svn;HBO_HD.png
+udp://@232.4.205.1:5003
+
+#EXTINF:0, 1125 - !HBO Comedy
+#EXTTV:Filmski-enc;eng;HBOComedy.svn;HBO_Comedy.png
+udp://@232.4.205.2:5003
+
+#EXTINF:0, 1126 - !Cinemax
+#EXTTV:Filmski-enc;eng;Cinemax1.svn;Cinemax.png
+udp://@232.4.205.3:5003
+
+#EXTINF:0, 1127 - !Cinemax 2
+#EXTTV:Filmski-enc;eng;Cinemax2.svn;Cinemax_2.png
+udp://@232.4.205.4:5003
+
+#EXTINF:0, 1128 - *TV SLO 1
+#EXTTV:Ι Optika;slv;Slo1.svn;SLO_1.png
+udp://@232.2.1.1:5002
+
+#EXTINF:0, 1129 - *TV SLO 2
+#EXTTV:Ι Optika;slv;Slo2.svn;SLO_2.png
+udp://@232.2.1.2:5002
+
+#EXTINF:0, 1130 - *POP TV
+#EXTTV:Ι Optika;slv;PopTV.svn;POP_TV.png
+udp://@232.2.1.3:5002
+
+#EXTINF:0, 1131 - *Kanal A
+#EXTTV:Ι Optika;slv;KanalA.svn;Kanal_A.png
+udp://@232.2.1.4:5002
+
+#EXTINF:0, 1132 - *HTV1
+#EXTTV:Ι Optika;hrv;HRT1.svn;HRT_1.png
+udp://@232.2.1.6:5002
+
+#EXTINF:0, 1133 - *HTV2
+#EXTTV:Ι Optika;hrv;HRT2.svn;HRT_2.png
+udp://@232.2.1.7:5002
+
+#EXTINF:0, 1134 - *Planet TV
+#EXTTV:Ι Optika;eng;PlanetTV.svn;Planet_TV.png
+udp://@232.2.1.56:5002
+
+#EXTINF:0, 1135 - *Disney Channel ME
+#EXTTV:Ι Optika;ara;DisneyChannel.svn;Disney_Channel.png
+udp://@232.2.2.2:5002
+
+#EXTINF:0, 1136 - *Šport TV 1
+#EXTTV:Ι Optika;slv;SportTV1.svn;Sport_TV.png
+udp://@232.2.2.4:5002
+
+#EXTINF:0, 1137 - *NGC Adria
+#EXTTV:Ι Optika;eng;NGC.svn;National_Geographic.png
+udp://@232.2.2.9:5002
+
+#EXTINF:0, 1138 - *Animal Planet
+#EXTTV:Ι Optika;eng;AnimalPlanet.svn;Animal_Planet.png
+udp://@232.2.2.10:5002
+
+#EXTINF:0, 1139 - *Fox Life Adria
+#EXTTV:Ι Optika;eng;FoxLife.svn;FOX_Life.png
+udp://@232.2.2.18:5002
+
+#EXTINF:0, 1140 - *Fox Crime Adria
+#EXTTV:Ι Optika;eng;FoxCrime.svn;FOX_Crime.png
+udp://@232.2.2.19:5002
+
+#EXTINF:0, 1141 - *Investigation Discovery
+#EXTTV:Ι Optika;eng;DiscoveryInvestigation.svn;Investigation_Discovery.png
+udp://@232.2.2.22:5002
+
+#EXTINF:0, 1142 - *ESP Int'l
+#EXTTV:Ι Optika;eng;Eurosport1.svn;Eurosport.png
+udp://@232.2.2.25:5002
+
+#EXTINF:0, 1143 - *ESP2 NE Intl
+#EXTTV:Ι Optika;eng;Eurosport2.svn;Eurosport_2_NE.png
+udp://@232.2.2.26:5002
+
+#EXTINF:0, 1144 - *CineStar TV CRO
+#EXTTV:Ι Optika;eng;CineStarTVv2.svn;CineStar_TV.png
+udp://@232.2.2.42:5002
+
+#EXTINF:0, 1145 - *Fox Movies Slo
+#EXTTV:Ι Optika;eng;FOXmovies.svn;FOX_Movies.png
+udp://@232.2.2.45:5002
+
+#EXTINF:0, 1146 - *Nat Geo Wild
+#EXTTV:Ι Optika;eng;NGCWild.svn;National_Geographic_Wild.png
+udp://@232.2.3.16:5002
+
+#EXTINF:0, 1147 - *History Channel
+#EXTTV:Ι Optika;eng;HistoryHD.svn;History_Channel_HD.png
+udp://@232.2.3.18:5002
+
+#EXTINF:0, 1148 - *Šport TV 2
+#EXTTV:Ι Optika;slv;SportTV2.svn;Sport_TV_2.png
+udp://@232.2.3.24:5002
+
+#EXTINF:0, 1149 - *Cinestar Action & Thriller
+#EXTTV:Ι Optika;eng;CineStarTVATv2.svn;CineStar_Action_Thriller.png
+udp://@232.2.3.46:5002
+
+#EXTINF:0, 1150 - *OTO HD
+#EXTTV:Ι Optika;slv;PopOto.svn;POP_Oto.png
+udp://@232.2.3.145:5002
+
+#EXTINF:0, 1151 - !HBO HD
+#EXTTV:Filmski-HD-enc;eng;HBOAdria.svn;HBO_HD.png
+udp://@232.4.105.5:5002
+
+#EXTINF:0, 1152 - !HBO Comedy HD
+#EXTTV:Filmski-HD-enc;eng;HBOComedy.svn;HBO_Comedy.png
+udp://@232.4.105.6:5002
+
+#EXTINF:0, 1153 - !Cinemax HD
+#EXTTV:Filmski-HD-enc;eng;Cinemax1.svn;Cinemax.png
+udp://@232.4.105.7:5002
+
+#EXTINF:0, 1155 - !Cinemax 2 HD
+#EXTTV:Filmski-HD-enc;eng;Cinemax2.svn;Cinemax_2.png
+udp://@232.4.105.8:5002
+
+#EXTINF:0, 1156 - !Viasat History
+#EXTTV:Dokumentarni-enc;eng;ViasatHistory.svn;Viasat_History.png
+udp://@232.4.203.2:5003
+
+#EXTINF:0, 1157 - !Discovery ID Xtra
+#EXTTV:Dokumentarni-enc;eng;DiscoveryIDXtra.svn;Discovery_ID_Xtra.png
+udp://@232.4.202.47:5003
+
+#EXTINF:0, 1159 - !TV 1000
+#EXTTV:Filmski-enc;eng;TV1000.svn;TV1000.png
+udp://@232.4.202.1:5003
+
+#EXTINF:0, 1160 - FLN
+#EXTTV:Dokumentarni;eng;;Fine_Living_Net.png
+udp://@232.4.203.31:5003
+
+#EXTINF:0, 1162 - KANAL A HD
+#EXTTV:Zabavni-HD;eng;KanalA.svn;Kanal_A.png
+udp://@232.4.203.142:5003
+
+#EXTINF:0, 1163 - POP TV HD
+#EXTTV:Zabavni-HD;eng;PopTV.svn;POP_TV.png
+udp://@232.4.203.141:5003
+
+#EXTINF:0, 1164 - KINO HD
+#EXTTV:Filmski-HD;eng;PopKino.svn;POP_Kino.png
+udp://@232.4.203.144:5003
+
+#EXTINF:0, 1165 - BRIO HD
+#EXTTV:Serije-HD;eng;POPBrio.svn;POP_Brio.png
+udp://@232.4.203.143:5003
+
+#EXTINF:0, 1166 - OTO HD
+#EXTTV:Otroški-HD;eng;PopOto.svn;POP_Oto.png
+udp://@232.4.203.145:5003
+
+#EXTINF:0, 1167 - *TV SLO 1 HD
+#EXTTV:Ι Optika;slv;Slo1.svn;SLO_1.png
+udp://@232.2.201.53:5003
+
+#EXTINF:0, 1169 - National Geographic HD
+#EXTTV:Dokumentarni-HD;eng;NGCHD.svn;National_Geographic_HD.png
+udp://@232.4.206.3:5003
+
+#EXTINF:0, 1170 - *TV SLO2 HD
+#EXTTV:Ι Optika;slv;Slo2.svn;SLO_2.png
+udp://@232.2.201.54:5003
+
+#EXTINF:0, 1171 - Discovery HD
+#EXTTV:Dokumentarni-HD;eng;DiscoveryHD.svn;Discovery_Channel_HD.png
+udp://@232.4.206.1:5003
+
+#EXTINF:0, 1172 - *Planet TV HD
+#EXTTV:Ι Optika;slv;PlanetTV.svn;Planet_TV.png
+udp://@232.2.201.55:5003
+
+#EXTINF:0, 1173 - *POP TV HD
+#EXTTV:Ι Optika;slv;PopTV.svn;POP_TV.png
+udp://@232.2.203.141:5003
+
+#EXTINF:0, 1174 - *Kanal A HD
+#EXTTV:Ι Optika;slv;KanalA.svn;Kanal_A.png
+udp://@232.2.203.142:5003
+
+#EXTINF:0, 1175 - *National Geographic HD
+#EXTTV:Ι Optika;eng;NGCHD.svn;National_Geographic_HD.png
+udp://@232.2.206.3:5003
+
+#EXTINF:0, 1176 - *Discovery HD
+#EXTTV:Ι Optika;eng;DiscoveryHD.svn;Discovery_Channel_HD.png
+udp://@232.2.206.1:5003
+
+#EXTINF:0, 1177 - *History Channel HD
+#EXTTV:Ι Optika;eng;HistoryHD.svn;History_Channel_HD.png
+udp://@232.2.206.2:5003
+
+#EXTINF:0, 1187 - !Tv1000
+#EXTTV:Filmski-enc;eng;TV1000.svn;TV1000.png
+udp://@232.4.102.1:5002
+
+#EXTINF:0, 1188 - !ID Xtra Europe
+#EXTTV:Dokumentarni-enc;eng;DiscoveryIDXtra.svn;Discovery_ID_Xtra.png
+udp://@232.4.102.47:5002
+
+#EXTINF:0, 1189 - !Enc1032
+#EXTTV:;eng;
+udp://@232.4.103.2:5002
+
+#EXTINF:0, 1190 - !Enc1051
+#EXTTV:;slv;
+udp://@232.4.105.1:5002
+
+#EXTINF:0, 1191 - !Enc1052
+#EXTTV:;slv;
+udp://@232.4.105.2:5002
+
+#EXTINF:0, 1192 - !Enc1053
+#EXTTV:;slv;
+udp://@232.4.105.3:5002
+
+#EXTINF:0, 1193 - !Enc1054
+#EXTTV:;slv;
+udp://@232.4.105.4:5002
+
+#EXTINF:0, 1194 - !Enc1101
+#EXTTV:;slv;
+udp://@232.4.110.1:5002
+
+#EXTINF:0, 1195 - !Enc1102
+#EXTTV:;slv;
+udp://@232.4.110.2:5002
+
+#EXTINF:0, 1198 - !*Enc2101
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.210.1:5003
+
+#EXTINF:0, 1201 - !*Enc2104
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.210.4:5003
+
+#EXTINF:0, 1202 - !*Enc2105
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.210.5:5003
+
+#EXTINF:0, 1204 - !*Enc2107
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.210.7:5003
+
+#EXTINF:0, 1205 - !*Enc2108
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.210.8:5003
+
+#EXTINF:0, 1206 - Fox
+#EXTTV:Serije;eng;FOX.svn;FOX.png
+udp://@232.4.202.46:5003
+
+#EXTINF:0, 1208 - BBC Earth
+#EXTTV:Dokumentarni;eng;BBCEarth.svn;BBC_earth.png
+udp://@232.4.203.28:5003
+
+#EXTINF:0, 1500 - !HBO HD
+#EXTTV:Filmski-HD-enc;ang;HBOAdria.svn;HBO_HD.png
+udp://@232.4.205.5:5003
+
+#EXTINF:0, 1602 - *Prazno102
+#EXTTV:Ι Optika;eng;
+udp://@232.2.3.58:5002
+
+#EXTINF:0, 1603 - Prazno2
+#EXTTV:;eng;
+udp://@232.4.3.58:5002
+
+#EXTINF:0, 1605 - Prazno5
+#EXTTV:;;
+udp://@232.4.11.51:5002
+
+#EXTINF:0, 1701 - !SiOL NOGOMET Tekma 1
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.11:5002
+
+#EXTINF:0, 1702 - !SiOL NOGOMET Tekma 2
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.12:5002
+
+#EXTINF:0, 1707 - !SiOL NOGOMET Tekma 3
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.3:5002
+
+#EXTINF:0, 1708 - !SiOL NOGOMET Tekma 4
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.4:5002
+
+#EXTINF:0, 1709 - !SiOL NOGOMET Tekma 5
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.5:5002
+
+#EXTINF:0, 1710 - !SiOL NOGOMET Tekma 6
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.6:5002
+
+#EXTINF:0, 1711 - !SiOL NOGOMET Tekma 7
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.7:5002
+
+#EXTINF:0, 1712 - !SiOL NOGOMET Tekma 8
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.8:5002
+
+#EXTINF:0, 1713 - !SiOL NOGOMET Tekma 3
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.13:5002
+
+#EXTINF:0, 1714 - !SiOL NOGOMET Tekma 4
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.14:5002
+
+#EXTINF:0, 1715 - !SiOL NOGOMET Tekma 5
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.15:5002
+
+#EXTINF:0, 1716 - !SiOL NOGOMET Tekma 6
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.16:5002
+
+#EXTINF:0, 1717 - !SiOL NOGOMET Tekma 7
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.17:5002
+
+#EXTINF:0, 1718 - !SiOL NOGOMET Tekma 8
+#EXTTV:Športni-HD-enc;slv;
+udp://@232.4.110.18:5002
+
+#EXTINF:0, 1750 - !*SiOL NOGOMET Tekma 1-4
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.110.1:5002
+
+#EXTINF:0, 1751 - !*SiOL NOGOMET Tekma 2
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.210.2:5003
+
+#EXTINF:0, 1752 - !*SiOL NOGOMET Tekma 2
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.110.2:5002
+
+#EXTINF:0, 1753 - !*SiOL NOGOMET Tekma 3
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.110.3:5002
+
+#EXTINF:0, 1754 - !*SiOL NOGOMET Tekma 3
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.210.3:5003
+
+#EXTINF:0, 1755 - !*SiOL NOGOMET Tekma 4
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.110.4:5002
+
+#EXTINF:0, 1756 - !*SiOL NOGOMET Tekma 5-8
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.110.5:5002
+
+#EXTINF:0, 1757 - !*SiOL NOGOMET Tekma 6
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.110.6:5002
+
+#EXTINF:0, 1758 - !*SiOL NOGOMET Tekma 6
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.210.6:5003
+
+#EXTINF:0, 1759 - !*SiOL NOGOMET Tekma 7
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.110.7:5002
+
+#EXTINF:0, 1760 - !*SiOL NOGOMET Tekma 8
+#EXTTV:Ι Optika-enc;slv;
+udp://@232.2.110.8:5002
+
+#EXTINF:0, 1769 - TV Nakupi HD
+#EXTTV:;;
+udp://@232.4.1.133:5002
+
