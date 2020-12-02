@@ -1,0 +1,790 @@
+#EXTM3U
+#EXTNAME:
+
+#EXTINF:0, 1 - TV SLO 1
+#EXTTV:Izbrani;;
+rtp://@232.202.201.53:5003
+
+#EXTINF:0, 2 - TV SLO 2
+#EXTTV:Izbrani;;
+rtp://@232.202.201.54:5003
+
+#EXTINF:0, 3 - Planet
+#EXTTV:Izbrani;;
+rtp://@232.202.201.55:5003
+
+#EXTINF:0, 4 - POP TV
+#EXTTV:Izbrani;;
+rtp://@232.202.203.141:5003
+
+#EXTINF:0, 7 - TV3 Medias
+#EXTTV:Izbrani;;
+rtp://@232.2.201.137:5003
+
+#EXTINF:0, 8 - Kanal A
+#EXTTV:Izbrani;;
+rtp://@232.202.203.142:5003
+
+#EXTINF:0, 16 - TV Golica
+#EXTTV:Izbrani;;
+rtp://@232.4.201.19:5003
+
+#EXTINF:0, 17 - Nova 24 TV
+#EXTTV:Izbrani;;
+udp://@232.4.1.132:5002
+
+#EXTINF:0, 18 - Nova 24 TV 2
+#EXTTV:Izbrani;;
+udp://@232.4.1.139:5002
+
+#EXTINF:0, 19 - Gold TV
+#EXTTV:Izbrani;;
+udp://@232.4.1.78:5002
+
+#EXTINF:0, 21 - Planet PLUS
+#EXTTV:Izbrani;;
+rtp://@232.4.201.135:5003
+
+#EXTINF:0, 22 - Planet 2
+#EXTTV:Izbrani;;
+rtp://@232.4.201.134:5003
+
+#EXTINF:0, 50 - Rete 4
+#EXTTV:Izbrani;;
+rtp://@232.2.214.129:5003
+
+#EXTINF:0, 51 - Canale 5
+#EXTTV:Izbrani;;
+rtp://@232.2.214.130:5003
+
+#EXTINF:0, 52 - Italia 1
+#EXTTV:Izbrani;;
+rtp://@232.2.214.128:5003
+
+#EXTINF:0, 53 - Cartoonito
+#EXTTV:Izbrani;;
+udp://@232.4.14.13:5002
+
+#EXTINF:0, 54 - Focus
+#EXTTV:Izbrani;;
+udp://@232.4.14.11:5002
+
+#EXTINF:0, 55 - Rai YoYo
+#EXTTV:Izbrani;;
+udp://@232.4.14.10:5002
+
+#EXTINF:0, 56 - Rai Movie
+#EXTTV:Izbrani;;
+udp://@232.4.14.9:5002
+
+#EXTINF:0, 57 - Rai Sport
+#EXTTV:Izbrani;;
+udp://@232.4.14.8:5002
+
+#EXTINF:0, 58 - TV 8
+#EXTTV:Izbrani;;
+udp://@232.4.14.12:5002
+
+#EXTINF:0, 59 - Canale 20
+#EXTTV:Izbrani;;
+udp://@232.4.14.15:5002
+
+#EXTINF:0, 90 - Discovery Channel
+#EXTTV:Dokumentarni;;
+rtp://@232.2.202.135:5003
+
+#EXTINF:0, 91 - Animal Planet
+#EXTTV:Dokumentarni;;
+rtp://@232.2.206.14:5003
+
+#EXTINF:0, 92 - Discovery TLC
+#EXTTV:Dokumentarni;;
+rtp://@232.4.203.15:5003
+
+#EXTINF:0, 93 - Discovery ID Xtra
+#EXTTV:Dokumentarni;;
+rtp://@232.2.202.130:5003
+
+#EXTINF:0, 101 - National Geographic
+#EXTTV:Dokumentarni;;
+rtp://@232.2.206.3:5003
+
+#EXTINF:0, 103 - National Geographic Wild
+#EXTTV:Dokumentarni;;
+rtp://@232.2.203.134:5003
+
+#EXTINF:0, 106 - Viasat History
+#EXTTV:Dokumentarni;;
+rtp://@232.2.203.160:5003
+
+#EXTINF:0, 107 - BBC Earth
+#EXTTV:Dokumentarni;;
+rtp://@232.2.203.146:5003
+
+#EXTINF:0, 109 - History Channel
+#EXTTV:Dokumentarni;;
+rtp://@232.2.206.2:5003
+
+#EXTINF:0, 115 - Da Vinci Learning
+#EXTTV:Dokumentarni;;
+rtp://@232.4.203.17:5003
+
+#EXTINF:0, 118 - Travel Channel
+#EXTTV:Dokumentarni;;
+rtp://@232.2.206.8:5003
+
+#EXTINF:0, 124 - CBS Reality
+#EXTTV:Dokumentarni;;
+rtp://@232.4.202.21:5003
+
+#EXTINF:0, 125 - Outdoor
+#EXTTV:Dokumentarni;;
+udp://@232.2.3.55:5002
+
+#EXTINF:0, 129 - Viasat Nature
+#EXTTV:Dokumentarni;;
+rtp://@232.2.203.158:5003
+
+#EXTINF:0, 130 - Viasat Explore
+#EXTTV:Dokumentarni;;
+rtp://@232.2.203.159:5003
+
+#EXTINF:0, 131 - Travelxp HD
+#EXTTV:Dokumentarni;;
+rtp://@232.4.203.155:5003
+
+#EXTINF:0, 132 - Travelxp 4K
+#EXTTV:Dokumentarni;;
+udp://@232.2.3.153:5002
+
+#EXTINF:0, 210 - FOX
+#EXTTV:Filmski;;
+rtp://@232.2.203.138:5003
+
+#EXTINF:0, 212 - FOX Life
+#EXTTV:Filmski;;
+rtp://@232.2.203.131:5003
+
+#EXTINF:0, 214 - FOX Crime
+#EXTTV:Filmski;;
+rtp://@232.2.203.130:5003
+
+#EXTINF:0, 216 - FOX Movies
+#EXTTV:Filmski;;
+rtp://@232.2.203.132:5003
+
+#EXTINF:0, 218 - TV 1000
+#EXTTV:Filmski;;
+rtp://@232.4.202.1:5003
+
+#EXTINF:0, 219 - Kino
+#EXTTV:Filmski;;
+rtp://@232.2.203.144:5003
+
+#EXTINF:0, 221 - Brio
+#EXTTV:Filmski;;
+rtp://@232.2.203.143:5003
+
+#EXTINF:0, 223 - Cinestar TV 1
+#EXTTV:Filmski;;
+rtp://@232.2.202.42:5003
+
+#EXTINF:0, 224 - Cinestar TV Action & Thriller
+#EXTTV:Filmski;;
+rtp://@232.2.203.46:5003
+
+#EXTINF:0, 229 - AXN
+#EXTTV:Filmski;;
+rtp://@232.4.202.13:5003
+
+#EXTINF:0, 230 - AXN Spin
+#EXTTV:Filmski;;
+udp://@232.4.103.27:5002
+
+#EXTINF:0, 231 - Klasik TV
+#EXTTV:Filmski;;
+udp://@232.2.2.15:5002
+
+#EXTINF:0, 232 - AMC
+#EXTTV:Filmski;;
+rtp://@232.2.202.131:5003
+
+#EXTINF:0, 233 - Diva
+#EXTTV:Filmski;;
+udp://@232.4.3.1:5002
+
+#EXTINF:0, 251 - Epic Drama
+#EXTTV:Filmski;;
+udp://@232.2.2.132:5002
+
+#EXTINF:0, 253 - SciFi
+#EXTTV:Filmski;;
+rtp://@232.2.202.60:5003
+
+#EXTINF:0, 300 - 24Kitchen
+#EXTTV:Zabavni;;
+rtp://@232.2.203.133:5003
+
+#EXTINF:0, 302 - E!
+#EXTTV:Zabavni;;
+rtp://@232.2.203.20:5003
+
+#EXTINF:0, 304 - Ginx
+#EXTTV:Zabavni;;
+udp://@232.4.3.56:5002
+
+#EXTINF:0, 306 - Fashion TV
+#EXTTV:Zabavni;;
+udp://@232.4.3.30:5002
+
+#EXTINF:0, 307 - Fashion HD
+#EXTTV:Zabavni;;
+udp://@232.4.3.49:5002
+
+#EXTINF:0, 308 - FashionTV 4K
+#EXTTV:Zabavni;;
+udp://@232.2.3.154:5002
+
+#EXTINF:0, 311 - Dr. Fit
+#EXTTV:Zabavni;;
+udp://@232.4.3.148:5002
+
+#EXTINF:0, 313 - Woman
+#EXTTV:Zabavni;;
+udp://@232.4.3.147:5002
+
+#EXTINF:0, 315 - Arte
+#EXTTV:Zabavni;;
+udp://@232.2.1.43:5002
+
+#EXTINF:0, 316 - RTL
+#EXTTV:Zabavni;;
+rtp://@232.2.202.34:5003
+
+#EXTINF:0, 317 - RTL II
+#EXTTV:Zabavni;;
+rtp://@232.2.2.35:5003
+
+#EXTINF:0, 318 - Super RTL
+#EXTTV:Zabavni;;
+udp://@232.4.2.36:5002
+
+#EXTINF:0, 319 - Kabel 1
+#EXTTV:Zabavni;;
+udp://@232.4.2.37:5002
+
+#EXTINF:0, 320 - VOX
+#EXTTV:Zabavni;;
+udp://@232.4.3.32:5002
+
+#EXTINF:0, 321 - SAT 1
+#EXTTV:Zabavni;;
+udp://@232.4.3.34:5002
+
+#EXTINF:0, 322 - Pro7
+#EXTTV:Zabavni;;
+udp://@232.2.3.35:5002
+
+#EXTINF:0, 323 - 3sat
+#EXTTV:Zabavni;;
+udp://@232.4.1.45:5002
+
+#EXTINF:0, 324 - N-tv
+#EXTTV:Zabavni;;
+udp://@232.4.3.33:5002
+
+#EXTINF:0, 325 - TVE
+#EXTTV:Zabavni;;
+udp://@232.4.1.32:5002
+
+#EXTINF:0, 326 - TV5MONDE
+#EXTTV:Zabavni;;
+udp://@232.4.1.33:5002
+
+#EXTINF:0, 327 - Mediaset Italia
+#EXTTV:Zabavni;;
+udp://@232.4.3.44:5002
+
+#EXTINF:0, 328 - Top TV
+#EXTTV:Zabavni;;
+rtp://@232.4.201.9:5003
+
+#EXTINF:0, 329 - PINK SI
+#EXTTV:Zabavni;;
+rtp://@232.4.201.61:5003
+
+#EXTINF:0, 331 - EWTN
+#EXTTV:Zabavni;;
+udp://@232.4.2.31:5002
+
+#EXTINF:0, 338 - HGTV
+#EXTTV:Zabavni;;
+udp://@232.2.2.135:5002
+
+#EXTINF:0, 402 - Minimax
+#EXTTV:Otroški;;
+rtp://@232.4.202.41:5003
+
+#EXTINF:0, 403 - OTO
+#EXTTV:Otroški;;
+rtp://@232.4.203.145:5003
+
+#EXTINF:0, 405 - Nickelodeon
+#EXTTV:Otroški;;
+rtp://@232.4.203.11:5003
+
+#EXTINF:0, 406 - Baby TV
+#EXTTV:Otroški;;
+rtp://@232.4.202.12:5003
+
+#EXTINF:0, 407 - Cartoon / TCM
+#EXTTV:Otroški;;
+rtp://@232.4.202.33:5003
+
+#EXTINF:0, 408 - Boomerang
+#EXTTV:Otroški;;
+rtp://@232.4.203.6:5003
+
+#EXTINF:0, 409 - JimJam
+#EXTTV:Otroški;;
+udp://@232.4.3.3:5002
+
+#EXTINF:0, 410 - Disney Channel
+#EXTTV:Otroški;;
+rtp://@232.4.202.2:5003
+
+#EXTINF:0, 412 - Disney XD
+#EXTTV:Otroški;;
+udp://@232.4.3.4:5002
+
+#EXTINF:0, 416 - Nick Jr.
+#EXTTV:Otroški;;
+rtp://@232.4.203.68:5003
+
+#EXTINF:0, 417 - NickToons
+#EXTTV:Otroški;;
+rtp://@232.2.203.42:5003
+
+#EXTINF:0, 506 - Šport TV 1
+#EXTTV:Športni;;
+rtp://@232.2.202.128:5003
+
+#EXTINF:0, 507 - Šport TV 2
+#EXTTV:Športni;;
+rtp://@232.2.203.128:5003
+
+#EXTINF:0, 508 - Šport TV 3
+#EXTTV:Športni;;
+rtp://@232.2.203.139:5003
+
+#EXTINF:0, 513 - Arena Sport 1
+#EXTTV:Športni;;
+rtp://@232.2.202.137:5003
+
+#EXTINF:0, 514 - Arena Sport 2
+#EXTTV:Športni;;
+rtp://@232.2.202.138:5003
+
+#EXTINF:0, 515 - Arena eSport
+#EXTTV:Športni;;
+rtp://@232.2.202.139:5003
+
+#EXTINF:0, 520 - Eurosport
+#EXTTV:Športni;;
+rtp://@232.2.206.4:5003
+
+#EXTINF:0, 522 - Eurosport 2
+#EXTTV:Športni;;
+rtp://@232.2.206.12:5003
+
+#EXTINF:0, 524 - Eurosport 4K
+#EXTTV:Športni;;
+udp://@232.2.2.133:5002
+
+#EXTINF:0, 528 - Extreme TV
+#EXTTV:Športni;;
+udp://@232.2.3.22:5002
+
+#EXTINF:0, 529 - Sport1
+#EXTTV:Športni;;
+udp://@232.2.2.3:5002
+
+#EXTINF:0, 533 - Motorvision TV HD
+#EXTTV:Športni;;
+udp://@232.4.3.57:5002
+
+#EXTINF:0, 538 - Tržič TV
+#EXTTV:Športni;;
+udp://@232.4.1.140:5002
+
+#EXTINF:0, 602 - MTV HD
+#EXTTV:Glasbeni;;
+rtp://@232.4.203.51:5003
+
+#EXTINF:0, 603 - VH1
+#EXTTV:Glasbeni;;
+rtp://@232.4.202.14:5003
+
+#EXTINF:0, 605 - CMC
+#EXTTV:Glasbeni;;
+rtp://@232.2.202.136:5003
+
+#EXTINF:0, 607 - Jugoton
+#EXTTV:Glasbeni;;
+rtp://@232.4.203.60:5003
+
+#EXTINF:0, 608 - Club MTV
+#EXTTV:Glasbeni;;
+rtp://@232.4.203.7:5003
+
+#EXTINF:0, 609 - MTV Hits
+#EXTTV:Glasbeni;;
+rtp://@232.4.203.9:5003
+
+#EXTINF:0, 611 - MTV Rocks
+#EXTTV:Glasbeni;;
+rtp://@232.4.203.8:5003
+
+#EXTINF:0, 612 - VH1 Classics
+#EXTTV:Glasbeni;;
+rtp://@232.4.203.10:5003
+
+#EXTINF:0, 613 - Mezzo
+#EXTTV:Glasbeni;;
+rtp://@232.4.203.41:5003
+
+#EXTINF:0, 616 - DM SAT
+#EXTTV:Glasbeni;;
+udp://@232.4.3.25:5002
+
+#EXTINF:0, 660 - TV Veseljak
+#EXTTV:Lokalni;;
+rtp://@232.4.201.13:5003
+
+#EXTINF:0, 661 - Čarli TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.10:5002
+
+#EXTINF:0, 662 - Tv8
+#EXTTV:Lokalni;;
+udp://@232.4.1.83:5002
+
+#EXTINF:0, 663 - BOOM TV
+#EXTTV:Lokalni;;
+rtp://@232.4.201.36:5003
+
+#EXTINF:0, 664 - NET TV
+#EXTTV:Lokalni;;
+rtp://@232.4.201.14:5003
+
+#EXTINF:0, 665 - Vaš kanal
+#EXTTV:Lokalni;;
+udp://@232.4.1.20:5002
+
+#EXTINF:0, 666 - Vitel
+#EXTTV:Lokalni;;
+udp://@232.4.1.35:5002
+
+#EXTINF:0, 667 - Ptujska TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.50:5002
+
+#EXTINF:0, 668 - SIP TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.38:5002
+
+#EXTINF:0, 669 - TV As
+#EXTTV:Lokalni;;
+udp://@232.4.1.39:5002
+
+#EXTINF:0, 670 - RTS Maribor
+#EXTTV:Lokalni;;
+udp://@232.4.1.15:5002
+
+#EXTINF:0, 671 - VTV
+#EXTTV:Lokalni;;
+udp://@232.4.1.17:5002
+
+#EXTINF:0, 672 - BK TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.58:5002
+
+#EXTINF:0, 673 - TV Celje
+#EXTTV:Lokalni;;
+udp://@232.4.1.46:5002
+
+#EXTINF:0, 674 - Kanal 10 / Idea TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.40:5002
+
+#EXTINF:0, 675 - TV Galeja
+#EXTTV:Lokalni;;
+udp://@232.4.1.82:5002
+
+#EXTINF:0, 676 - Ansat TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.128:5002
+
+#EXTINF:0, 677 - Exodus TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.59:5002
+
+#EXTINF:0, 679 - KOROŠKA TV
+#EXTTV:Lokalni;;
+udp://@232.2.1.73:5002
+
+#EXTINF:0, 680 - ATM TV Kranjska Gora
+#EXTTV:Lokalni;;
+udp://@232.4.1.64:5002
+
+#EXTINF:0, 681 - R Kanal+
+#EXTTV:Lokalni;;
+udp://@232.4.1.65:5002
+
+#EXTINF:0, 683 - S-TV Skledar
+#EXTTV:Lokalni;;
+udp://@232.4.1.67:5002
+
+#EXTINF:0, 684 - TV nakupi HD
+#EXTTV:Lokalni;;
+udp://@232.4.1.133:5002
+
+#EXTINF:0, 685 - Ljubljana TV HD
+#EXTTV:Lokalni;;
+udp://@232.4.1.136:5002
+
+#EXTINF:0, 686 - VŽIVO.si
+#EXTTV:Lokalni;;
+udp://@232.4.1.69:5002
+
+#EXTINF:0, 687 - TV SG
+#EXTTV:Lokalni;;
+udp://@232.4.1.70:5002
+
+#EXTINF:0, 688 - Arena TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.42:5002
+
+#EXTINF:0, 689 - Oron TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.62:5002
+
+#EXTINF:0, 690 - Tv Ormož
+#EXTTV:Lokalni;;
+udp://@232.4.1.72:5002
+
+#EXTINF:0, 691 - GO TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.76:5002
+
+#EXTINF:0, 692 - TV Beltinci
+#EXTTV:Lokalni;;
+udp://@232.2.1.77:5002
+
+#EXTINF:0, 693 - Savinjska TV
+#EXTTV:Lokalni;;
+udp://@232.4.1.75:5002
+
+#EXTINF:0, 694 - TV Vascom
+#EXTTV:Lokalni;;
+udp://@232.4.1.88:5002
+
+#EXTINF:0, 695 - ETV HD
+#EXTTV:Lokalni;;
+udp://@232.2.7.2:5002
+
+#EXTINF:0, 700 - TV SLO 3
+#EXTTV:Informativni;;
+rtp://@232.2.201.89:5003
+
+#EXTINF:0, 701 - TV Koper Capodistria
+#EXTTV:Informativni;;
+udp://@232.2.1.141:5002
+
+#EXTINF:0, 702 - Tele Maribor
+#EXTTV:Informativni;;
+udp://@232.2.1.142:5002
+
+#EXTINF:0, 705 - HRT 1
+#EXTTV:Informativni;;
+udp://@232.9.1.148:5002
+
+#EXTINF:0, 706 - HRT 2
+#EXTTV:Informativni;;
+udp://@232.9.1.149:5002
+
+#EXTINF:0, 707 - HRT 3
+#EXTTV:Informativni;;
+udp://@232.9.1.150:5002
+
+#EXTINF:0, 708 - OBN
+#EXTTV:Informativni;;
+udp://@232.4.3.48:5002
+
+#EXTINF:0, 709 - RT Srbija HD
+#EXTTV:Informativni;;
+rtp://@232.4.201.22:5003
+
+#EXTINF:0, 710 - RT Crna gora
+#EXTTV:Informativni;;
+udp://@232.4.1.23:5002
+
+#EXTINF:0, 711 - RTK
+#EXTTV:Informativni;;
+udp://@232.4.1.24:5002
+
+#EXTINF:0, 712 - Al Jazeera Balkans
+#EXTTV:Informativni;;
+rtp://@232.4.201.60:5003
+
+#EXTINF:0, 713 - Hayat
+#EXTTV:Informativni;;
+rtp://@232.4.201.21:5003
+
+#EXTINF:0, 715 - ELTA TV
+#EXTTV:Informativni;;
+udp://@232.4.1.52:5002
+
+#EXTINF:0, 716 - BN TV
+#EXTTV:Informativni;;
+udp://@232.2.3.26:5002
+
+#EXTINF:0, 717 - CNN
+#EXTTV:Informativni;;
+udp://@232.4.2.5:5002
+
+#EXTINF:0, 718 - BBC World
+#EXTTV:Informativni;;
+udp://@232.4.2.7:5002
+
+#EXTINF:0, 719 - Sky News
+#EXTTV:Informativni;;
+udp://@232.4.2.32:5002
+
+#EXTINF:0, 721 - France 24
+#EXTTV:Informativni;;
+udp://@232.4.2.6:5002
+
+#EXTINF:0, 722 - ZDF
+#EXTTV:Informativni;;
+udp://@232.4.1.34:5002
+
+#EXTINF:0, 723 - ARD
+#EXTTV:Informativni;;
+udp://@232.4.1.11:5002
+
+#EXTINF:0, 724 - Channel One Russia
+#EXTTV:Informativni;;
+udp://@232.4.2.39:5002
+
+#EXTINF:0, 725 - Russia Today
+#EXTTV:Informativni;;
+udp://@232.4.2.43:5002
+
+#EXTINF:0, 726 - ORF 1
+#EXTTV:Informativni;;
+udp://@232.2.1.152:5002
+
+#EXTINF:0, 727 - ORF 2
+#EXTTV:Informativni;;
+udp://@232.2.1.153:5002
+
+#EXTINF:0, 728 - RAI 1
+#EXTTV:Informativni;;
+udp://@232.2.1.147:5002
+
+#EXTINF:0, 729 - RAI 2
+#EXTTV:Informativni;;
+udp://@232.4.1.29:5002
+
+#EXTINF:0, 730 - RAI 3
+#EXTTV:Informativni;;
+udp://@232.4.1.30:5002
+
+#EXTINF:0, 731 - Duna TV
+#EXTTV:Informativni;;
+udp://@232.4.1.44:5002
+
+#EXTINF:0, 732 - Shutel TV
+#EXTTV:Informativni;;
+udp://@232.4.3.62:5002
+
+#EXTINF:0, 760 - RTL Hrvaška
+#EXTTV:Balkan;;
+udp://@232.2.11.128:5002
+
+#EXTINF:0, 761 - RTL 2 Hrvaška
+#EXTTV:Balkan;;
+udp://@232.2.11.129:5002
+
+#EXTINF:0, 762 - RTL Living
+#EXTTV:Balkan;;
+udp://@232.4.11.21:5002
+
+#EXTINF:0, 795 - HRT 4 HD
+#EXTTV:Informativni;;
+udp://@232.2.1.151:5002
+
+#EXTINF:0, 816 - Nova TV
+#EXTTV:Zabavni;;
+udp://@232.9.14.131:5002
+
+#EXTINF:0, 818 - Doma TV
+#EXTTV:Zabavni;;
+udp://@232.9.14.132:5002
+
+#EXTINF:0, 968 - Morska obala
+#EXTTV:Zabavni;;
+udp://@232.2.1.157:5002
+
+#EXTINF:0, 969 - Tropski podvodni svet
+#EXTTV:Zabavni;;
+udp://@232.2.1.155:5002
+
+#EXTINF:0, 972 - Playboy TV
+#EXTTV:Odrasli;;
+udp://@232.2.3.161:5002
+
+#EXTINF:0, 986 - Pinko club
+#EXTTV:Odrasli;;
+udp://@232.4.3.36:5002
+
+#EXTINF:0, 987 - Emanuelle
+#EXTTV:Odrasli;;
+udp://@232.2.2.51:5002
+
+#EXTINF:0, 993 - Sexation
+#EXTTV:Odrasli;;
+udp://@232.4.2.50:5002
+
+#EXTINF:0, 999 - KAMIN
+#EXTTV:Zabavni;;
+udp://@232.2.1.143:5002
+
+#EXTINF:0, 1001 - Sport Klub 1
+#EXTTV:Športni;;
+udp://@232.2.3.135:5002
+
+#EXTINF:0, 1002 - Sport Klub 2
+#EXTTV:Športni;;
+udp://@232.2.3.136:5002
+
+#EXTINF:0, 1003 - Sport Klub 3
+#EXTTV:Športni;;
+udp://@232.2.3.137:5002
+
+#EXTINF:0, 1004 - Sport Klub 4
+#EXTTV:Športni;;
+udp://@232.4.3.63:5002
+
+#EXTINF:0, 1005 - Sport Klub 5
+#EXTTV:Športni;;
+udp://@232.4.3.64:5002
+
+#EXTINF:0, 1006 - Sport Klub 6
+#EXTTV:Športni;;
+udp://@232.4.3.65:5002
+
+#EXTINF:0, 1007 - Sport Klub Golf
+#EXTTV:Športni;;
+udp://@232.2.3.151:5002
