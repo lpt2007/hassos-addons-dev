@@ -119,22 +119,21 @@ else
 echo "[INFO] SAMBA IS DISABLED"
 echo "[INFO] Start KODI prestart"
 ##
-#make directory structure in not exist - locale
+#make directory structure in not exist
 mkdir -p /share/its
 mkdir -p /share/its/data
 ##
-#make directory structure in not exist - smb
-#kodi_data=$(jq -r '.kodi_data' $OPTIONS_PATH)
-#if [ "$kodi_data" == "" ]; then
-#            echo "[INFO] No kodi folder configured"
-#       else
-#            echo "[INFO] Fond kodi folder $kodi_data"
-#            mkdir -p /share/its/data/$kodi_data
-#            ##
-#            #make simbolic link to data folder
-#            echo "[INFO] Making symbolic link from /root/.kodi to /share/its/data/$kodi_data"
-#            ln -s /share/its/data/$kodi_data /root/.kodi
-#fi
+kodi_data=$(jq -r '.kodi_data' $OPTIONS_PATH)
+if [ "$kodi_data" == "" ]; then
+            echo "[INFO] No kodi folder configured"
+       else
+            echo "[INFO] Fond kodi folder $kodi_data"
+            mkdir -p /share/its/data/$kodi_data
+            #make simbolic link to data folder
+            echo "[INFO] Making symbolic link from /root/.kodi to /share/its/data/$kodi_data"
+            ln -s /share/its/data/$kodi_data /root/.kodi
+fi
+
 fi
 ##
 #run kodi
