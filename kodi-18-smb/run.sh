@@ -9,6 +9,7 @@ smb=$(jq -r '.smb' $OPTIONS_PATH)
 #check smb true/false
 #true - proceed to samba configuration
 if [ "$smb" == "true" ]; then
+echo "[INFO] SAMBA IS ENABLED"
 ##
 echo "[INFO] Start KODI with SMB prestart"
 ##
@@ -115,6 +116,7 @@ fi
 fi
 ##
 else
+echo "[INFO] SAMBA IS DISABLED"
 echo "[INFO] Start KODI prestart"
 ##
 #make directory structure in not exist - locale
