@@ -17,7 +17,7 @@
      "8080/tcp": "KODI control port"
   },
   "host_network": "true",
-  "host_dbus":"yes",
+  "host_dbus":"true",
   "video": "true",
   "audio": "true",
   "usb": "true",
