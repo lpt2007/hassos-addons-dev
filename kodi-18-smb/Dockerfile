@@ -27,6 +27,7 @@ RUN apt-get install -y libxcb-randr0-dev libxrandr-dev \
         libvulkan-dev ninja-build libvulkan1 python-mako \
         libdrm-dev libxshmfence-dev libxxf86vm-dev \
         python3-mako
+RUN pip3 install meson
 
 ### install kodi     
 RUN apt-get install -y kodi
