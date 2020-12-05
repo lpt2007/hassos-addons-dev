@@ -14,7 +14,7 @@ RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommend
      nano
      
 ### build mesa drivers
-RUN apt-get libgl1-mesa-dri
+RUN sudo apt-get libgl1-mesa-dri
 #build-dep
 #libgl1-mesa-dri
 
