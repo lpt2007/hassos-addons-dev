@@ -31,6 +31,13 @@ RUN apt-get install -y libxcb-randr0-dev libxrandr-dev \
 RUN apt-get install -y python3-pip        
 RUN pip3 install meson
 
+RUN git clone https://gitlab.freedesktop.org/mesa/mesa.git
+RUN cd mesa
+RUN git checkout wip/igalia/v3dv
+RUN meson --prefix /home/pi/local-install --libdir lib -Dplatforms=x11,drm -Dvulkan-drivers=broadcom -Ddri-drivers= -Dgallium-drivers=v3d,kmsro,vc4 -Dbuildtype=debug _build
+RUN ninja -C _build
+RUN ninja -C _build install
+
 ### install kodi     
 RUN apt-get install -y kodi
 
@@ -57,7 +64,7 @@ LABEL \
     org.label-schema.description="KODI 18.7 with SMB rewrite" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi_18_smb_dev" \
-    org.label-schema.schema-version="dev-0.5.22a" \
+    org.label-schema.schema-version="dev-0.5.23a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.vcs-ref=${BUILD_REF} \
