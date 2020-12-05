@@ -14,7 +14,19 @@ RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommend
      nano
      
 ### mesa drivers
-RUN apt-get libgl1-mesa-dri build-dep
+RUN apt-get install -y libxcb-randr0-dev libxrandr-dev \
+        libxcb-xinerama0-dev libxinerama-dev libxcursor-dev \
+        libxcb-cursor-dev libxkbcommon-dev xutils-dev \
+        xutils-dev libpthread-stubs0-dev libpciaccess-dev \
+        libffi-dev x11proto-xext-dev libxcb1-dev libxcb-*dev \
+        bison flex libssl-dev libgnutls28-dev x11proto-dri2-dev \
+        x11proto-dri3-dev libx11-dev libxcb-glx0-dev \
+        libx11-xcb-dev libxext-dev libxdamage-dev libxfixes-dev \
+        libva-dev x11proto-randr-dev x11proto-present-dev \
+        libclc-dev libelf-dev git build-essential mesa-utils \
+        libvulkan-dev ninja-build libvulkan1 python-mako \
+        libdrm-dev libxshmfence-dev libxxf86vm-dev \
+        python3-mako
 
 ### install kodi     
 RUN apt-get install -y kodi
