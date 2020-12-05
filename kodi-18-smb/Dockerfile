@@ -33,7 +33,7 @@ RUN pip3 install meson
 
 RUN git clone https://gitlab.freedesktop.org/mesa/mesa.git
 RUN cd mesa
-RUN git checkout wip/igalia/v3dv
+#RUN git checkout wip/igalia/v3dv
 RUN meson --prefix /home/pi/local-install --libdir lib -Dplatforms=x11,drm -Dvulkan-drivers=broadcom -Ddri-drivers= -Dgallium-drivers=v3d,kmsro,vc4 -Dbuildtype=debug _build
 RUN ninja -C _build
 RUN ninja -C _build install
