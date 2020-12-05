@@ -13,43 +13,8 @@ RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommend
      jq \
      nano
      
-### build mesa drivers
-#RUN apt-get libgl1-mesa-dri build-dep
-
-RUN apt-get install \
-    automake libtool \
-    bison flex \
-    gettext \
-    libdrm-dev \
-    libexpat1-dev \
-    libudev-dev \
-    libx11-xcb-dev \
-    libxcb-dri3-dev \
-    libxcb-dri2-0-dev \
-    libxcb-glx0-dev \
-    libxcb-xfixes0-dev \
-    libxcb-present-dev \
-    libxcb-sync-dev \
-    libxshmfence-dev \
-    libxdamage-dev \
-    libxext-dev \
-    libxfixes-dev \
-    python-mako \
-    x11proto-present-dev \
-    x11proto-dri3-dev \
-    x11proto-dri2-dev \
-    x11proto-gl-dev
-
-RUN git clone git://anongit.freedesktop.org/mesa/mesa
-RUN cd mesa
-
-RUN ./autogen.sh \
-         --prefix=$HOME/prefix \
-         --with-gallium-drivers=vc4 \
-         --with-dri-drivers= \
-         --with-egl-platforms=x11,drm
-
-RUN make install
+### mesa drivers
+RUN apt-get libgl1-mesa-dri build-dep
 
 ### install kodi     
 RUN apt-get install -y kodi
