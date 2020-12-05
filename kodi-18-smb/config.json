@@ -1,9 +1,9 @@
 {
-  "name": "KODI 18.8 with SMB",
-  "version": "0.5.20a",
+  "name": "KODI 18.7 with SMB",
+  "version": "0.5.21a",
   "stage": "experimental",
   "slug": "kodi_18_smb_dev",
-  "description": "KODI 18.6 media center with samba store add-on!",
+  "description": "KODI 18.7 media center with samba store add-on!",
   "url": "https://github.com/lpt2007/hassos-addons-dev/",
   "webui": "http://[HOST]:[PORT:8080]/",
   "full_access": "true",
