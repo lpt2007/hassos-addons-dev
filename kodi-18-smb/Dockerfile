@@ -55,7 +55,7 @@ libsensors5
 #RUN ninja -C _build install
 #
 ### install kodi     
-RUN apt-get install -y kodi
+RUN apt-get install -y kodi kodi-wayland
 #
 ### enable tvservice
 RUN apt-get update && apt-get install git build-essential cmake -y
@@ -80,7 +80,7 @@ LABEL \
     org.label-schema.description="KODI 18.7 with SMB rewrite" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi_18_smb_dev" \
-    org.label-schema.schema-version="dev-0.5.28a" \
+    org.label-schema.schema-version="dev-0.5.32a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.vcs-ref=${BUILD_REF} \
