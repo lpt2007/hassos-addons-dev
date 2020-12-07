@@ -1,4 +1,5 @@
-FROM homeassistant/armhf-base-raspbian
+FROM balenalib/raspberry-pi-debian
+#homeassistant/armhf-base-raspbian
 #b01t/raspbian
 ##
 MAINTAINER lpt2007 <mohyat@gmail.com>
@@ -6,23 +7,23 @@ MAINTAINER lpt2007 <mohyat@gmail.com>
 ### install minimal dependencies
 RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
-#     libraspberrypi0 \
+     libraspberrypi0 \
      xserver-xorg-legacy \
      dbus-x11 \
      sudo \
      cifs-utils \
      jq \
-     nano \
+     nano
 ### vc4 drivers
-libdrm-amdgpu1 \
-libdrm-common  \
-libdrm-nouveau2 \
-libdrm-radeon1 \
-libdrm2 \
-libglapi-mesa \
+#libdrm-amdgpu1 \
+#libdrm-common  \
+#libdrm-nouveau2 \
+#libdrm-radeon1 \
+#libdrm2 \
+#libglapi-mesa \
 #libllvm9 \
-libsensors-config \
-libsensors5
+#libsensors-config \
+#libsensors5
 #
 #lm-sensors
 #
@@ -55,7 +56,7 @@ libsensors5
 #RUN ninja -C _build install
 #
 ### install kodi     
-RUN apt-get install -y kodi kodi-wayland
+RUN apt-get install -y kodi
 #
 ### enable tvservice
 RUN apt-get update && apt-get install git build-essential cmake -y
