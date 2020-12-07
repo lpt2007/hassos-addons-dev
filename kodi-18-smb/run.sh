@@ -140,4 +140,4 @@ fi
 #echo "[INFO] Started KODI media center"
 #/usr/bin/kodi
 #echo "[INFO] Started NANO editor"
-/usr/bin/nano /root/.kodi/temp/kodi.old.log
+nano /root/.kodi/temp/kodi.old.log
