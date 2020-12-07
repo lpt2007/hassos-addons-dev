@@ -4,7 +4,7 @@ FROM homeassistant/armhf-base-raspbian
 MAINTAINER lpt2007 <mohyat@gmail.com>
 ##
 ### install minimal dependencies
-RUN apt-get clean && apt-get update && apt-get upgrade && apt-get install -y --no-install-recommends xserver-xorg xinit \
+RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
 #     libraspberrypi0 \
      xserver-xorg-legacy \
