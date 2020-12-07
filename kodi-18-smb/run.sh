@@ -140,4 +140,4 @@ fi
 #echo "[INFO] Started KODI media center"
 #/usr/bin/kodi
 #echo "[INFO] Started NANO editor"
-nano
+sudo nano
