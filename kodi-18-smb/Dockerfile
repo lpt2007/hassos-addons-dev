@@ -6,7 +6,7 @@ MAINTAINER lpt2007 <mohyat@gmail.com>
 ### install minimal dependencies
 RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
-     libraspberrypi0 \
+#     libraspberrypi0 \
      xserver-xorg-legacy \
      dbus-x11 \
      sudo \
@@ -20,7 +20,7 @@ libdrm-nouveau2 \
 libdrm-radeon1 \
 libdrm2 \
 libglapi-mesa \
-libllvm9 \
+#libllvm9 \
 libsensors-config \
 libsensors5
 #
