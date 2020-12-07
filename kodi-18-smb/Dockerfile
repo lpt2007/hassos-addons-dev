@@ -12,7 +12,6 @@ RUN apt-get clean && apt-get update && apt-get install -y --no-install-recommend
      cifs-utils \
      jq \
      nano \
-
 ### vc4 drivers
 libdrm-amdgpu1 \
 libdrm-common  \
@@ -23,13 +22,12 @@ libglapi-mesa \
 libllvm9 \
 libsensors-config \
 libsensors5
-
+#
 #lm-sensors
-
+#
 #gldriver-test
 #libbgl1-mesa-dri
-
-
+#
 ### mesa drivers
 #RUN apt-get install -y libxcb-randr0-dev libxrandr-dev \
 #        libxcb-xinerama0-dev libxinerama-dev libxcursor-dev \
@@ -44,31 +42,32 @@ libsensors5
 #        libvulkan-dev ninja-build libvulkan1 python-mako \
 #        libdrm-dev libxshmfence-dev libxxf86vm-dev \
 #        python3-mako
-        
+#        
 #RUN apt-get install -y python3-pip        
 #RUN pip3 install meson
-
+#
 #RUN git clone https://gitlab.freedesktop.org/mesa/mesa.git mesa
 #RUN cd mesa
 #RUN git checkout wip/igalia/v3dv
 #RUN meson --prefix /home/pi/local-install --libdir lib -Dplatforms=x11,drm -Dvulkan-drivers=broadcom -Ddri-drivers= -Dgallium-drivers=v3d,kmsro,vc4 -Dbuildtype=debug _build
 #RUN ninja -C _build
 #RUN ninja -C _build install
-
+#
 ### install kodi     
 RUN apt-get install -y kodi
-
+#
 ### enable tvservice
+RUN apt-get update && apt-get install git build-essential cmake -y
 RUN cd /tmp && git clone http://github.com/raspberrypi/userland && sed -i 's/set(INSTALL_TARGETS "${INSTALL_TARGETS} vcilcs")/set(INSTALL_TARGETS ${INSTALL_TARGETS} vcilcs)/g' /tmp/userland/interface/vmcs_host/CMakeLists.txt && cd userland && ./buildme
 RUN ln -s /opt/vc/bin/tvservice /usr/bin/tvservice
-
+#
 ### Copy data for add-on and make right privilages
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
-
+#
 ### run kodi startup script
 ENTRYPOINT ["/bin/bash", "-c", "/run.sh"]
-
+#
 ### Labels
 LABEL \
     io.hass.name="kodi-18-smb" \
