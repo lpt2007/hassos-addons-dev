@@ -137,5 +137,5 @@ fi
 fi
 ##
 #run kodi
-#echo "[INFO] Started KODI media center"
-#/usr/bin/kodi
+echo "[INFO] Started KODI media center"
+/usr/bin/kodi
