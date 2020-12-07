@@ -60,8 +60,8 @@ RUN apt-get install -y kodi
 #
 ### enable tvservice
 RUN apt-get update && apt-get install git build-essential cmake -y
-RUN cd /tmp && git clone http://github.com/raspberrypi/userland && sed -i 's/set(INSTALL_TARGETS "${INSTALL_TARGETS} vcilcs")/set(INSTALL_TARGETS ${INSTALL_TARGETS} vcilcs)/g' /tmp/userland/interface/vmcs_host/CMakeLists.txt && cd userland && ./buildme
-RUN ln -s /opt/vc/bin/tvservice /usr/bin/tvservice
+#RUN cd /tmp && git clone http://github.com/raspberrypi/userland && sed -i 's/set(INSTALL_TARGETS "${INSTALL_TARGETS} vcilcs")/set(INSTALL_TARGETS ${INSTALL_TARGETS} vcilcs)/g' /tmp/userland/interface/vmcs_host/CMakeLists.txt && cd userland && ./buildme
+#RUN ln -s /opt/vc/bin/tvservice /usr/bin/tvservice
 #
 ### Copy data for add-on and make right privilages
 COPY run.sh /run.sh
