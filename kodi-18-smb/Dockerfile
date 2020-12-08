@@ -7,9 +7,9 @@ MAINTAINER lpt2007 <mohyat@gmail.com>
 ##
 ###copy repository file
 #
+RUN apt-get update && apt-get install -y wget
 COPY /etc/apt/sources.list /etc/apt/sources.list
 RUN chmod +x /etc/apt/sources.list
-RUN apt-get install -y wget
 RUN wget https://archive.raspbian.org/raspbian.public.key -O - | apt-key add -
 RUN wget https://archive.raspberrypi.org/debian/raspberrypi.gpg.key -O - | apt-key add -
 ### install minimal dependencies
