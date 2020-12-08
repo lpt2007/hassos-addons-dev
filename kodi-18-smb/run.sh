@@ -138,6 +138,5 @@ fi
 ##
 #run kodi
 echo "[INFO] Started KODI media center"
-usermod -a -G input root
-usermod -a -G video root
+usermod -a -G audio,video,input,dialout,plugdev,netdev,users,cdrom,tty "root"
 /usr/bin/kodi
