@@ -68,6 +68,9 @@ RUN ln -s /opt/vc/bin/tvservice /usr/bin/tvservice
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
 #
+### add kodi roles
+COPY /etc/udev/rules.d/10-permissions.rules /etc/udev/rules.d/10-permissions.rules
+RUN chmod +x /etc/udev/rules.d/10-permissions.rules
 ### run kodi startup script
 ENTRYPOINT ["/bin/bash", "-c", "/run.sh"]
 #
@@ -82,7 +85,7 @@ LABEL \
     org.label-schema.description="KODI 18.7 with SMB rewrite" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi_18_smb_dev" \
-    org.label-schema.schema-version="dev-0.5.35a" \
+    org.label-schema.schema-version="dev-0.5.37a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.vcs-ref=${BUILD_REF} \
