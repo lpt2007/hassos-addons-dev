@@ -9,7 +9,7 @@ MAINTAINER lpt2007 <mohyat@gmail.com>
 #
 COPY /etc/apt/sources.list /etc/apt/sources.list
 RUN chmod +x /etc/apt/sources.list
-RUN wget http://archive.raspbian.org/raspbian.public.key -O - | sudo apt-key add -
+RUN curl -L https://packagecloud.io/headmelted/codebuilds/gpgkey  | sudo apt-key add -
 ### install minimal dependencies
 RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
