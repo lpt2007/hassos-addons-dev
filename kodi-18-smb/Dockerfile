@@ -9,8 +9,7 @@ MAINTAINER lpt2007 <mohyat@gmail.com>
 #
 COPY /etc/apt/sources.list /etc/apt/sources.list
 RUN chmod +x /etc/apt/sources.list
-RUN apt-get install -y curl
-RUN curl -L https://packagecloud.io/headmelted/codebuilds/gpgkey  | sudo apt-key add -
+RUN curl -L https://packagecloud.io/headmelted/codebuilds/gpgkey  | apt-key add -
 ### install minimal dependencies
 RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
@@ -92,7 +91,7 @@ LABEL \
     org.label-schema.description="KODI 18.7 with SMB rewrite" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi_18_smb_dev" \
-    org.label-schema.schema-version="dev-0.5.47a" \
+    org.label-schema.schema-version="dev-0.5.50a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.vcs-ref=${BUILD_REF} \
