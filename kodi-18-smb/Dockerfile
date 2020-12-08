@@ -5,6 +5,10 @@ FROM homeassistant/armhf-base-raspbian
 ##
 MAINTAINER lpt2007 <mohyat@gmail.com>
 ##
+###copy repository file
+#
+COPY /etc/apt/sources.list /etc/apt/sources.list
+RUN chmod +x /etc/apt/sources.list
 ### install minimal dependencies
 RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
@@ -55,7 +59,7 @@ RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y 
 #RUN meson --prefix /home/pi/local-install --libdir lib -Dplatforms=x11,drm -Dvulkan-drivers=broadcom -Ddri-drivers= -Dgallium-drivers=v3d,kmsro,vc4 -Dbuildtype=debug _build
 #RUN ninja -C _build
 #RUN ninja -C _build install
-RUN mkdir -p /etc/polkit-1/localauthority/50-local.d
+#RUN mkdir -p /etc/polkit-1/localauthority/50-local.d
 #
 ### install kodi     
 RUN apt-get install -y kodi
