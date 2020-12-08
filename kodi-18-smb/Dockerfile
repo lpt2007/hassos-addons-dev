@@ -10,6 +10,7 @@ MAINTAINER lpt2007 <mohyat@gmail.com>
 COPY /etc/apt/sources.list /etc/apt/sources.list
 RUN chmod +x /etc/apt/sources.list
 RUN wget https://archive.raspbian.org/raspbian.public.key -O - | apt-key add -
+RUN wget https://archive.raspberrypi.org/debian/raspberrypi.gpg.key -O - | apt-key add -
 ### install minimal dependencies
 RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends xserver-xorg xinit \
      fbset \
