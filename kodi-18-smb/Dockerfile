@@ -1,4 +1,4 @@
-FROM b01t/raspbian:latest
+FROM homeassistant/armhf-base-raspbian
 #balenalib/raspberry-pi-debian
 #homeassistant/armhf-base-raspbian
 #b01t/raspbian:latest
@@ -7,11 +7,11 @@ MAINTAINER lpt2007 <mohyat@gmail.com>
 ##
 ### copy repository file and activate sources
 #homeassistant/armhf-base-raspbian
-#RUN apt-get update && apt-get install -y wget
-#COPY /etc/apt/sources.list /etc/apt/sources.list
-#RUN chmod +x /etc/apt/sources.list
-#RUN wget https://archive.raspbian.org/raspbian.public.key -O - | apt-key add -
-#RUN wget https://archive.raspberrypi.org/debian/raspberrypi.gpg.key -O - | apt-key add -
+RUN apt-get update && apt-get install -y wget
+COPY /etc/apt/sources.list /etc/apt/sources.list
+RUN chmod +x /etc/apt/sources.list
+RUN wget https://archive.raspbian.org/raspbian.public.key -O - | apt-key add -
+RUN wget https://archive.raspberrypi.org/debian/raspberrypi.gpg.key -O - | apt-key add -
 ##
 ### install minimal dependencies
 RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends xserver-xorg xinit \
@@ -68,7 +68,7 @@ LABEL \
     org.label-schema.description="KODI 18.7 with SMB rewrite" \
     org.label-schema.build-date=${BUILD_DATE} \
     org.label-schema.name="kodi_18_smb_dev" \
-    org.label-schema.schema-version="dev-0.5.56a" \
+    org.label-schema.schema-version="dev-0.5.57a" \
     org.label-schema.url="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.usage="https://github.com/lpt2007/hassos-addons-dev/kodi-18-smb" \
     org.label-schema.vcs-ref=${BUILD_REF} \
