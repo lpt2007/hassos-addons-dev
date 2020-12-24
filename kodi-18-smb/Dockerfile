@@ -54,6 +54,9 @@ RUN chmod +x /run.sh
 ### add kodi roles
 COPY /etc/udev/rules.d/10-permissions.rules /etc/udev/rules.d/10-permissions.rules
 RUN chmod +x /etc/udev/rules.d/10-permissions.rules
+#
+COPY /etc/udev/rules.d/10-permissions.rules /etc/udev/rules.d/99-input.rules
+RUN chmod +x /etc/udev/rules.d/99-input.rules
 ### run kodi startup script
 ENTRYPOINT ["/bin/bash", "-c", "/run.sh"]
 #
