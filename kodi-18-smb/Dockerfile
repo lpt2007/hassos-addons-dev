@@ -14,15 +14,16 @@ RUN wget https://archive.raspbian.org/raspbian.public.key -O - | apt-key add -
 RUN wget https://archive.raspberrypi.org/debian/raspberrypi.gpg.key -O - | apt-key add -
 ##
 ### install minimal dependencies
-RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y --no-install-recommends xserver-xorg xinit \
-     fbset \
+RUN apt-get clean && apt-get update && apt-get upgrade -y 
+#&& apt-get install -y --no-install-recommends xserver-xorg xinit \
+#     fbset \
 #     libraspberrypi0 \
-     xserver-xorg-legacy \
-     dbus-x11 \
-     sudo \
-     cifs-utils \
-     jq \
-     nano
+#     xserver-xorg-legacy \
+#     dbus-x11 \
+#     sudo \
+#     cifs-utils \
+#     jq \
+#     nano
 ### vc4 drivers
 #libdrm-amdgpu1 \
 #libdrm-common  \
@@ -43,20 +44,20 @@ RUN apt-get clean && apt-get update && apt-get upgrade -y && apt-get install -y 
 RUN apt-get install -y kodi
 #
 ### enable tvservice
-RUN apt-get update && apt-get install git build-essential cmake -y
-RUN cd /tmp && git clone http://github.com/raspberrypi/userland && sed -i 's/set(INSTALL_TARGETS "${INSTALL_TARGETS} vcilcs")/set(INSTALL_TARGETS ${INSTALL_TARGETS} vcilcs)/g' /tmp/userland/interface/vmcs_host/CMakeLists.txt && cd userland && ./buildme
-RUN ln -s /opt/vc/bin/tvservice /usr/bin/tvservice
+#RUN apt-get update && apt-get install git build-essential cmake -y
+#RUN cd /tmp && git clone http://github.com/raspberrypi/userland && sed -i 's/set(INSTALL_TARGETS "${INSTALL_TARGETS} vcilcs")/set(INSTALL_TARGETS ${INSTALL_TARGETS} vcilcs)/g' /tmp/userland/interface/vmcs_host/CMakeLists.txt && cd userland && ./buildme
+#RUN ln -s /opt/vc/bin/tvservice /usr/bin/tvservice
 #
 ### Copy data for add-on and make right privilages
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
 #
 ### add kodi roles
-COPY /etc/udev/rules.d/10-permissions.rules /etc/udev/rules.d/10-permissions.rules
-RUN chmod +x /etc/udev/rules.d/10-permissions.rules
+#COPY /etc/udev/rules.d/10-permissions.rules /etc/udev/rules.d/10-permissions.rules
+#RUN chmod +x /etc/udev/rules.d/10-permissions.rules
 #
-COPY /etc/udev/rules.d/10-permissions.rules /etc/udev/rules.d/99-input.rules
-RUN chmod +x /etc/udev/rules.d/99-input.rules
+#COPY /etc/udev/rules.d/10-permissions.rules /etc/udev/rules.d/99-input.rules
+#RUN chmod +x /etc/udev/rules.d/99-input.rules
 ### run kodi startup script
 ENTRYPOINT ["/bin/bash", "-c", "/run.sh"]
 #
